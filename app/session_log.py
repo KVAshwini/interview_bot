@@ -3,6 +3,7 @@ from datetime import datetime
 from pathlib import Path
 
 from app.config import OUTPUTS_DIR
+from app.review import record_missed_question
 
 
 def log_answer(payload: dict) -> Path:
@@ -15,4 +16,5 @@ def log_answer(payload: dict) -> Path:
     }
     with path.open("a", encoding="utf-8") as handle:
         handle.write(json.dumps(record) + "\n")
+    record_missed_question(payload)
     return path

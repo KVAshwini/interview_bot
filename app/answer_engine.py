@@ -6,7 +6,10 @@ from app.db import all_items, connect
 from app.memory import relevant_memory
 from app.models import AnswerMatch
 from app.speech_style import adapt_answer, quick_versions
-from app.text_utils import similarity
+from app.text_utils import similarity, token_overlap
+
+
+MISS_THRESHOLD = 0.60
 
 
 def _row_to_match(row: sqlite3.Row, score: float) -> AnswerMatch:
@@ -36,9 +39,13 @@ def _candidate_texts(row: sqlite3.Row) -> list[str]:
     ]
 
 
+def _best_candidate(query: str, row: sqlite3.Row) -> tuple[float, str]:
+    scored = [(similarity(query, candidate), candidate) for candidate in _candidate_texts(row)]
+    return max(scored, key=lambda item: item[0]) if scored else (0.0, "")
+
+
 def _best_score(query: str, row: sqlite3.Row) -> float:
-    scores = [similarity(query, candidate) for candidate in _candidate_texts(row)]
-    return max(scores) if scores else 0.0
+    return _best_candidate(query, row)[0]
 
 
 def find_best_matches(query: str, limit: int = 3) -> list[AnswerMatch]:
@@ -75,6 +82,11 @@ def match_payload(match: AnswerMatch, query: str, mode: str, voice: str) -> dict
         "keywords": match.keywords,
         "source_file": match.source_file,
         "memory": relevant_memory(query),
+        "explanation": {
+            "overlap": token_overlap(query, match.question + " " + " ".join(match.keywords)),
+            "threshold": MISS_THRESHOLD,
+            "needs_review": match.score < MISS_THRESHOLD,
+        },
     }
 
 
@@ -103,9 +115,12 @@ def format_match(match: AnswerMatch, mode: str = "instant", voice: str = "natura
 
 def answer_payload(query: str, mode: str = "instant", limit: int = 3, voice: str = "natural") -> dict:
     matches = find_best_matches(query, limit=limit)
+    best_score = matches[0].score if matches else 0.0
     return {
         "query": query,
         "mode": mode,
         "voice": voice,
+        "needs_review": best_score < MISS_THRESHOLD,
+        "review_reason": "low confidence match" if best_score < MISS_THRESHOLD else "",
         "matches": [match_payload(match, query, mode, voice) for match in matches],
     }

@@ -11,6 +11,7 @@
 - API validation.
 - Unit tests.
 - Static web assets split out of Python.
+- Low-confidence missed-question capture.
 
 Status: done for local MVP.
 
@@ -19,7 +20,8 @@ Status: done for local MVP.
 - Add local embeddings.
 - Store embeddings in `data/embeddings`.
 - Add match explanations.
-- Save missed questions automatically.
+- Expand match explanations.
+- Add a guided missed-question promotion workflow.
 
 ## Phase 3: Voice Prep Mode
 

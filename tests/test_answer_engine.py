@@ -16,6 +16,11 @@ class AnswerEngineTests(unittest.TestCase):
         self.assertIn("Usually what I do is", match["versions"]["natural"])
         self.assertIn("quick", match["versions"])
 
+    def test_payload_marks_low_confidence_for_review(self) -> None:
+        payload = answer_payload("completely unrelated fruit salad question", limit=1)
+        self.assertTrue(payload["needs_review"])
+        self.assertTrue(payload["matches"][0]["explanation"]["needs_review"])
+
 
 if __name__ == "__main__":
     unittest.main()

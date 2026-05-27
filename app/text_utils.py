@@ -20,6 +20,10 @@ def tokens(text: str) -> list[str]:
     return [word for word in normalize(text).split() if word not in STOPWORDS]
 
 
+def token_overlap(left: str, right: str) -> list[str]:
+    return sorted(set(tokens(left)) & set(tokens(right)))
+
+
 def char_ngrams(text: str, size: int = 4) -> Counter[str]:
     compact = normalize(text).replace(" ", "")
     if len(compact) <= size:

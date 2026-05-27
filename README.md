@@ -14,6 +14,7 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - API request validation with clean error responses
 - Optional Faster-Whisper speech-to-text hooks
 - Unit tests for matching, speech style, and web validation
+- Low-confidence missed-question capture for library improvement
 
 ## Run
 
@@ -93,6 +94,16 @@ python3 scripts/import_memory.py /path/to/resume_summary.md
 ```bash
 python3 scripts/benchmark.py
 ```
+
+## Review missed questions
+
+Low-confidence questions are saved automatically when answers are logged.
+
+```bash
+python3 scripts/review_missed.py
+```
+
+Use these records to add new cached answers with `scripts/add_question.py`.
 
 ## Tests
 

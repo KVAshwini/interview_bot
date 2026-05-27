@@ -80,6 +80,7 @@ function renderMatches(payload) {
       <div class="answer"><strong>Natural:</strong> ${escapeHtml(match.versions.natural)}</div>
       <div class="answer"><strong>Stored:</strong> ${escapeHtml(match.versions.detailed)}</div>
       <div class="keywords">Keywords: ${escapeHtml(match.keywords.slice(0, 8).join(", "))}</div>
+      ${match.explanation.needs_review ? `<div class="memory">Review: low confidence. Overlap: ${escapeHtml(match.explanation.overlap.join(", ") || "none")}</div>` : ""}
       ${match.memory.length ? `<div class="memory">Memory: ${match.memory.map((item) => escapeHtml(item.name)).join(", ")}</div>` : ""}
     </article>
   `).join("");

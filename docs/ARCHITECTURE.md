@@ -11,6 +11,7 @@ Question or voice transcript
 -> apply speech personality layer
 -> show quick, natural, detailed, and keywords
 -> log session for library improvement
+-> capture low-confidence questions for review
 ```
 
 ## Latency Tiers
@@ -34,6 +35,25 @@ The local web server validates API requests before answer generation:
 - `limit` must be between 1 and 10.
 
 Invalid requests return JSON errors instead of crashing the request handler.
+
+## Review Loop
+
+Every logged answer with a best-match score below `0.60` is copied to `outputs/missed_questions/`.
+The record includes:
+
+- original query
+- review reason
+- top candidate matches
+- overlap tokens
+- source files
+
+Run:
+
+```bash
+python3 scripts/review_missed.py
+```
+
+Then add strong answers back into the Q&A packs.
 
 ## Web UI
 
