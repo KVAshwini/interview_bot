@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Local generated data
+outputs/session_transcripts/*.jsonl
+outputs/generated_answers/*
+outputs/missed_questions/*
+outputs/review_notes/*
+
+# Keep placeholder directories tracked
+!outputs/session_transcripts/.gitkeep
+!outputs/generated_answers/.gitkeep
+!outputs/missed_questions/.gitkeep
+!outputs/review_notes/.gitkeep
+
+# Rebuild locally with scripts/build_database.py
+data/interview_library.db

@@ -1,0 +1,10 @@
+{
+  "provider": "ollama",
+  "status": "planned",
+  "fast_model_candidates": [
+    "llama3.2",
+    "qwen2.5",
+    "mistral"
+  ],
+  "purpose": "Rewrite cached answers into natural speaking style and generate new answers for missed questions."
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "scenario_kafka_lag_001",
+    "category": "scenario",
+    "topic": "Kafka Consumer Lag",
+    "scenario": "Kafka consumer lag is increasing in production. What would you do?",
+    "alternate_scenarios": [
+      "How do you troubleshoot Kafka lag?",
+      "Messages are piling up in Kafka.",
+      "Kafka consumer is slow.",
+      "Consumer group lag is high.",
+      "Kafka lag keeps increasing."
+    ],
+    "instant_answer": "I would check whether producers suddenly increased traffic, consumers are failing or under-scaled, downstream processing is slow, or partitions are imbalanced. I would inspect consumer logs, error rates, processing time, offsets, and scale consumers if partitioning allows.",
+    "structured_answer": {
+      "step_1": "Confirm affected topic, consumer group, partitions, and lag growth rate.",
+      "step_2": "Check producer volume, consumer errors, rebalance activity, and processing latency.",
+      "step_3": "Validate downstream dependencies such as database, APIs, or external services.",
+      "step_4": "Review partition count and consumer instance count for parallelism limits.",
+      "step_5": "Mitigate by scaling consumers, pausing bad traffic, fixing dependency issues, or routing poison messages to DLQ.",
+      "step_6": "After stabilization, tune batch size, concurrency, retries, and monitoring alerts."
+    },
+    "keywords": [
+      "consumer lag",
+      "consumer group",
+      "partitions",
+      "rebalance",
+      "offsets",
+      "DLQ",
+      "retry",
+      "throughput"
+    ],
+    "answer_style": "message-driven systems troubleshooting",
+    "difficulty": "high"
+  }
+]

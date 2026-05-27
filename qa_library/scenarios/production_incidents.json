@@ -1,0 +1,69 @@
+[
+  {
+    "id": "scenario_p1_outage_001",
+    "category": "scenario",
+    "topic": "Production Incident",
+    "scenario": "A critical production application is down and users cannot access it. What would you do?",
+    "alternate_scenarios": [
+      "How do you handle a P1 outage?",
+      "What steps do you take when production is down?",
+      "Walk me through a major incident response.",
+      "How do you troubleshoot a production outage?"
+    ],
+    "instant_answer": "I first confirm the business impact, declare or join the incident bridge, check recent changes and monitoring signals, then focus on mitigation such as rollback, restart, scale-out, failover, or traffic rerouting. I keep stakeholders updated and drive RCA after service recovery.",
+    "structured_answer": {
+      "step_1": "Confirm impact, affected users, severity, and start time.",
+      "step_2": "Check monitoring dashboards, alerts, logs, dependency health, and recent deployments.",
+      "step_3": "Engage the right application, infrastructure, database, network, and business owners.",
+      "step_4": "Mitigate first using rollback, restart, scaling, failover, config revert, or traffic reroute.",
+      "step_5": "Communicate clear status updates at regular intervals.",
+      "step_6": "After recovery, document timeline, root cause, customer impact, and preventive actions."
+    },
+    "experience_example": "In production support, I have handled incidents by quickly correlating alerts and logs, validating recent changes, coordinating across teams, and keeping stakeholders informed until recovery.",
+    "keywords": [
+      "impact assessment",
+      "triage",
+      "incident bridge",
+      "rollback",
+      "monitoring",
+      "logs",
+      "stakeholder communication",
+      "RCA"
+    ],
+    "answer_style": "calm, structured, incident-management focused",
+    "difficulty": "high"
+  },
+  {
+    "id": "scenario_app_slowness_001",
+    "category": "scenario",
+    "topic": "Application Performance",
+    "scenario": "Users report that the application is very slow. How would you investigate?",
+    "alternate_scenarios": [
+      "How do you troubleshoot application slowness?",
+      "API response time increased suddenly.",
+      "Production latency is high.",
+      "Users say pages are timing out."
+    ],
+    "instant_answer": "I would first confirm the scope and timing, then compare application metrics, API latency, logs, database health, dependency response times, CPU, memory, thread pools, and recent deployments. I would isolate whether the issue is app, database, network, or downstream dependency, then mitigate based on the bottleneck.",
+    "structured_answer": {
+      "step_1": "Confirm which users, regions, APIs, and time window are affected.",
+      "step_2": "Review dashboards for latency percentiles, error rate, throughput, CPU, memory, GC, and thread pool saturation.",
+      "step_3": "Check logs and traces using correlation IDs to find slow spans.",
+      "step_4": "Validate database, cache, message broker, and external dependency health.",
+      "step_5": "Check recent releases, config changes, and traffic spikes.",
+      "step_6": "Mitigate with scaling, rollback, cache tuning, dependency failover, or query optimization."
+    },
+    "keywords": [
+      "latency",
+      "p95",
+      "p99",
+      "correlation ID",
+      "distributed tracing",
+      "thread pools",
+      "database",
+      "dependency"
+    ],
+    "answer_style": "diagnostic and metrics-driven",
+    "difficulty": "high"
+  }
+]

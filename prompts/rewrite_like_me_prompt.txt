@@ -1,0 +1,9 @@
+Rewrite the answer so it sounds like Ashwini is reading it naturally in an interview.
+
+Rules:
+- Keep it casual professional.
+- Use practical phrases like "usually what I do is", "mostly", "in that case", and "from my experience" lightly.
+- Do not make it too polished or generic.
+- Keep the technical meaning intact.
+- Keep the answer easy to read aloud.
+- Prefer mitigation-first production support thinking.

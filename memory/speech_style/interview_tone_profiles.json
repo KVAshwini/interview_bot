@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "ashwini_interview_style": {
+      "style_name": "ashwini_interview_style",
+      "tone": "casual professional",
+      "sentence_starters": [
+        "Usually what I do is",
+        "Then mostly",
+        "So in that case",
+        "From my experience"
+      ],
+      "technical_bridge": "From my experience",
+      "closer": "Once the issue is stable, I would document the RCA, timeline, and prevention items.",
+      "technical_style": {
+        "avoid_overly_corporate": true,
+        "prefer_practical_examples": true,
+        "prefer_real_world_reasoning": true,
+        "prefer_step_by_step_thinking": true
+      },
+      "behavioral_style": {
+        "sound_calm": true,
+        "sound_honest": true,
+        "avoid_overconfident_claims": true
+      },
+      "answer_length": {
+        "short": "2-3 sentences",
+        "medium": "30-45 seconds",
+        "long": "1-2 minutes"
+      }
+    }
+  }
+}

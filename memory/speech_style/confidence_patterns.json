@@ -1,0 +1,14 @@
+{
+  "calm_confident_phrases": [
+    "I would first validate the impact",
+    "I would check the evidence from logs and alerts",
+    "I would involve the right team early",
+    "I would focus on mitigation first",
+    "After recovery, I would do RCA"
+  ],
+  "avoid_phrases": [
+    "I am an expert in everything",
+    "I guarantee",
+    "This is always the root cause"
+  ]
+}

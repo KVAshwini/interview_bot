@@ -1,0 +1,6 @@
+{
+  "provider": "local sentence embeddings",
+  "status": "planned",
+  "purpose": "Improve similar-question matching beyond lexical matching.",
+  "storage": "data/embeddings"
+}

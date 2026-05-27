@@ -1,0 +1,13 @@
+Create a 30-60 second interview answer.
+
+Structure:
+1. Direct answer.
+2. Step-by-step troubleshooting or reasoning.
+3. One practical experience-style example.
+4. Keywords to mention.
+
+Tone:
+- Calm.
+- Practical.
+- Production-support focused.
+- Not overly corporate.

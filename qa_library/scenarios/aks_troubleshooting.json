@@ -1,0 +1,69 @@
+[
+  {
+    "id": "scenario_aks_crashloop_001",
+    "category": "scenario",
+    "topic": "AKS Pod Restart",
+    "scenario": "A pod in AKS keeps restarting with CrashLoopBackOff. How would you troubleshoot it?",
+    "alternate_scenarios": [
+      "How do you debug CrashLoopBackOff?",
+      "Why is my Kubernetes pod crashing?",
+      "What steps do you take when pods keep restarting?",
+      "AKS pod restart issue",
+      "AKS pod keeps restarting with crash loop"
+    ],
+    "instant_answer": "I would inspect pod events and previous logs first, then check exit codes, readiness and liveness probes, config maps, secrets, image version, resource limits, and dependency connectivity. If it started after a deployment, I would compare the new revision and rollback if needed.",
+    "structured_answer": {
+      "step_1": "Run describe pod to inspect events, scheduling, probes, and image pull details.",
+      "step_2": "Check current and previous container logs to identify startup failure or runtime exception.",
+      "step_3": "Review exit code, OOMKilled status, CPU and memory limits, and node pressure.",
+      "step_4": "Validate config maps, secrets, environment variables, service account, and managed identity access.",
+      "step_5": "Check downstream dependencies such as database, Kafka, Key Vault, or APIs.",
+      "step_6": "Mitigate with config fix, resource adjustment, probe tuning, dependency fix, or rollback."
+    },
+    "keywords": [
+      "CrashLoopBackOff",
+      "kubectl describe",
+      "previous logs",
+      "exit code",
+      "OOMKilled",
+      "liveness probe",
+      "readiness probe",
+      "rollback"
+    ],
+    "answer_style": "hands-on Kubernetes troubleshooting",
+    "difficulty": "high"
+  },
+  {
+    "id": "scenario_aks_service_unreachable_001",
+    "category": "scenario",
+    "topic": "AKS Networking",
+    "scenario": "A service deployed in AKS is not reachable. What would you check?",
+    "alternate_scenarios": [
+      "Kubernetes service not reachable",
+      "AKS ingress issue",
+      "Application endpoint is down in Kubernetes",
+      "Pods are running but service is unavailable"
+    ],
+    "instant_answer": "I would verify pods are ready, service selectors match pod labels, endpoints are created, ingress rules and DNS are correct, and network policies or firewall rules are not blocking traffic. Then I would test connectivity from inside and outside the cluster.",
+    "structured_answer": {
+      "step_1": "Confirm pods are running and ready.",
+      "step_2": "Check service type, selector labels, and endpoint objects.",
+      "step_3": "Validate ingress, host rules, TLS secrets, and DNS records.",
+      "step_4": "Test with curl from another pod and from outside the cluster.",
+      "step_5": "Review network policies, NSGs, firewall, and load balancer health probes.",
+      "step_6": "Check application logs for binding port or startup issues."
+    },
+    "keywords": [
+      "service selector",
+      "endpoints",
+      "ingress",
+      "DNS",
+      "TLS",
+      "network policy",
+      "load balancer",
+      "health probe"
+    ],
+    "answer_style": "network and platform focused",
+    "difficulty": "medium"
+  }
+]

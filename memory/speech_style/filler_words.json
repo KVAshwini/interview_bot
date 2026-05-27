@@ -1,0 +1,11 @@
+{
+  "allowed_light_fillers": [
+    "usually",
+    "basically",
+    "mostly",
+    "generally",
+    "kind of",
+    "from my experience"
+  ],
+  "usage_rule": "Use lightly. The answer should sound natural, not messy or overfilled."
+}

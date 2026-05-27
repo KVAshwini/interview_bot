@@ -1,0 +1,26 @@
+[
+  {
+    "id": "behavioral_conflict_001",
+    "category": "behavioral",
+    "topic": "Conflict Resolution",
+    "question": "Tell me about a time you had a conflict with a developer or another team.",
+    "alternate_questions": [
+      "How do you handle conflict at work?",
+      "Describe a disagreement with a teammate.",
+      "What if another team disagrees with your incident analysis?"
+    ],
+    "instant_answer": "I try to keep the discussion data-driven and focused on the customer impact. I listen to the other team's view, bring logs, metrics, and timelines, agree on the immediate mitigation first, and then work through root cause without blame.",
+    "detailed_answer": "In production support, conflicts can happen when multiple teams own different parts of the flow. I handle it by separating urgency from blame. First, I align everyone on impact and mitigation. Then I use evidence like logs, correlation IDs, monitoring, and deployment history to narrow the issue. I make sure the final RCA is fair, factual, and includes preventive actions that all teams agree on.",
+    "keywords": [
+      "data-driven",
+      "customer impact",
+      "logs",
+      "metrics",
+      "collaboration",
+      "RCA",
+      "no blame"
+    ],
+    "answer_style": "STAR, calm and collaborative",
+    "difficulty": "medium"
+  }
+]

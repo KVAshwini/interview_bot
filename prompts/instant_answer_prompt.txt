@@ -1,0 +1,7 @@
+Return a fast interview answer using this structure:
+
+1. One direct sentence.
+2. Three to five concrete bullets.
+3. Keywords to mention.
+
+Make it sound calm, practical, and based on production experience.

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "scenario_api_timeout_001",
+    "category": "scenario",
+    "topic": "API Timeout",
+    "scenario": "An API is timing out in production. How would you troubleshoot it?",
+    "alternate_scenarios": [
+      "Users are getting timeout errors.",
+      "How do you debug API timeout?",
+      "Downstream API calls are slow.",
+      "Service returns 504 gateway timeout.",
+      "API is timing out with 504 errors.",
+      "504 errors from API."
+    ],
+    "instant_answer": "I would confirm the failing endpoint and impact, check latency and error trends, trace the request path, inspect app logs with correlation IDs, and isolate whether the timeout is from the application, database, network, or downstream dependency.",
+    "structured_answer": {
+      "step_1": "Identify endpoint, status codes, affected users, and time window.",
+      "step_2": "Check API gateway, ingress, application logs, and distributed traces.",
+      "step_3": "Review downstream dependencies, database calls, Kafka/MQ calls, and external services.",
+      "step_4": "Check thread pool saturation, connection pool exhaustion, CPU, memory, and GC.",
+      "step_5": "Mitigate with rollback, scaling, timeout tuning, dependency failover, or traffic rerouting.",
+      "step_6": "Add monitoring around latency percentiles, dependency timing, and timeout thresholds."
+    },
+    "keywords": ["504", "timeout", "correlation ID", "distributed tracing", "thread pool", "connection pool", "dependency", "latency"],
+    "answer_style": "production troubleshooting",
+    "difficulty": "high"
+  },
+  {
+    "id": "scenario_db_connection_001",
+    "category": "scenario",
+    "topic": "Database Connection Issue",
+    "scenario": "The application cannot connect to the database. What would you check?",
+    "alternate_scenarios": [
+      "Database connection failures in production.",
+      "Application has JDBC connection errors.",
+      "Connection pool is exhausted.",
+      "How do you troubleshoot DB connectivity?",
+      "Application cannot connect to database."
+    ],
+    "instant_answer": "I would check whether the database is up, validate credentials and secrets, confirm network/firewall access, inspect connection pool metrics, review recent config changes, and look for database-side blocking or max-connection limits.",
+    "structured_answer": {
+      "step_1": "Confirm the exact error: authentication, timeout, refused connection, DNS, SSL, or pool exhaustion.",
+      "step_2": "Validate database health, listener/endpoint, failover state, and max connections.",
+      "step_3": "Check app secrets, Key Vault values, connection string, and certificate settings.",
+      "step_4": "Verify firewall, VNet, private endpoint, DNS, and routing.",
+      "step_5": "Inspect app connection pool metrics and slow queries.",
+      "step_6": "Mitigate by fixing config, rotating credentials, scaling pool cautiously, or failing over if needed."
+    },
+    "keywords": ["database", "connection pool", "JDBC", "credentials", "firewall", "private endpoint", "DNS", "SSL"],
+    "answer_style": "infrastructure plus app troubleshooting",
+    "difficulty": "high"
+  },
+  {
+    "id": "scenario_autosys_failure_001",
+    "category": "scenario",
+    "topic": "Autosys Job Failure",
+    "scenario": "An Autosys batch job failed. How would you handle it?",
+    "alternate_scenarios": [
+      "Batch job failed in production.",
+      "How do you troubleshoot Autosys job failure?",
+      "A scheduled job did not run.",
+      "Nightly batch process failed."
+    ],
+    "instant_answer": "I would check the job status, exit code, logs, dependencies, input files, environment variables, and recent changes. Then I would assess business impact, rerun only if safe, and communicate the expected delay or recovery plan.",
+    "structured_answer": {
+      "step_1": "Confirm job name, run time, status, exit code, and SLA impact.",
+      "step_2": "Review job logs, standard output/error, and upstream dependency status.",
+      "step_3": "Validate input files, database availability, credentials, paths, permissions, and environment variables.",
+      "step_4": "Check recent code, config, scheduler, or infrastructure changes.",
+      "step_5": "Coordinate with business before rerun if duplicate processing is possible.",
+      "step_6": "After recovery, document cause and add checks or alerts."
+    },
+    "keywords": ["Autosys", "batch", "exit code", "dependency", "rerun", "SLA", "input file", "scheduler"],
+    "answer_style": "batch operations focused",
+    "difficulty": "medium"
+  }
+]

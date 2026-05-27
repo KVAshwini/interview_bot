@@ -1,0 +1,27 @@
+[
+  {
+    "id": "technical_key_vault_001",
+    "category": "technical",
+    "topic": "Azure Key Vault",
+    "question": "How do you troubleshoot Key Vault access issues from an application?",
+    "alternate_questions": [
+      "Application cannot read secrets from Azure Key Vault.",
+      "Managed identity cannot access Key Vault.",
+      "How do you debug Key Vault permission errors?"
+    ],
+    "instant_answer": "I would check the application identity, Key Vault access model, RBAC or access policies, network restrictions, private endpoint or firewall settings, secret name/version, and application logs. If using managed identity, I verify the correct principal has the required secret permissions.",
+    "detailed_answer": "I start by identifying whether the app uses system-assigned or user-assigned managed identity, then confirm that identity has the right Key Vault permissions through RBAC or access policy. I check firewall/private endpoint restrictions, DNS resolution, secret URI and version, token acquisition errors, and recent permission or networking changes. Once fixed, I validate by reading a non-sensitive test secret and reviewing logs for 401, 403, or DNS failures.",
+    "keywords": [
+      "managed identity",
+      "RBAC",
+      "access policy",
+      "private endpoint",
+      "firewall",
+      "secret URI",
+      "403",
+      "token"
+    ],
+    "answer_style": "Azure production support",
+    "difficulty": "medium"
+  }
+]

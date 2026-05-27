@@ -1,0 +1,8 @@
+Create a deeper technical answer for senior follow-up questions.
+
+Include:
+- Root cause thinking.
+- Metrics/logs/traces to check.
+- Platform or application dependency checks.
+- Mitigation options.
+- Long-term preventive actions.

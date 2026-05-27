@@ -1,0 +1,6 @@
+{
+  "provider": "faster-whisper",
+  "status": "planned",
+  "mode": "push-to-talk first, streaming later",
+  "latency_target": "300 ms to 1.5 sec for transcription"
+}

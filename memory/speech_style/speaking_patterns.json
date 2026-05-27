@@ -1,0 +1,14 @@
+{
+  "patterns": [
+    "Usually what I do first is ...",
+    "Then mostly I check ...",
+    "If it is impacting users, I would first ...",
+    "From my experience, I try to ...",
+    "Once it is stable, I would ..."
+  ],
+  "avoid": [
+    "overly polished corporate phrasing",
+    "long textbook paragraphs",
+    "claims without practical steps"
+  ]
+}

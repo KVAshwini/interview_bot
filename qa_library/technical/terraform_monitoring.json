@@ -1,0 +1,34 @@
+[
+  {
+    "id": "technical_terraform_drift_001",
+    "category": "technical",
+    "topic": "Terraform Drift",
+    "question": "How do you handle Terraform drift?",
+    "alternate_questions": [
+      "Infrastructure was changed manually outside Terraform.",
+      "Terraform plan shows unexpected changes.",
+      "How do you troubleshoot Terraform state drift?"
+    ],
+    "instant_answer": "I would first review the Terraform plan carefully, identify whether the drift came from manual change, provider behavior, or state mismatch, then decide whether to import, update code, refresh state, or revert the manual change through the approved process.",
+    "detailed_answer": "I avoid blindly applying Terraform when drift appears. I compare desired code, remote state, and actual cloud resource settings. If the manual change is valid, I update Terraform code or import the resource. If it is invalid, I revert it through Terraform. I also check state locking, backend health, provider versions, and add guardrails so future changes go through CI/CD.",
+    "keywords": ["Terraform", "drift", "state", "plan", "import", "backend", "provider", "CI/CD"],
+    "answer_style": "infrastructure as code focused",
+    "difficulty": "medium"
+  },
+  {
+    "id": "technical_monitoring_alerts_001",
+    "category": "technical",
+    "topic": "Monitoring And Alerting",
+    "question": "How do you reduce noisy alerts in production?",
+    "alternate_questions": [
+      "How do you handle alert fatigue?",
+      "Too many false alerts are firing.",
+      "How do you design useful monitoring alerts?"
+    ],
+    "instant_answer": "I would tune alerts around user impact and actionable signals, group related alerts, add severity levels, suppress duplicates, and use SLO-based thresholds instead of alerting on every low-level metric.",
+    "detailed_answer": "Good alerts should be actionable, owned, and tied to impact. I review historical alerts, remove duplicates, group symptoms under one incident, separate warning from critical, and add context like runbook links, dashboard links, affected service, and recent deployments. I prefer latency, error rate, saturation, and availability indicators over noisy raw metrics.",
+    "keywords": ["alert fatigue", "SLO", "error rate", "latency", "saturation", "runbook", "severity", "deduplication"],
+    "answer_style": "SRE and operations focused",
+    "difficulty": "medium"
+  }
+]

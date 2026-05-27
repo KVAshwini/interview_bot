@@ -1,0 +1,17 @@
+{
+  "framework": [
+    "impact first",
+    "logs and metrics",
+    "recent changes",
+    "dependencies",
+    "mitigation",
+    "communication",
+    "RCA and prevention"
+  ],
+  "output_sections": [
+    "Quick Version",
+    "Natural Version",
+    "Detailed Version",
+    "Keywords to mention"
+  ]
+}

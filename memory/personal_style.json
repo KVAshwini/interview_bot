@@ -1,0 +1,14 @@
+{
+  "answer_voice": "calm, practical, production-support oriented",
+  "preferred_structure": [
+    "short direct answer",
+    "step-by-step approach",
+    "real experience example",
+    "keywords to mention"
+  ],
+  "avoid": [
+    "overly generic AI wording",
+    "long theoretical explanations before mitigation",
+    "claims that sound too senior without evidence"
+  ]
+}

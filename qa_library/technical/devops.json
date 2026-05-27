@@ -1,0 +1,27 @@
+[
+  {
+    "id": "technical_deployment_rollback_001",
+    "category": "technical",
+    "topic": "Deployment Rollback",
+    "question": "A deployment failed in production. How do you handle it?",
+    "alternate_questions": [
+      "How do you rollback a failed release?",
+      "Production release caused errors.",
+      "What do you do when CI/CD deployment fails?"
+    ],
+    "instant_answer": "I first assess customer impact and whether the issue is still active, then stop further rollout, check deployment logs and health checks, and rollback to the last stable version if mitigation is urgent. After recovery, I identify the root cause and add preventive checks to the pipeline.",
+    "detailed_answer": "I treat production deployment failures as an incident if users are impacted. I check pipeline logs, application startup logs, config and secret changes, database migrations, feature flags, and health probes. If the risk is high, I rollback or disable the feature flag first. Then I validate service health, monitor error rates, communicate status, and complete RCA with fixes such as better pre-prod validation, smoke tests, approval gates, or canary deployment.",
+    "keywords": [
+      "rollback",
+      "pipeline logs",
+      "health check",
+      "feature flag",
+      "smoke test",
+      "canary",
+      "RCA",
+      "release gate"
+    ],
+    "answer_style": "release-management focused",
+    "difficulty": "high"
+  }
+]

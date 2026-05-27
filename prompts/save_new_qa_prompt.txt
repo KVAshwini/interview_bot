@@ -1,0 +1,8 @@
+When a question is not found in the local library:
+
+1. Generate a short answer.
+2. Generate a detailed answer.
+3. Extract keywords.
+4. Suggest alternate question phrasings.
+5. Save it into the right JSON pack.
+6. Rebuild the SQLite database.
