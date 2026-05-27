@@ -8,8 +8,11 @@
 - Session logging.
 - Speech personality layer.
 - Resume/project memory notes.
+- API validation.
+- Unit tests.
+- Static web assets split out of Python.
 
-Status: mostly done.
+Status: done for local MVP.
 
 ## Phase 2: Better Matching
 
@@ -24,6 +27,8 @@ Status: mostly done.
 - Use Faster-Whisper for local transcription.
 - Show partial answers quickly.
 - Keep transcript per session.
+
+Status: optional file transcription and push-to-talk scripts exist; web UI voice capture is not added yet.
 
 ## Phase 4: Real-Time Assistant
 

@@ -11,6 +11,9 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - Natural read-aloud answer adaptation using `memory/speech_style`
 - Browser UI with Quick, Natural, Stored, and Keywords sections
 - Session logging for review
+- API request validation with clean error responses
+- Optional Faster-Whisper speech-to-text hooks
+- Unit tests for matching, speech style, and web validation
 
 ## Run
 
@@ -91,6 +94,33 @@ python3 scripts/import_memory.py /path/to/resume_summary.md
 python3 scripts/benchmark.py
 ```
 
+## Tests
+
+```bash
+python3 -m unittest discover -s tests
+python3 -m compileall app scripts tests
+```
+
+## Optional speech-to-text
+
+The core app does not require speech dependencies. To try local voice input:
+
+```bash
+pip install faster-whisper sounddevice soundfile
+python3 scripts/transcribe_audio.py /path/to/question.wav
+python3 scripts/voice_answer.py --seconds 8
+```
+
+Voice flow:
+
+```text
+microphone audio
+-> local wav file
+-> Faster-Whisper transcription
+-> local Q&A matching
+-> natural read-aloud answer
+```
+
 ## Docs
 
 - [Architecture](docs/ARCHITECTURE.md)
@@ -99,5 +129,5 @@ python3 scripts/benchmark.py
 ## Next upgrades
 
 - Add true embedding search with a local model
-- Add speech-to-text
+- Add streaming speech-to-text in the web UI
 - Add a floating desktop overlay

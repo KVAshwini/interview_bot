@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interview Help Bot</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <h1>Interview Help Bot</h1>
+      <div class="status">Local cache • SQLite • no network required</div>
+    </div>
+  </header>
+  <main class="wrap">
+    <aside>
+      <label for="question">Question or scenario</label>
+      <textarea id="question" placeholder="Example: Production is down and users cannot login. What do you do?"></textarea>
+      <div class="controls">
+        <select id="mode" aria-label="Answer mode">
+          <option value="instant">Instant</option>
+          <option value="detailed">Detailed</option>
+        </select>
+        <select id="voice" aria-label="Voice style">
+          <option value="natural">Natural</option>
+          <option value="raw">Raw</option>
+        </select>
+        <button class="primary" id="ask">Answer</button>
+        <button class="secondary" id="clear">Clear</button>
+      </div>
+      <div class="chips" id="examples"></div>
+    </aside>
+    <section>
+      <div id="result" class="empty">Ask a question to pull the closest local answer.</div>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

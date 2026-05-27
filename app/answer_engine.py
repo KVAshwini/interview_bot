@@ -50,10 +50,38 @@ def find_best_matches(query: str, limit: int = 3) -> list[AnswerMatch]:
     return sorted(scored, key=lambda match: match.score, reverse=True)[:limit]
 
 
+def selected_answer(match: AnswerMatch, mode: str) -> str:
+    return match.detailed_answer if mode == "detailed" else match.instant_answer
+
+
+def answer_versions(match: AnswerMatch, mode: str, voice: str) -> dict[str, str]:
+    answer = selected_answer(match, mode)
+    natural = adapt_answer(answer) if voice == "natural" else answer
+    return quick_versions(answer, natural)
+
+
+def match_payload(match: AnswerMatch, query: str, mode: str, voice: str) -> dict:
+    versions = answer_versions(match, mode, voice)
+    return {
+        "id": match.id,
+        "category": match.category,
+        "topic": match.topic,
+        "question": match.question,
+        "score": match.score,
+        "confidence": match.confidence,
+        "answer": selected_answer(match, mode),
+        "natural_answer": versions["natural"],
+        "versions": versions,
+        "keywords": match.keywords,
+        "source_file": match.source_file,
+        "memory": relevant_memory(query),
+    }
+
+
 def format_match(match: AnswerMatch, mode: str = "instant", voice: str = "natural") -> str:
     keywords = ", ".join(match.keywords[:8])
-    answer = match.instant_answer if mode == "instant" else match.detailed_answer
-    natural = adapt_answer(answer) if voice == "natural" else answer
+    answer = selected_answer(match, mode)
+    natural = answer_versions(match, mode, voice)["natural"]
     memory_bits = relevant_memory(match.question)
     memory_text = ""
     if memory_bits:
@@ -79,24 +107,5 @@ def answer_payload(query: str, mode: str = "instant", limit: int = 3, voice: str
         "query": query,
         "mode": mode,
         "voice": voice,
-        "matches": [
-            {
-                "id": match.id,
-                "category": match.category,
-                "topic": match.topic,
-                "question": match.question,
-                "score": match.score,
-                "confidence": match.confidence,
-                "answer": match.instant_answer if mode == "instant" else match.detailed_answer,
-                "natural_answer": adapt_answer(match.instant_answer if mode == "instant" else match.detailed_answer) if voice == "natural" else match.instant_answer if mode == "instant" else match.detailed_answer,
-                "versions": quick_versions(
-                    match.instant_answer if mode == "instant" else match.detailed_answer,
-                    adapt_answer(match.instant_answer if mode == "instant" else match.detailed_answer) if voice == "natural" else match.instant_answer if mode == "instant" else match.detailed_answer,
-                ),
-                "keywords": match.keywords,
-                "source_file": match.source_file,
-                "memory": relevant_memory(query),
-            }
-            for match in matches
-        ],
+        "matches": [match_payload(match, query, mode, voice) for match in matches],
     }
