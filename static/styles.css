@@ -19,6 +19,23 @@ body {
   color: var(--ink);
 }
 
+body.transparent-mode {
+  background: transparent;
+}
+
+body.transparent-mode header,
+body.transparent-mode aside,
+body.transparent-mode section,
+body.transparent-mode .match {
+  opacity: .48;
+}
+
+body.transparent-mode textarea,
+body.transparent-mode button,
+body.transparent-mode select {
+  opacity: .72;
+}
+
 header {
   border-bottom: 1px solid var(--line);
   background: rgba(255,255,255,.88);
@@ -30,6 +47,7 @@ header {
 
 .wrap { max-width: 1120px; margin: 0 auto; padding: 18px 20px; }
 .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.top-actions { display: flex; align-items: center; gap: 12px; }
 h1 { margin: 0; font-size: 22px; font-weight: 720; }
 .status { color: var(--muted); font-size: 13px; }
 main.wrap { display: grid; grid-template-columns: 360px 1fr; gap: 18px; align-items: start; }

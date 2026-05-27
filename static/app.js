@@ -11,6 +11,7 @@ const mode = document.querySelector("#mode");
 const voice = document.querySelector("#voice");
 const result = document.querySelector("#result");
 const examplesNode = document.querySelector("#examples");
+const opacityToggle = document.querySelector("#opacity-toggle");
 
 examples.forEach((text) => {
   const chip = document.createElement("button");
@@ -91,6 +92,11 @@ document.querySelector("#clear").addEventListener("click", () => {
   q.value = "";
   result.className = "empty";
   result.textContent = "Ask a question to pull the closest local answer.";
+});
+opacityToggle.addEventListener("click", () => {
+  const enabled = document.body.classList.toggle("transparent-mode");
+  opacityToggle.setAttribute("aria-pressed", String(enabled));
+  opacityToggle.textContent = enabled ? "Solid" : "Transparent";
 });
 q.addEventListener("keydown", (event) => {
   if ((event.metaKey || event.ctrlKey) && event.key === "Enter") ask();

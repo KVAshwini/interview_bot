@@ -6,6 +6,7 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 
 - SQLite-backed local Q&A library
 - Scenario and technical seed packs
+- Enriched DevOps/SRE/cloud question bank with 1,100 practical production-style answers
 - Fast lexical matching with no network calls
 - Instant and detailed answer modes
 - Natural read-aloud answer adaptation using `memory/speech_style`
@@ -15,6 +16,7 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - Optional Faster-Whisper speech-to-text hooks
 - Unit tests for matching, speech style, and web validation
 - Low-confidence missed-question capture for library improvement
+- Private Windows overlay with transparency and screen-capture hiding support
 
 ## Run
 
@@ -25,6 +27,18 @@ python3 -m app.main "How do you handle a P1 production outage?"
 python3 -m app.main --mode detailed "AKS pod keeps restarting"
 python3 -m app.main --voice raw "How do you handle Kafka lag?"
 ```
+
+The local database currently loads 1,116 Q&A items after running `scripts/build_database.py`.
+
+## Question Library
+
+The largest pack lives at:
+
+```text
+qa_library/technical/devops_massive_interview_bank.json
+```
+
+It contains 1,100 DevOps, SRE, cloud, Kubernetes, Linux, Docker, Terraform, CI/CD, monitoring, and scenario-based answers. The answers are stored as local JSON and loaded into SQLite so runtime lookup does not read the source Markdown file.
 
 ## Web UI
 
@@ -40,6 +54,24 @@ The UI shows:
 - Natural read-aloud version
 - Stored answer
 - Keywords to mention
+
+Use the `Transparent` button in the header when you want the browser UI to be semi-transparent.
+
+## Private Windows Overlay
+
+For interviews where you share your screen in Zoom, Webex, or Teams, use the Windows overlay instead of the browser UI:
+
+```bash
+python3 -m app.overlay
+```
+
+The overlay has:
+
+- `Transparency` button to switch between normal and semi-transparent opacity.
+- `Hide from screen capture` enabled by default on Windows using `SetWindowDisplayAffinity`.
+- Always-on-top behavior so it stays accessible during interviews.
+
+Important: the browser UI cannot hide itself from screen sharing. The screen-capture hiding behavior only applies to the native Windows overlay, and it depends on the meeting app using normal Windows capture APIs. Test it once with your exact Zoom/Webex/Teams sharing mode before relying on it.
 
 ## Speech Style Layer
 
@@ -108,8 +140,9 @@ Use these records to add new cached answers with `scripts/add_question.py`.
 ## Tests
 
 ```bash
-python3 -m unittest discover -s tests
+python3 -m pytest
 python3 -m compileall app scripts tests
+python3 -m json.tool qa_library/technical/devops_massive_interview_bank.json
 ```
 
 ## Optional speech-to-text
@@ -148,4 +181,4 @@ On macOS, if no input device is visible, grant microphone permission to the term
 
 - Add true embedding search with a local model
 - Add streaming speech-to-text in the web UI
-- Add a floating desktop overlay
+- Package the Windows overlay as a one-click launcher or executable
