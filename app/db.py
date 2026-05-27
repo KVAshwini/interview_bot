@@ -107,3 +107,26 @@ def upsert_items(conn: sqlite3.Connection, items: list[dict[str, Any]]) -> None:
 
 def all_items(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     return list(conn.execute("SELECT * FROM qa_items ORDER BY category, topic, id"))
+
+
+def library_stats(conn: sqlite3.Connection) -> dict[str, Any]:
+    if not DB_PATH.exists():
+        return {"db_exists": False, "item_count": 0, "categories": {}, "topics": {}}
+    try:
+        item_count = conn.execute("SELECT COUNT(*) FROM qa_items").fetchone()[0]
+    except sqlite3.OperationalError:
+        return {"db_exists": True, "item_count": 0, "categories": {}, "topics": {}}
+    categories = {
+        row["category"]: row["count"]
+        for row in conn.execute("SELECT category, COUNT(*) AS count FROM qa_items GROUP BY category ORDER BY category")
+    }
+    topics = {
+        row["topic"]: row["count"]
+        for row in conn.execute("SELECT topic, COUNT(*) AS count FROM qa_items GROUP BY topic ORDER BY topic")
+    }
+    return {
+        "db_exists": True,
+        "item_count": item_count,
+        "categories": categories,
+        "topics": topics,
+    }

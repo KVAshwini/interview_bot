@@ -87,17 +87,29 @@ button, select {
 
 button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
 button.secondary { color: var(--accent); }
+button.small { height: 30px; padding: 0 8px; font-size: 12px; }
 .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
 .chip { border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; font-size: 12px; color: var(--muted); background: #fbfcfa; cursor: pointer; }
+.health { margin-top: 10px; color: var(--muted); font-size: 13px; }
+.health.ok { color: var(--accent); }
 .result { display: grid; gap: 12px; }
 .match { border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: #fff; }
+.interview-match { font-size: 16px; }
 .meta { display: flex; gap: 8px; flex-wrap: wrap; color: var(--muted); font-size: 13px; margin-bottom: 10px; }
 .pill { background: var(--soft); color: var(--accent); border-radius: 999px; padding: 4px 8px; }
 .answer { white-space: pre-wrap; line-height: 1.5; }
+.primary-answer { margin-top: 12px; font-size: 17px; }
 .keywords { margin-top: 12px; color: var(--muted); font-size: 13px; }
 .memory { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 10px; color: var(--accent-2); font-size: 13px; }
 .empty { color: var(--muted); line-height: 1.5; }
 .error { color: #9f2d20; }
+.review-panel { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 14px; }
+.review-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+.missed-list { display: grid; gap: 10px; }
+.missed-item { display: grid; gap: 6px; }
+.missed-question { height: auto; min-height: 32px; padding: 7px 9px; text-align: left; color: var(--ink); }
+.missed-answer { min-height: 72px; font-size: 13px; }
+.small-text { font-size: 13px; }
 
 @media (max-width: 820px) {
   main.wrap { grid-template-columns: 1fr; }

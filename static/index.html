@@ -29,10 +29,33 @@
           <option value="natural">Natural</option>
           <option value="raw">Raw</option>
         </select>
+        <select id="category-filter" aria-label="Focus area">
+          <option value="all">All</option>
+          <option value="devops">DevOps</option>
+          <option value="kubernetes">Kubernetes</option>
+          <option value="azure">Azure</option>
+          <option value="terraform">Terraform</option>
+          <option value="linux">Linux</option>
+          <option value="scenario">Scenario</option>
+          <option value="behavioral">Behavioral</option>
+        </select>
+        <select id="view" aria-label="View mode">
+          <option value="full">Full</option>
+          <option value="interview">Interview</option>
+        </select>
         <button class="primary" id="ask">Answer</button>
+        <button class="secondary" id="voice-input" type="button">Voice</button>
         <button class="secondary" id="clear">Clear</button>
       </div>
+      <div class="health" id="health">Checking library...</div>
       <div class="chips" id="examples"></div>
+      <div class="review-panel">
+        <div class="review-head">
+          <strong>Missed questions</strong>
+          <button class="secondary small" id="refresh-missed" type="button">Refresh</button>
+        </div>
+        <div id="missed" class="missed-list"></div>
+      </div>
     </aside>
     <section>
       <div id="result" class="empty">Ask a question to pull the closest local answer.</div>

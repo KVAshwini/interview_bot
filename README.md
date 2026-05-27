@@ -8,9 +8,11 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - Scenario and technical seed packs
 - Enriched DevOps/SRE/cloud question bank with 1,100 practical production-style answers
 - Fast lexical matching with no network calls
+- Local semantic concept scoring for better wording tolerance
 - Instant and detailed answer modes
+- Category/focus filters and single-answer interview mode
 - Natural read-aloud answer adaptation using `memory/speech_style`
-- Browser UI with Quick, Natural, Stored, and Keywords sections
+- Browser UI with Quick, Natural, Stored, Keywords, health, voice input, and missed-question review
 - Session logging for review
 - API request validation with clean error responses
 - Optional Faster-Whisper speech-to-text hooks
@@ -26,6 +28,7 @@ python3 scripts/build_database.py
 python3 -m app.main "How do you handle a P1 production outage?"
 python3 -m app.main --mode detailed "AKS pod keeps restarting"
 python3 -m app.main --voice raw "How do you handle Kafka lag?"
+python3 -m app.main --category kubernetes --interview "pod keeps dying in AKS"
 ```
 
 The local database currently loads 1,116 Q&A items after running `scripts/build_database.py`.
@@ -54,8 +57,25 @@ The UI shows:
 - Natural read-aloud version
 - Stored answer
 - Keywords to mention
+- Focus-area filters
+- Interview mode for the single best answer
+- Library health status
+- Missed-question review and save flow
+- Browser voice input when speech recognition is available
 
 Use the `Transparent` button in the header when you want the browser UI to be semi-transparent.
+
+## Matching and Review Workflow
+
+Answer matching combines lexical similarity with a local semantic concept scorer. It recognizes related terms such as `pod keeps dying`, `CrashLoopBackOff`, `rollback`, `consumer lag`, `state drift`, and `Key Vault` without calling a network service.
+
+Low-confidence answers are written to `outputs/missed_questions/*.jsonl`. In the web UI, use the missed-question panel to add a reviewed answer. Saved reviewed answers go to:
+
+```text
+qa_library/custom/reviewed_questions.json
+```
+
+They are upserted into the running SQLite database immediately, and will also persist after the next `python3 scripts/build_database.py`.
 
 ## Private Windows Overlay
 
@@ -65,6 +85,12 @@ For interviews where you share your screen in Zoom, Webex, or Teams, use the Win
 python3 -m app.overlay
 ```
 
+On Windows you can also double-click:
+
+```text
+run_overlay.bat
+```
+
 The overlay has:
 
 - `Transparency` button to switch between normal and semi-transparent opacity.
@@ -72,6 +98,8 @@ The overlay has:
 - Always-on-top behavior so it stays accessible during interviews.
 
 Important: the browser UI cannot hide itself from screen sharing. The screen-capture hiding behavior only applies to the native Windows overlay, and it depends on the meeting app using normal Windows capture APIs. Test it once with your exact Zoom/Webex/Teams sharing mode before relying on it.
+
+See [Private Overlay App](docs/OVERLAY_APP.md) for the test checklist and EXE packaging command.
 
 ## Speech Style Layer
 
@@ -127,6 +155,14 @@ python3 scripts/import_memory.py /path/to/resume_summary.md
 python3 scripts/benchmark.py
 ```
 
+## Health Check
+
+```bash
+curl http://127.0.0.1:8765/api/health
+```
+
+The health response includes database path, loaded item count, categories, and topics.
+
 ## Review missed questions
 
 Low-confidence questions are saved automatically when answers are logged.
@@ -180,5 +216,5 @@ On macOS, if no input device is visible, grant microphone permission to the term
 ## Next upgrades
 
 - Add true embedding search with a local model
-- Add streaming speech-to-text in the web UI
+- Improve the browser voice flow with streaming transcription
 - Package the Windows overlay as a one-click launcher or executable

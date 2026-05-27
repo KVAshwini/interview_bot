@@ -12,17 +12,22 @@ WDA_MONITOR = 0x00000001
 WDA_EXCLUDEFROMCAPTURE = 0x00000011
 
 
-def apply_capture_exclusion(root: tk.Tk, enabled: bool) -> bool:
-    if sys.platform != "win32":
-        return False
-    hwnd = int(root.winfo_id())
+def set_window_capture_exclusion(hwnd: int, enabled: bool, user32: object | None = None) -> bool:
+    if user32 is None:
+        user32 = ctypes.windll.user32
     affinity = WDA_EXCLUDEFROMCAPTURE if enabled else WDA_NONE
-    user32 = ctypes.windll.user32
     if user32.SetWindowDisplayAffinity(hwnd, affinity):
         return True
     if enabled and user32.SetWindowDisplayAffinity(hwnd, WDA_MONITOR):
         return True
     return False
+
+
+def apply_capture_exclusion(root: tk.Tk, enabled: bool) -> bool:
+    if sys.platform != "win32":
+        return False
+    hwnd = int(root.winfo_id())
+    return set_window_capture_exclusion(hwnd, enabled)
 
 
 class OverlayApp:

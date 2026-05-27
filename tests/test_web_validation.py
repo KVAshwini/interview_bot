@@ -11,6 +11,8 @@ class WebValidationTests(unittest.TestCase):
         self.assertEqual(request["mode"], "instant")
         self.assertEqual(request["voice"], "natural")
         self.assertEqual(request["limit"], 3)
+        self.assertEqual(request["category_filter"], "all")
+        self.assertEqual(request["view"], "full")
 
     def test_empty_question_rejected(self) -> None:
         with self.assertRaises(RequestError):
@@ -19,6 +21,14 @@ class WebValidationTests(unittest.TestCase):
     def test_bad_limit_rejected(self) -> None:
         with self.assertRaises(RequestError):
             parse_answer_request(json.dumps({"question": "P1 outage", "limit": 99}))
+
+    def test_bad_category_filter_rejected(self) -> None:
+        with self.assertRaises(RequestError):
+            parse_answer_request(json.dumps({"question": "P1 outage", "category_filter": "bad"}))
+
+    def test_interview_view_accepted(self) -> None:
+        request = parse_answer_request(json.dumps({"question": "P1 outage", "view": "interview"}))
+        self.assertEqual(request["view"], "interview")
 
 
 if __name__ == "__main__":

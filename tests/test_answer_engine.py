@@ -21,6 +21,15 @@ class AnswerEngineTests(unittest.TestCase):
         self.assertTrue(payload["needs_review"])
         self.assertTrue(payload["matches"][0]["explanation"]["needs_review"])
 
+    def test_semantic_match_handles_crashloop_wording(self) -> None:
+        match = find_best_matches("pod keeps dying in aks", limit=1, category_filter="kubernetes")[0]
+        self.assertIn("CrashLoopBackOff", match.question + " " + match.instant_answer)
+
+    def test_interview_view_returns_one_match(self) -> None:
+        payload = answer_payload("terraform state corrupted", view="interview", limit=5, category_filter="terraform")
+        self.assertEqual(payload["view"], "interview")
+        self.assertEqual(len(payload["matches"]), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
