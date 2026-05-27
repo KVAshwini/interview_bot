@@ -69,3 +69,5 @@ scripts/voice_answer.py
 ```
 
 The default app still works without audio packages.
+
+See [Voice Setup](VOICE_SETUP.md) for installation and local verification notes.

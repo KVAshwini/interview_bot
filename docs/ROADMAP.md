@@ -28,7 +28,7 @@ Status: done for local MVP.
 - Show partial answers quickly.
 - Keep transcript per session.
 
-Status: optional file transcription and push-to-talk scripts exist; web UI voice capture is not added yet.
+Status: optional file transcription, push-to-talk scripts, voice dependency checks, and audio-device listing exist; web UI voice capture is not added yet.
 
 ## Phase 4: Real-Time Assistant
 

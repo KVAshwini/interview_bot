@@ -106,7 +106,11 @@ python3 -m compileall app scripts tests
 The core app does not require speech dependencies. To try local voice input:
 
 ```bash
-pip install faster-whisper sounddevice soundfile
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-voice.txt
+python3 scripts/check_voice_setup.py
+python3 scripts/list_audio_devices.py
 python3 scripts/transcribe_audio.py /path/to/question.wav
 python3 scripts/voice_answer.py --seconds 8
 ```
@@ -121,10 +125,13 @@ microphone audio
 -> natural read-aloud answer
 ```
 
+On macOS, if no input device is visible, grant microphone permission to the terminal app you are using and rerun `python3 scripts/list_audio_devices.py`.
+
 ## Docs
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
+- [Voice Setup](docs/VOICE_SETUP.md)
 
 ## Next upgrades
 
