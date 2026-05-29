@@ -6,6 +6,7 @@ from urllib.parse import urlparse
 from app.answer_engine import ALLOWED_CATEGORY_FILTERS, answer_payload
 from app.config import DB_PATH, PROJECT_ROOT
 from app.db import connect, library_stats, upsert_items
+from app.professions import profession_options
 from app.review import load_recent_missed_questions, save_review_answer
 from app.session_log import log_answer
 
@@ -131,6 +132,8 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, _read_static(STATIC_DIR / "app.js"), "text/javascript")
         elif path in {"/health", "/api/health"}:
             self._send_json(200, health_payload())
+        elif path == "/api/professions":
+            self._send_json(200, {"items": profession_options()})
         elif path == "/api/missed":
             self._send_json(200, {"items": load_recent_missed_questions()})
         else:

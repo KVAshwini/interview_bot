@@ -7,6 +7,7 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - SQLite-backed local Q&A library
 - Scenario and technical seed packs
 - Enriched DevOps/SRE/cloud question bank with 1,100 practical production-style answers
+- Multi-profession starter library for developer, QA, data, BA, PM, product, security, cloud, and DBA interviews
 - Fast lexical matching with no network calls
 - Local semantic concept scoring for better wording tolerance
 - Instant and detailed answer modes
@@ -43,6 +44,20 @@ qa_library/technical/devops_massive_interview_bank.json
 
 It contains 1,100 DevOps, SRE, cloud, Kubernetes, Linux, Docker, Terraform, CI/CD, monitoring, and scenario-based answers. The answers are stored as local JSON and loaded into SQLite so runtime lookup does not read the source Markdown file.
 
+Additional profession-specific starter answers live at:
+
+```text
+qa_library/professions/starter_professions.json
+```
+
+The profession registry is in:
+
+```text
+app/professions.py
+```
+
+To add another profession later, add a `Profession` entry in `app/professions.py`, add Q&A items under `qa_library/professions/`, then run `python3 scripts/build_database.py`.
+
 ## Web UI
 
 ```bash
@@ -58,6 +73,7 @@ The UI shows:
 - Stored answer
 - Keywords to mention
 - Focus-area filters
+- Profession filters
 - Interview mode for the single best answer
 - Library health status
 - Missed-question review and save flow

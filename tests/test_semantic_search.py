@@ -12,3 +12,8 @@ def test_semantic_score_rewards_related_terms() -> None:
 
 def test_category_boost_uses_focus_area() -> None:
     assert category_boost("terraform", "Terraform state drift plan apply") > 0
+
+
+def test_profession_concept_hits() -> None:
+    assert "qa" in concept_hits("QA automation testing defect")
+    assert "developer" in concept_hits("backend developer API debugging")

@@ -1,6 +1,9 @@
 const examples = [
   "How do you handle a P1 outage?",
   "AKS pod keeps restarting with CrashLoopBackOff",
+  "How do you debug a production API issue?",
+  "How do you design test automation?",
+  "How do you gather business requirements?",
   "Kafka consumer lag is increasing",
   "Managed identity cannot read Key Vault secret",
   "A deployment failed in production"

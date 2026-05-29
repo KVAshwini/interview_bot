@@ -5,13 +5,14 @@ from app.config import DB_PATH
 from app.db import all_items, connect
 from app.memory import relevant_memory
 from app.models import AnswerMatch
+from app.professions import ALLOWED_FILTERS, aliases_for
 from app.semantic_search import category_boost, semantic_score
 from app.speech_style import adapt_answer, quick_versions
 from app.text_utils import similarity, token_overlap, tokens
 
 
 MISS_THRESHOLD = 0.60
-ALLOWED_CATEGORY_FILTERS = {"all", "devops", "kubernetes", "azure", "terraform", "linux", "scenario", "behavioral"}
+ALLOWED_CATEGORY_FILTERS = ALLOWED_FILTERS
 
 
 def _matches_category_filter(row: sqlite3.Row, category_filter: str) -> bool:
@@ -40,6 +41,9 @@ def _matches_category_filter(row: sqlite3.Row, category_filter: str) -> bool:
         return "terraform" in haystack or "iac" in haystack
     if category_filter == "linux":
         return "linux" in haystack
+    aliases = aliases_for(category_filter)
+    if aliases:
+        return any(alias in haystack for alias in aliases)
     return True
 
 

@@ -34,6 +34,18 @@ CONCEPTS = {
     },
     "kafka": {"kafka", "consumer lag", "lag", "broker", "partition", "offset", "producer", "consumer"},
     "security": {"security", "secure", "secret", "certificate", "ssl", "tls", "least privilege", "rbac"},
+    "developer": {
+        "developer", "software engineer", "backend", "frontend", "full stack", "api",
+        "code", "coding", "debugging", "system design",
+    },
+    "qa": {"qa", "quality assurance", "testing", "test automation", "selenium", "pytest", "defect", "bug"},
+    "data_engineer": {"data engineer", "etl", "elt", "pipeline", "spark", "airflow", "warehouse", "data lake"},
+    "data_analyst": {"data analyst", "sql", "dashboard", "reporting", "power bi", "tableau", "analysis"},
+    "business_analyst": {"business analyst", "requirements", "stakeholder", "user story", "brd", "process"},
+    "project_manager": {"project manager", "delivery", "timeline", "risk", "scrum", "agile", "stakeholders"},
+    "product_manager": {"product manager", "roadmap", "prioritization", "metrics", "customer", "backlog"},
+    "cloud_engineer": {"cloud engineer", "cloud", "aws", "azure", "gcp", "networking", "iam"},
+    "database_admin": {"database administrator", "dba", "backup", "restore", "replication", "sql server", "oracle"},
 }
 
 
@@ -46,6 +58,16 @@ CATEGORY_HINTS = {
     "linux": {"linux", "monitoring", "incident"},
     "scenario": {"incident", "crashloop", "kafka", "terraform", "monitoring"},
     "behavioral": {"incident"},
+    "developer": {"developer"},
+    "qa": {"qa"},
+    "data_engineer": {"data_engineer"},
+    "data_analyst": {"data_analyst"},
+    "business_analyst": {"business_analyst"},
+    "project_manager": {"project_manager"},
+    "product_manager": {"product_manager"},
+    "cybersecurity": {"security"},
+    "cloud_engineer": {"cloud_engineer", "azure"},
+    "database_admin": {"database_admin"},
 }
 
 

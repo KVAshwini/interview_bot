@@ -30,6 +30,10 @@ class WebValidationTests(unittest.TestCase):
         request = parse_answer_request(json.dumps({"question": "P1 outage", "view": "interview"}))
         self.assertEqual(request["view"], "interview")
 
+    def test_profession_filter_accepted(self) -> None:
+        request = parse_answer_request(json.dumps({"question": "debug API", "category_filter": "developer"}))
+        self.assertEqual(request["category_filter"], "developer")
+
 
 if __name__ == "__main__":
     unittest.main()
