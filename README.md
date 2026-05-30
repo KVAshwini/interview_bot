@@ -50,6 +50,12 @@ Additional profession-specific starter answers live at:
 qa_library/professions/starter_professions.json
 ```
 
+Expanded QA Engineer answers live at:
+
+```text
+qa_library/professions/qa_engineer.json
+```
+
 The profession registry is in:
 
 ```text

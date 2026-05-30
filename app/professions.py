@@ -11,7 +11,21 @@ class Profession:
 PROFESSIONS = [
     Profession("devops", "DevOps / SRE", ("devops", "sre", "production support", "ci/cd")),
     Profession("developer", "Software Developer", ("developer", "software engineer", "backend", "frontend", "full stack")),
-    Profession("qa", "QA / Test Engineer", ("qa", "test engineer", "automation testing", "quality assurance")),
+    Profession(
+        "qa",
+        "QA Engineer / Test Automation",
+        (
+            "qa",
+            "qa engineer",
+            "test engineer",
+            "sdet",
+            "automation testing",
+            "quality assurance",
+            "manual testing",
+            "api testing",
+            "regression testing",
+        ),
+    ),
     Profession("data_engineer", "Data Engineer", ("data engineer", "etl", "data pipeline", "spark")),
     Profession("data_analyst", "Data Analyst", ("data analyst", "sql analyst", "dashboard", "reporting")),
     Profession("business_analyst", "Business Analyst", ("business analyst", "requirements", "stakeholders", "user stories")),
