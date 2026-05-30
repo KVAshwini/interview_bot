@@ -1,13 +1,22 @@
-const examples = [
-  "How do you handle a P1 outage?",
-  "AKS pod keeps restarting with CrashLoopBackOff",
-  "How do you debug a production API issue?",
-  "How do you design test automation?",
-  "How do you gather business requirements?",
-  "Kafka consumer lag is increasing",
-  "Managed identity cannot read Key Vault secret",
-  "A deployment failed in production"
-];
+const exampleSets = {
+  devops: [
+    "How do you handle a P1 outage?",
+    "AKS pod keeps restarting with CrashLoopBackOff",
+    "Kafka consumer lag is increasing",
+    "Managed identity cannot read Key Vault secret",
+    "A deployment failed in production"
+  ],
+  professions: [
+    "How do you debug a production API issue?",
+    "How do you handle flaky automated tests?",
+    "How do you gather business requirements?",
+    "How do you prioritize a product backlog?",
+    "How do you troubleshoot a slow database query?"
+  ]
+};
+
+const uiMode = document.body.dataset.ui || "devops";
+const examples = exampleSets[uiMode] || exampleSets.devops;
 
 const q = document.querySelector("#question");
 const mode = document.querySelector("#mode");

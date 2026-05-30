@@ -126,6 +126,8 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         if path == "/":
             self._send(200, _read_static(STATIC_DIR / "index.html"), "text/html")
+        elif path == "/professions":
+            self._send(200, _read_static(STATIC_DIR / "professions.html"), "text/html")
         elif path == "/static/styles.css":
             self._send(200, _read_static(STATIC_DIR / "styles.css"), "text/css")
         elif path == "/static/app.js":

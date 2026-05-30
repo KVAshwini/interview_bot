@@ -72,6 +72,14 @@ python3 -m app.web --port 8765
 
 Open `http://127.0.0.1:8765`.
 
+The default `/` UI remains DevOps-focused for the original realtime interview workflow.
+
+The multi-profession branch UI is available separately at:
+
+```text
+http://127.0.0.1:8765/professions
+```
+
 The UI shows:
 
 - Quick version

@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Interview Help Bot</title>
+  <title>Interview Help Bot - Professions</title>
   <link rel="stylesheet" href="/static/styles.css">
 </head>
-<body data-ui="devops">
+<body data-ui="professions">
   <header>
     <div class="wrap top">
-      <h1>Interview Help Bot</h1>
+      <h1>Profession Interview Bot</h1>
       <div class="top-actions">
-        <a class="nav-link" href="/professions">Professions</a>
+        <a class="nav-link" href="/">DevOps UI</a>
         <button class="secondary" id="opacity-toggle" type="button" aria-pressed="false">Transparent</button>
-        <div class="status">Local cache • SQLite • no network required</div>
+        <div class="status">Multi-profession library • local SQLite</div>
       </div>
     </div>
   </header>
   <main class="wrap">
     <aside>
       <label for="question">Question or scenario</label>
-      <textarea id="question" placeholder="Example: Production is down and users cannot login. What do you do?"></textarea>
+      <textarea id="question" placeholder="Example: How do you handle flaky automated tests?"></textarea>
       <div class="controls">
         <select id="mode" aria-label="Answer mode">
           <option value="instant">Instant</option>
@@ -30,14 +30,18 @@
           <option value="natural">Natural</option>
           <option value="raw">Raw</option>
         </select>
-        <select id="category-filter" aria-label="Focus area">
+        <select id="category-filter" aria-label="Profession">
           <option value="all">All</option>
-          <option value="devops">DevOps</option>
-          <option value="kubernetes">Kubernetes</option>
-          <option value="azure">Azure</option>
-          <option value="terraform">Terraform</option>
-          <option value="linux">Linux</option>
-          <option value="scenario">Scenario</option>
+          <option value="developer">Developer</option>
+          <option value="qa">QA Engineer</option>
+          <option value="data_engineer">Data Engineer</option>
+          <option value="data_analyst">Data Analyst</option>
+          <option value="business_analyst">Business Analyst</option>
+          <option value="project_manager">Project Manager</option>
+          <option value="product_manager">Product Manager</option>
+          <option value="cybersecurity">Cybersecurity</option>
+          <option value="cloud_engineer">Cloud Engineer</option>
+          <option value="database_admin">Database Admin</option>
           <option value="behavioral">Behavioral</option>
         </select>
         <select id="view" aria-label="View mode">
@@ -59,7 +63,7 @@
       </div>
     </aside>
     <section>
-      <div id="result" class="empty">Ask a question to pull the closest local answer.</div>
+      <div id="result" class="empty">Ask a question to pull the closest profession-specific answer.</div>
     </section>
   </main>
   <script src="/static/app.js"></script>
