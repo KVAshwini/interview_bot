@@ -4,10 +4,22 @@
     "category": "profession",
     "topic": "Software Developer",
     "question": "How do you debug a production API issue?",
-    "alternate_questions": ["API is failing in production. What do you check?", "How do you troubleshoot backend errors?"],
+    "alternate_questions": [
+      "API is failing in production. What do you check?",
+      "How do you troubleshoot backend errors?"
+    ],
     "instant_answer": "I first confirm the user impact, endpoint, status codes, error rate, and recent deployments. Then I check logs with correlation IDs, request payloads, dependency calls, database latency, feature flags, and infrastructure health. If users are affected, I mitigate with rollback, disabling the risky feature, scaling, or routing traffic away. After recovery, I identify root cause and add tests, alerts, or validation to prevent recurrence.",
     "detailed_answer": "I first confirm the user impact, endpoint, status codes, error rate, and recent deployments. Then I check logs with correlation IDs, request payloads, dependency calls, database latency, feature flags, and infrastructure health. If users are affected, I mitigate with rollback, disabling the risky feature, scaling, or routing traffic away. After recovery, I identify root cause and add tests, alerts, or validation to prevent recurrence.\n\nInterview structure:\n- Clarify symptoms and scope.\n- Check logs, traces, metrics, deployment history, dependencies, and data changes.\n- Stabilize first if production is affected.\n- Explain the fix and prevention.",
-    "keywords": ["developer", "software engineer", "api", "debugging", "logs", "correlation id", "rollback", "backend"],
+    "keywords": [
+      "developer",
+      "software engineer",
+      "api",
+      "debugging",
+      "logs",
+      "correlation id",
+      "rollback",
+      "backend"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -16,10 +28,21 @@
     "category": "profession",
     "topic": "Software Developer",
     "question": "How do you approach system design?",
-    "alternate_questions": ["Walk me through designing a scalable service.", "How do you design a backend system?"],
+    "alternate_questions": [
+      "Walk me through designing a scalable service.",
+      "How do you design a backend system?"
+    ],
     "instant_answer": "I start by clarifying requirements, users, traffic, data model, APIs, reliability targets, and constraints. Then I design the main components, explain data flow, storage choice, caching, async processing, failure handling, monitoring, and rollout strategy. I keep tradeoffs explicit instead of overengineering too early.",
-    "detailed_answer": "I start by clarifying requirements, users, traffic, data model, APIs, reliability targets, and constraints. Then I design the main components, explain data flow, storage choice, caching, async processing, failure handling, monitoring, and rollout strategy. I keep tradeoffs explicit instead of overengineering too early.",
-    "keywords": ["developer", "system design", "api", "scalability", "database", "cache", "reliability"],
+    "detailed_answer": "I start by clarifying requirements, users, traffic, data model, APIs, reliability targets, and constraints. Then I design the main components, explain data flow, storage choice, caching, async processing, failure handling, monitoring, and rollout strategy. I keep tradeoffs explicit instead of overengineering too early.\n\nInterview structure:\n- Start by answering 'How do you approach system design?' directly.\n- Explain the practical checks, examples, and tradeoffs for Software Developer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "developer",
+      "system design",
+      "api",
+      "scalability",
+      "database",
+      "cache",
+      "reliability"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -28,10 +51,22 @@
     "category": "profession",
     "topic": "QA / Test Engineer",
     "question": "How do you design test automation for a new feature?",
-    "alternate_questions": ["What is your test automation strategy?", "How do you decide what to automate?"],
+    "alternate_questions": [
+      "What is your test automation strategy?",
+      "How do you decide what to automate?"
+    ],
     "instant_answer": "I start by understanding the feature risk, user flows, acceptance criteria, and failure impact. I automate stable, repeatable checks at the right layer: unit tests for logic, API tests for contracts, UI tests for critical flows, and regression tests for high-risk areas. I avoid automating unstable flows too early and keep tests readable, reliable, and integrated into CI.",
     "detailed_answer": "I start by understanding the feature risk, user flows, acceptance criteria, and failure impact. I automate stable, repeatable checks at the right layer: unit tests for logic, API tests for contracts, UI tests for critical flows, and regression tests for high-risk areas. I avoid automating unstable flows too early and keep tests readable, reliable, and integrated into CI.",
-    "keywords": ["qa", "test engineer", "automation", "selenium", "pytest", "regression", "ci", "quality assurance"],
+    "keywords": [
+      "qa",
+      "test engineer",
+      "automation",
+      "selenium",
+      "pytest",
+      "regression",
+      "ci",
+      "quality assurance"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -40,10 +75,21 @@
     "category": "profession",
     "topic": "QA / Test Engineer",
     "question": "How do you handle a critical bug found before release?",
-    "alternate_questions": ["A release blocker is found. What do you do?", "How do you triage defects?"],
+    "alternate_questions": [
+      "A release blocker is found. What do you do?",
+      "How do you triage defects?"
+    ],
     "instant_answer": "I reproduce the issue, capture clear evidence, identify severity and affected flows, and immediately communicate with development and release owners. I check whether there is a workaround, whether the release should be blocked, and what regression coverage is needed after the fix. I keep the defect report factual with steps, expected result, actual result, logs, screenshots, and environment details.",
     "detailed_answer": "I reproduce the issue, capture clear evidence, identify severity and affected flows, and immediately communicate with development and release owners. I check whether there is a workaround, whether the release should be blocked, and what regression coverage is needed after the fix. I keep the defect report factual with steps, expected result, actual result, logs, screenshots, and environment details.",
-    "keywords": ["qa", "bug", "defect", "triage", "release blocker", "regression", "severity"],
+    "keywords": [
+      "qa",
+      "bug",
+      "defect",
+      "triage",
+      "release blocker",
+      "regression",
+      "severity"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -52,10 +98,22 @@
     "category": "profession",
     "topic": "Data Engineer",
     "question": "How do you troubleshoot a failing data pipeline?",
-    "alternate_questions": ["ETL job failed. What do you check?", "How do you debug data pipeline failures?"],
+    "alternate_questions": [
+      "ETL job failed. What do you check?",
+      "How do you debug data pipeline failures?"
+    ],
     "instant_answer": "I check where the pipeline failed: source extraction, transformation, validation, load, scheduling, or downstream consumption. Then I review logs, input data quality, schema changes, partition availability, credentials, retries, resource limits, and recent code changes. I protect data correctness first, rerun safely only when idempotency is clear, and add validation or alerting to prevent silent bad data.",
     "detailed_answer": "I check where the pipeline failed: source extraction, transformation, validation, load, scheduling, or downstream consumption. Then I review logs, input data quality, schema changes, partition availability, credentials, retries, resource limits, and recent code changes. I protect data correctness first, rerun safely only when idempotency is clear, and add validation or alerting to prevent silent bad data.",
-    "keywords": ["data engineer", "etl", "pipeline", "schema", "data quality", "airflow", "spark", "warehouse"],
+    "keywords": [
+      "data engineer",
+      "etl",
+      "pipeline",
+      "schema",
+      "data quality",
+      "airflow",
+      "spark",
+      "warehouse"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -64,10 +122,20 @@
     "category": "profession",
     "topic": "Data Engineer",
     "question": "How do you ensure data quality in pipelines?",
-    "alternate_questions": ["How do you prevent bad data?", "What data validation checks do you add?"],
+    "alternate_questions": [
+      "How do you prevent bad data?",
+      "What data validation checks do you add?"
+    ],
     "instant_answer": "I add checks for schema, nulls, duplicates, ranges, referential integrity, freshness, volume, and business rules. I make failures visible through alerts and dashboards, quarantine bad records when possible, and document ownership. I also use idempotent jobs and reconciliation checks so reruns do not create inconsistent data.",
-    "detailed_answer": "I add checks for schema, nulls, duplicates, ranges, referential integrity, freshness, volume, and business rules. I make failures visible through alerts and dashboards, quarantine bad records when possible, and document ownership. I also use idempotent jobs and reconciliation checks so reruns do not create inconsistent data.",
-    "keywords": ["data engineer", "data quality", "validation", "schema", "freshness", "reconciliation"],
+    "detailed_answer": "I add checks for schema, nulls, duplicates, ranges, referential integrity, freshness, volume, and business rules. I make failures visible through alerts and dashboards, quarantine bad records when possible, and document ownership. I also use idempotent jobs and reconciliation checks so reruns do not create inconsistent data.\n\nInterview structure:\n- Start by answering 'How do you ensure data quality in pipelines?' directly.\n- Explain the practical checks, examples, and tradeoffs for Data Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "data engineer",
+      "data quality",
+      "validation",
+      "schema",
+      "freshness",
+      "reconciliation"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -76,10 +144,21 @@
     "category": "profession",
     "topic": "Data Analyst",
     "question": "How do you build a useful dashboard?",
-    "alternate_questions": ["How do you approach reporting requirements?", "What makes a dashboard effective?"],
+    "alternate_questions": [
+      "How do you approach reporting requirements?",
+      "What makes a dashboard effective?"
+    ],
     "instant_answer": "I start with the business question, audience, decisions the dashboard should support, and definitions of each metric. Then I validate data sources, build clear visuals, avoid vanity metrics, and include filters that users actually need. Before release, I reconcile numbers with source systems and get stakeholder sign-off.",
-    "detailed_answer": "I start with the business question, audience, decisions the dashboard should support, and definitions of each metric. Then I validate data sources, build clear visuals, avoid vanity metrics, and include filters that users actually need. Before release, I reconcile numbers with source systems and get stakeholder sign-off.",
-    "keywords": ["data analyst", "dashboard", "sql", "reporting", "metrics", "power bi", "tableau"],
+    "detailed_answer": "I start with the business question, audience, decisions the dashboard should support, and definitions of each metric. Then I validate data sources, build clear visuals, avoid vanity metrics, and include filters that users actually need. Before release, I reconcile numbers with source systems and get stakeholder sign-off.\n\nInterview structure:\n- Start by answering 'How do you build a useful dashboard?' directly.\n- Explain the practical checks, examples, and tradeoffs for Data Analyst.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "data analyst",
+      "dashboard",
+      "sql",
+      "reporting",
+      "metrics",
+      "power bi",
+      "tableau"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -88,10 +167,21 @@
     "category": "profession",
     "topic": "Data Analyst",
     "question": "What do you do if a stakeholder says the numbers look wrong?",
-    "alternate_questions": ["How do you validate a report?", "Dashboard numbers do not match. What do you check?"],
+    "alternate_questions": [
+      "How do you validate a report?",
+      "Dashboard numbers do not match. What do you check?"
+    ],
     "instant_answer": "I first clarify which number is wrong, expected value, time period, filters, and source of truth. Then I check query logic, joins, filters, date handling, refresh timing, duplicates, missing records, and metric definitions. I communicate findings clearly and update the report or definition only after confirming the correct business rule.",
-    "detailed_answer": "I first clarify which number is wrong, expected value, time period, filters, and source of truth. Then I check query logic, joins, filters, date handling, refresh timing, duplicates, missing records, and metric definitions. I communicate findings clearly and update the report or definition only after confirming the correct business rule.",
-    "keywords": ["data analyst", "sql", "metric", "dashboard", "validation", "stakeholder", "reporting"],
+    "detailed_answer": "I first clarify which number is wrong, expected value, time period, filters, and source of truth. Then I check query logic, joins, filters, date handling, refresh timing, duplicates, missing records, and metric definitions. I communicate findings clearly and update the report or definition only after confirming the correct business rule.\n\nInterview structure:\n- Start by answering 'What do you do if a stakeholder says the numbers look wrong?' directly.\n- Explain the practical checks, examples, and tradeoffs for Data Analyst.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "data analyst",
+      "sql",
+      "metric",
+      "dashboard",
+      "validation",
+      "stakeholder",
+      "reporting"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -100,10 +190,20 @@
     "category": "profession",
     "topic": "Business Analyst",
     "question": "How do you gather requirements from stakeholders?",
-    "alternate_questions": ["How do you write good user stories?", "How do you handle unclear requirements?"],
+    "alternate_questions": [
+      "How do you write good user stories?",
+      "How do you handle unclear requirements?"
+    ],
     "instant_answer": "I start by understanding the business problem, users, current process, pain points, constraints, and success criteria. I ask clarifying questions, document assumptions, define scope, and convert requirements into clear user stories with acceptance criteria. I validate back with stakeholders so everyone agrees before development starts.",
-    "detailed_answer": "I start by understanding the business problem, users, current process, pain points, constraints, and success criteria. I ask clarifying questions, document assumptions, define scope, and convert requirements into clear user stories with acceptance criteria. I validate back with stakeholders so everyone agrees before development starts.",
-    "keywords": ["business analyst", "requirements", "stakeholders", "user stories", "acceptance criteria", "process"],
+    "detailed_answer": "I start by understanding the business problem, users, current process, pain points, constraints, and success criteria. I ask clarifying questions, document assumptions, define scope, and convert requirements into clear user stories with acceptance criteria. I validate back with stakeholders so everyone agrees before development starts.\n\nInterview structure:\n- Start by answering 'How do you gather requirements from stakeholders?' directly.\n- Explain the practical checks, examples, and tradeoffs for Business Analyst.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "business analyst",
+      "requirements",
+      "stakeholders",
+      "user stories",
+      "acceptance criteria",
+      "process"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -112,10 +212,20 @@
     "category": "profession",
     "topic": "Business Analyst",
     "question": "How do you handle scope changes?",
-    "alternate_questions": ["Stakeholders keep changing requirements. What do you do?", "How do you manage requirement changes?"],
+    "alternate_questions": [
+      "Stakeholders keep changing requirements. What do you do?",
+      "How do you manage requirement changes?"
+    ],
     "instant_answer": "I clarify the reason for the change, impact on timeline, cost, risk, testing, and downstream teams. I document the change, review priority with stakeholders and product or project owners, and make sure decisions are visible. I do not treat scope change as bad by default, but I make the tradeoff explicit.",
-    "detailed_answer": "I clarify the reason for the change, impact on timeline, cost, risk, testing, and downstream teams. I document the change, review priority with stakeholders and product or project owners, and make sure decisions are visible. I do not treat scope change as bad by default, but I make the tradeoff explicit.",
-    "keywords": ["business analyst", "scope", "change management", "requirements", "stakeholders", "impact analysis"],
+    "detailed_answer": "I clarify the reason for the change, impact on timeline, cost, risk, testing, and downstream teams. I document the change, review priority with stakeholders and product or project owners, and make sure decisions are visible. I do not treat scope change as bad by default, but I make the tradeoff explicit.\n\nInterview structure:\n- Start by answering 'How do you handle scope changes?' directly.\n- Explain the practical checks, examples, and tradeoffs for Business Analyst.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "business analyst",
+      "scope",
+      "change management",
+      "requirements",
+      "stakeholders",
+      "impact analysis"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -124,10 +234,21 @@
     "category": "profession",
     "topic": "Project Manager",
     "question": "How do you manage project risks?",
-    "alternate_questions": ["How do you handle delivery risk?", "A project is slipping. What do you do?"],
+    "alternate_questions": [
+      "How do you handle delivery risk?",
+      "A project is slipping. What do you do?"
+    ],
     "instant_answer": "I identify risks early, document probability and impact, assign owners, define mitigation plans, and review them regularly. If a timeline is at risk, I look at scope, dependencies, blockers, staffing, and decision delays. I communicate clearly with stakeholders and escalate with options, not just problems.",
-    "detailed_answer": "I identify risks early, document probability and impact, assign owners, define mitigation plans, and review them regularly. If a timeline is at risk, I look at scope, dependencies, blockers, staffing, and decision delays. I communicate clearly with stakeholders and escalate with options, not just problems.",
-    "keywords": ["project manager", "risk", "timeline", "delivery", "stakeholders", "mitigation", "escalation"],
+    "detailed_answer": "I identify risks early, document probability and impact, assign owners, define mitigation plans, and review them regularly. If a timeline is at risk, I look at scope, dependencies, blockers, staffing, and decision delays. I communicate clearly with stakeholders and escalate with options, not just problems.\n\nInterview structure:\n- Start by answering 'How do you manage project risks?' directly.\n- Explain the practical checks, examples, and tradeoffs for Project Manager.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "project manager",
+      "risk",
+      "timeline",
+      "delivery",
+      "stakeholders",
+      "mitigation",
+      "escalation"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -136,10 +257,20 @@
     "category": "profession",
     "topic": "Project Manager",
     "question": "How do you handle conflict between teams?",
-    "alternate_questions": ["Teams disagree on priority. What do you do?", "How do you manage stakeholder conflict?"],
+    "alternate_questions": [
+      "Teams disagree on priority. What do you do?",
+      "How do you manage stakeholder conflict?"
+    ],
     "instant_answer": "I bring the discussion back to facts, goals, impact, timeline, and decision ownership. I make sure each team explains constraints, then align on options and tradeoffs. If needed, I escalate to the right decision maker with a clear recommendation and impact summary.",
-    "detailed_answer": "I bring the discussion back to facts, goals, impact, timeline, and decision ownership. I make sure each team explains constraints, then align on options and tradeoffs. If needed, I escalate to the right decision maker with a clear recommendation and impact summary.",
-    "keywords": ["project manager", "conflict", "stakeholders", "priority", "communication", "escalation"],
+    "detailed_answer": "I bring the discussion back to facts, goals, impact, timeline, and decision ownership. I make sure each team explains constraints, then align on options and tradeoffs. If needed, I escalate to the right decision maker with a clear recommendation and impact summary.\n\nInterview structure:\n- Start by answering 'How do you handle conflict between teams?' directly.\n- Explain the practical checks, examples, and tradeoffs for Project Manager.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "project manager",
+      "conflict",
+      "stakeholders",
+      "priority",
+      "communication",
+      "escalation"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -148,10 +279,20 @@
     "category": "profession",
     "topic": "Product Manager",
     "question": "How do you prioritize a product backlog?",
-    "alternate_questions": ["How do you decide what to build next?", "How do you prioritize features?"],
+    "alternate_questions": [
+      "How do you decide what to build next?",
+      "How do you prioritize features?"
+    ],
     "instant_answer": "I prioritize based on customer impact, business value, evidence, effort, risk, dependencies, and strategic fit. I use data where available, but I also validate with users and stakeholders. I make tradeoffs transparent and keep the roadmap focused on outcomes, not just feature volume.",
-    "detailed_answer": "I prioritize based on customer impact, business value, evidence, effort, risk, dependencies, and strategic fit. I use data where available, but I also validate with users and stakeholders. I make tradeoffs transparent and keep the roadmap focused on outcomes, not just feature volume.",
-    "keywords": ["product manager", "backlog", "roadmap", "prioritization", "customer impact", "metrics"],
+    "detailed_answer": "I prioritize based on customer impact, business value, evidence, effort, risk, dependencies, and strategic fit. I use data where available, but I also validate with users and stakeholders. I make tradeoffs transparent and keep the roadmap focused on outcomes, not just feature volume.\n\nInterview structure:\n- Start by answering 'How do you prioritize a product backlog?' directly.\n- Explain the practical checks, examples, and tradeoffs for Product Manager.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "product manager",
+      "backlog",
+      "roadmap",
+      "prioritization",
+      "customer impact",
+      "metrics"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -160,10 +301,20 @@
     "category": "profession",
     "topic": "Product Manager",
     "question": "What do you do if a launched feature does not perform well?",
-    "alternate_questions": ["A feature misses its success metric. What do you do?", "How do you evaluate product launches?"],
+    "alternate_questions": [
+      "A feature misses its success metric. What do you do?",
+      "How do you evaluate product launches?"
+    ],
     "instant_answer": "I compare actual results against the success metrics, segment user behavior, review feedback, check adoption funnel, and confirm whether the problem is awareness, usability, value, or technical quality. Then I decide whether to iterate, reposition, roll back, or stop investment. I communicate learnings clearly and avoid defending a feature just because we built it.",
-    "detailed_answer": "I compare actual results against the success metrics, segment user behavior, review feedback, check adoption funnel, and confirm whether the problem is awareness, usability, value, or technical quality. Then I decide whether to iterate, reposition, roll back, or stop investment. I communicate learnings clearly and avoid defending a feature just because we built it.",
-    "keywords": ["product manager", "metrics", "launch", "adoption", "customer feedback", "roadmap"],
+    "detailed_answer": "I compare actual results against the success metrics, segment user behavior, review feedback, check adoption funnel, and confirm whether the problem is awareness, usability, value, or technical quality. Then I decide whether to iterate, reposition, roll back, or stop investment. I communicate learnings clearly and avoid defending a feature just because we built it.\n\nInterview structure:\n- Start by answering 'What do you do if a launched feature does not perform well?' directly.\n- Explain the practical checks, examples, and tradeoffs for Product Manager.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "product manager",
+      "metrics",
+      "launch",
+      "adoption",
+      "customer feedback",
+      "roadmap"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -172,10 +323,21 @@
     "category": "profession",
     "topic": "Cybersecurity Analyst",
     "question": "How do you investigate a security alert?",
-    "alternate_questions": ["A SIEM alert fires. What do you do?", "How do you triage security incidents?"],
+    "alternate_questions": [
+      "A SIEM alert fires. What do you do?",
+      "How do you triage security incidents?"
+    ],
     "instant_answer": "I validate the alert, identify affected asset and user, check severity, timeline, related events, source IPs, authentication logs, endpoint signals, and known threat indicators. If risk is real, I contain first by disabling access, isolating host, or blocking traffic based on procedure. Then I preserve evidence, escalate, and document root cause and prevention.",
-    "detailed_answer": "I validate the alert, identify affected asset and user, check severity, timeline, related events, source IPs, authentication logs, endpoint signals, and known threat indicators. If risk is real, I contain first by disabling access, isolating host, or blocking traffic based on procedure. Then I preserve evidence, escalate, and document root cause and prevention.",
-    "keywords": ["cybersecurity", "security analyst", "siem", "alert", "incident", "containment", "logs"],
+    "detailed_answer": "I validate the alert, identify affected asset and user, check severity, timeline, related events, source IPs, authentication logs, endpoint signals, and known threat indicators. If risk is real, I contain first by disabling access, isolating host, or blocking traffic based on procedure. Then I preserve evidence, escalate, and document root cause and prevention.\n\nInterview structure:\n- Start by answering 'How do you investigate a security alert?' directly.\n- Explain the practical checks, examples, and tradeoffs for Cybersecurity Analyst.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "cybersecurity",
+      "security analyst",
+      "siem",
+      "alert",
+      "incident",
+      "containment",
+      "logs"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -184,10 +346,20 @@
     "category": "profession",
     "topic": "Cybersecurity Analyst",
     "question": "How do you prioritize vulnerabilities?",
-    "alternate_questions": ["How do you handle vulnerability management?", "What makes a vulnerability urgent?"],
+    "alternate_questions": [
+      "How do you handle vulnerability management?",
+      "What makes a vulnerability urgent?"
+    ],
     "instant_answer": "I prioritize based on severity, exploitability, asset criticality, exposure, compensating controls, and business impact. Internet-facing critical systems come first. I validate false positives, assign owners, track remediation SLAs, and escalate overdue high-risk items with clear impact.",
-    "detailed_answer": "I prioritize based on severity, exploitability, asset criticality, exposure, compensating controls, and business impact. Internet-facing critical systems come first. I validate false positives, assign owners, track remediation SLAs, and escalate overdue high-risk items with clear impact.",
-    "keywords": ["cybersecurity", "vulnerability", "risk", "cvss", "patching", "asset criticality"],
+    "detailed_answer": "I prioritize based on severity, exploitability, asset criticality, exposure, compensating controls, and business impact. Internet-facing critical systems come first. I validate false positives, assign owners, track remediation SLAs, and escalate overdue high-risk items with clear impact.\n\nInterview structure:\n- Start by answering 'How do you prioritize vulnerabilities?' directly.\n- Explain the practical checks, examples, and tradeoffs for Cybersecurity Analyst.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "cybersecurity",
+      "vulnerability",
+      "risk",
+      "cvss",
+      "patching",
+      "asset criticality"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -196,10 +368,23 @@
     "category": "profession",
     "topic": "Cloud Engineer",
     "question": "How do you design a secure and reliable cloud environment?",
-    "alternate_questions": ["How do you approach cloud architecture?", "How do you build cloud landing zones?"],
+    "alternate_questions": [
+      "How do you approach cloud architecture?",
+      "How do you build cloud landing zones?"
+    ],
     "instant_answer": "I start with identity, network segmentation, logging, monitoring, backup, cost controls, and infrastructure as code. I apply least privilege, private networking where needed, policy controls, tagging, and baseline alerts. For reliability, I design around availability zones, health checks, scaling, recovery objectives, and tested rollback or failover.",
-    "detailed_answer": "I start with identity, network segmentation, logging, monitoring, backup, cost controls, and infrastructure as code. I apply least privilege, private networking where needed, policy controls, tagging, and baseline alerts. For reliability, I design around availability zones, health checks, scaling, recovery objectives, and tested rollback or failover.",
-    "keywords": ["cloud engineer", "cloud", "azure", "aws", "gcp", "iam", "networking", "reliability", "iac"],
+    "detailed_answer": "I start with identity, network segmentation, logging, monitoring, backup, cost controls, and infrastructure as code. I apply least privilege, private networking where needed, policy controls, tagging, and baseline alerts. For reliability, I design around availability zones, health checks, scaling, recovery objectives, and tested rollback or failover.\n\nInterview structure:\n- Start by answering 'How do you design a secure and reliable cloud environment?' directly.\n- Explain the practical checks, examples, and tradeoffs for Cloud Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "cloud engineer",
+      "cloud",
+      "azure",
+      "aws",
+      "gcp",
+      "iam",
+      "networking",
+      "reliability",
+      "iac"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -208,10 +393,21 @@
     "category": "profession",
     "topic": "Cloud Engineer",
     "question": "How do you control cloud cost?",
-    "alternate_questions": ["How do you optimize cloud spending?", "Cloud bill increased. What do you check?"],
+    "alternate_questions": [
+      "How do you optimize cloud spending?",
+      "Cloud bill increased. What do you check?"
+    ],
     "instant_answer": "I check cost by service, subscription or account, tags, region, usage trend, idle resources, oversized compute, storage growth, data transfer, and recent deployments. Then I right-size, remove unused resources, add budgets and alerts, enforce tagging, and review architecture choices like autoscaling, reserved capacity, or lifecycle policies.",
-    "detailed_answer": "I check cost by service, subscription or account, tags, region, usage trend, idle resources, oversized compute, storage growth, data transfer, and recent deployments. Then I right-size, remove unused resources, add budgets and alerts, enforce tagging, and review architecture choices like autoscaling, reserved capacity, or lifecycle policies.",
-    "keywords": ["cloud engineer", "cost", "finops", "tags", "budget", "right-size", "autoscaling"],
+    "detailed_answer": "I check cost by service, subscription or account, tags, region, usage trend, idle resources, oversized compute, storage growth, data transfer, and recent deployments. Then I right-size, remove unused resources, add budgets and alerts, enforce tagging, and review architecture choices like autoscaling, reserved capacity, or lifecycle policies.\n\nInterview structure:\n- Start by answering 'How do you control cloud cost?' directly.\n- Explain the practical checks, examples, and tradeoffs for Cloud Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "cloud engineer",
+      "cost",
+      "finops",
+      "tags",
+      "budget",
+      "right-size",
+      "autoscaling"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -220,10 +416,21 @@
     "category": "profession",
     "topic": "Database Administrator",
     "question": "How do you troubleshoot a slow database query?",
-    "alternate_questions": ["A query is slow in production. What do you check?", "How do you tune SQL performance?"],
+    "alternate_questions": [
+      "A query is slow in production. What do you check?",
+      "How do you tune SQL performance?"
+    ],
     "instant_answer": "I confirm whether the slowness is new, how often it occurs, affected users, and the exact query plan. Then I check indexes, statistics, joins, filters, parameter sniffing, locks, wait events, CPU, memory, IO, and recent data growth or deployment changes. I tune carefully, test with realistic data, and avoid risky production changes without rollback.",
-    "detailed_answer": "I confirm whether the slowness is new, how often it occurs, affected users, and the exact query plan. Then I check indexes, statistics, joins, filters, parameter sniffing, locks, wait events, CPU, memory, IO, and recent data growth or deployment changes. I tune carefully, test with realistic data, and avoid risky production changes without rollback.",
-    "keywords": ["database administrator", "dba", "sql", "query plan", "indexes", "locks", "performance"],
+    "detailed_answer": "I confirm whether the slowness is new, how often it occurs, affected users, and the exact query plan. Then I check indexes, statistics, joins, filters, parameter sniffing, locks, wait events, CPU, memory, IO, and recent data growth or deployment changes. I tune carefully, test with realistic data, and avoid risky production changes without rollback.\n\nInterview structure:\n- Start by answering 'How do you troubleshoot a slow database query?' directly.\n- Explain the practical checks, examples, and tradeoffs for Database Administrator.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "database administrator",
+      "dba",
+      "sql",
+      "query plan",
+      "indexes",
+      "locks",
+      "performance"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -232,10 +439,21 @@
     "category": "profession",
     "topic": "Database Administrator",
     "question": "How do you validate database backups?",
-    "alternate_questions": ["How do you know backups are reliable?", "What is your backup and restore strategy?"],
+    "alternate_questions": [
+      "How do you know backups are reliable?",
+      "What is your backup and restore strategy?"
+    ],
     "instant_answer": "I do not treat a backup as valid until restore has been tested. I check backup schedule, success status, retention, encryption, offsite copy, restore time objective, restore point objective, and access controls. I also run periodic restore drills and document exact recovery steps for critical systems.",
-    "detailed_answer": "I do not treat a backup as valid until restore has been tested. I check backup schedule, success status, retention, encryption, offsite copy, restore time objective, restore point objective, and access controls. I also run periodic restore drills and document exact recovery steps for critical systems.",
-    "keywords": ["database administrator", "dba", "backup", "restore", "rto", "rpo", "disaster recovery"],
+    "detailed_answer": "I do not treat a backup as valid until restore has been tested. I check backup schedule, success status, retention, encryption, offsite copy, restore time objective, restore point objective, and access controls. I also run periodic restore drills and document exact recovery steps for critical systems.\n\nInterview structure:\n- Start by answering 'How do you validate database backups?' directly.\n- Explain the practical checks, examples, and tradeoffs for Database Administrator.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "database administrator",
+      "dba",
+      "backup",
+      "restore",
+      "rto",
+      "rpo",
+      "disaster recovery"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   }

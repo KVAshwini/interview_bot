@@ -8,8 +8,8 @@
       "What makes a React component reusable?",
       "How do you avoid over-abstracting UI components?"
     ],
-    "instant_answer": "For component design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For component design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For component design, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For component design, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "react",
@@ -28,8 +28,8 @@
       "How does TypeScript reduce bugs?",
       "How do frontend and backend types stay aligned?"
     ],
-    "instant_answer": "For typescript, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For typescript, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For typescript, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For typescript, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "typescript",
@@ -48,8 +48,8 @@
       "Client routing vs server routing?",
       "How do protected routes work?"
     ],
-    "instant_answer": "For routing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For routing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For routing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For routing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "routing",
@@ -68,8 +68,8 @@
       "When do you use server-side rendering?",
       "What are tradeoffs of client-side rendering?"
     ],
-    "instant_answer": "For server rendering, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For server rendering, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For server rendering, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For server rendering, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "ssr",
@@ -88,8 +88,8 @@
       "How do you handle loading and error states?",
       "How do frontend apps call APIs reliably?"
     ],
-    "instant_answer": "For api integration, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For api integration, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For api integration, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For api integration, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "api",
@@ -108,8 +108,8 @@
       "How do you handle frontend crashes?",
       "How do you prevent one UI error from breaking a page?"
     ],
-    "instant_answer": "For error boundaries, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For error boundaries, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For error boundaries, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For error boundaries, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "react",
@@ -128,8 +128,8 @@
       "How do you manage form validation and submission?",
       "How do you handle form errors from APIs?"
     ],
-    "instant_answer": "For forms, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For forms, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For forms, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For forms, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "forms",
@@ -148,8 +148,8 @@
       "What accessibility checks do you perform?",
       "How do ARIA and keyboard navigation matter?"
     ],
-    "instant_answer": "For accessibility, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For accessibility, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For accessibility, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For accessibility, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "accessibility",
@@ -168,8 +168,8 @@
       "How do you support desktop and mobile?",
       "What causes layout bugs?"
     ],
-    "instant_answer": "For responsive design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For responsive design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For responsive design, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For responsive design, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "responsive design",
@@ -188,8 +188,8 @@
       "CSS modules vs utility classes?",
       "How do you prevent style conflicts?"
     ],
-    "instant_answer": "For css architecture, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For css architecture, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For css architecture, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For css architecture, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "css",
@@ -208,8 +208,8 @@
       "Unit vs component vs end-to-end tests?",
       "How do you test React behavior?"
     ],
-    "instant_answer": "For frontend testing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For frontend testing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For frontend testing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For frontend testing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "frontend testing",
@@ -228,8 +228,8 @@
       "How do you avoid flaky UI tests?",
       "What user journeys should be automated?"
     ],
-    "instant_answer": "For e2e testing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For e2e testing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For e2e testing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For e2e testing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "e2e",
@@ -248,8 +248,8 @@
       "How do you protect tokens?",
       "How do CORS and cookies affect security?"
     ],
-    "instant_answer": "For api security, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For api security, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For api security, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For api security, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "security",
@@ -268,8 +268,8 @@
       "When are CSRF tokens needed?",
       "How do SameSite cookies help?"
     ],
-    "instant_answer": "For csrf, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For csrf, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For csrf, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For csrf, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "csrf",
@@ -288,8 +288,8 @@
       "How can frontend code expose XSS?",
       "How do escaping and CSP help?"
     ],
-    "instant_answer": "For xss, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For xss, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For xss, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For xss, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "xss",
@@ -308,8 +308,8 @@
       "Why do browsers block cross-origin requests?",
       "How do you configure CORS safely?"
     ],
-    "instant_answer": "For cors, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For cors, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For cors, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For cors, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "cors",
@@ -328,8 +328,8 @@
       "How do refresh tokens work?",
       "How do you handle expired sessions?"
     ],
-    "instant_answer": "For jwt refresh, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For jwt refresh, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For jwt refresh, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For jwt refresh, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "jwt",
@@ -348,8 +348,8 @@
       "How do frontend uploads connect to backend storage?",
       "How do you validate uploaded files?"
     ],
-    "instant_answer": "For file uploads, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For file uploads, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For file uploads, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For file uploads, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "file upload",
@@ -368,8 +368,8 @@
       "WebSockets vs polling?",
       "How do you handle live updates in full-stack apps?"
     ],
-    "instant_answer": "For real time, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For real time, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For real time, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For real time, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "websocket",
@@ -388,8 +388,8 @@
       "How do in-app and email notifications work?",
       "How do you avoid duplicate notifications?"
     ],
-    "instant_answer": "For notifications, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For notifications, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For notifications, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For notifications, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "notifications",
@@ -408,8 +408,8 @@
       "Database search vs search engine?",
       "How do filters and pagination work with search?"
     ],
-    "instant_answer": "For search, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For search, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For search, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For search, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "search",
@@ -428,8 +428,8 @@
       "When should the UI update before the server responds?",
       "How do you rollback optimistic changes?"
     ],
-    "instant_answer": "For optimistic updates, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For optimistic updates, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For optimistic updates, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For optimistic updates, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "optimistic update",
@@ -449,8 +449,8 @@
       "How do query caches work?",
       "The browser shows old data after the backend update succeeds. What do you check?"
     ],
-    "instant_answer": "For cache invalidation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For cache invalidation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For cache invalidation, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For cache invalidation, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "cache",
@@ -469,8 +469,8 @@
       "How do APIs return paged data?",
       "Cursor vs offset for frontend lists?"
     ],
-    "instant_answer": "For backend pagination, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For backend pagination, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For backend pagination, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For backend pagination, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "pagination",
@@ -489,8 +489,8 @@
       "How do OpenAPI or generated types help?",
       "How do you avoid contract drift?"
     ],
-    "instant_answer": "For schema sharing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For schema sharing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For schema sharing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For schema sharing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "openapi",
@@ -509,8 +509,8 @@
       "How do environment variables work in web apps?",
       "What config should not be exposed to browsers?"
     ],
-    "instant_answer": "For environment config, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For environment config, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For environment config, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For environment config, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "configuration",
@@ -529,8 +529,8 @@
       "How do frontend and backend deploy together?",
       "What should a full-stack CI/CD pipeline do?"
     ],
-    "instant_answer": "For deployment, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For deployment, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For deployment, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For deployment, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "deployment",
@@ -549,8 +549,8 @@
       "Monorepo vs multiple repos?",
       "How do full-stack teams share code?"
     ],
-    "instant_answer": "For monorepo, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For monorepo, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For monorepo, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For monorepo, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "monorepo",
@@ -569,8 +569,8 @@
       "How do you map API errors to form errors?",
       "What makes error handling user-friendly?"
     ],
-    "instant_answer": "For api errors, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For api errors, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For api errors, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For api errors, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "api errors",
@@ -589,8 +589,8 @@
       "How do you prevent confusing UI states?",
       "How do frontend apps handle slow APIs?"
     ],
-    "instant_answer": "For loading states, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For loading states, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For loading states, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For loading states, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "loading states",
@@ -609,8 +609,8 @@
       "How do backend data models shape UI behavior?",
       "How do you avoid overfetching?"
     ],
-    "instant_answer": "For database design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For database design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For database design, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For database design, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "database",
@@ -629,8 +629,8 @@
       "GraphQL vs REST?",
       "What are GraphQL tradeoffs?"
     ],
-    "instant_answer": "For graphql, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For graphql, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For graphql, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For graphql, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "graphql",
@@ -649,8 +649,8 @@
       "How do you design resource endpoints?",
       "What should API responses include?"
     ],
-    "instant_answer": "For rest design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For rest design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For rest design, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For rest design, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "rest",
@@ -669,8 +669,8 @@
       "How do you show server validation errors?",
       "How do shared validation schemas help?"
     ],
-    "instant_answer": "For backend validation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For backend validation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For backend validation, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For backend validation, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "validation",
@@ -689,8 +689,8 @@
       "Should frontend hide unauthorized actions?",
       "How do backend permissions and UI permissions work together?"
     ],
-    "instant_answer": "For role based ui, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For role based ui, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For role based ui, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For role based ui, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "rbac",
@@ -709,8 +709,8 @@
       "How do you prevent bundle size growth?",
       "How do you monitor web performance over time?"
     ],
-    "instant_answer": "For performance budgets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For performance budgets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For performance budgets, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For performance budgets, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "performance budget",
@@ -729,8 +729,8 @@
       "How do image sizes affect performance?",
       "What are lazy loading and responsive images?"
     ],
-    "instant_answer": "For image optimization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For image optimization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For image optimization, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For image optimization, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "images",
@@ -749,8 +749,8 @@
       "What is virtualization?",
       "How do you avoid slow tables in frontend apps?"
     ],
-    "instant_answer": "For large lists, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For large lists, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For large lists, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For large lists, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "virtualization",
@@ -769,8 +769,8 @@
       "Why does UI show old data?",
       "How do closures and async updates affect React state?"
     ],
-    "instant_answer": "For state bugs, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For state bugs, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For state bugs, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For state bugs, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "react",
@@ -789,8 +789,8 @@
       "How do you handle multiple API responses arriving out of order?",
       "How do you cancel stale requests?"
     ],
-    "instant_answer": "For race conditions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For race conditions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For race conditions, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For race conditions, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "race condition",
@@ -809,8 +809,8 @@
       "How do service workers help?",
       "How do you sync data after reconnecting?"
     ],
-    "instant_answer": "For offline support, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For offline support, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For offline support, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For offline support, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "offline",
@@ -829,8 +829,8 @@
       "How do you track product events safely?",
       "What privacy concerns exist with analytics?"
     ],
-    "instant_answer": "For analytics, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For analytics, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For analytics, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For analytics, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "analytics",
@@ -849,8 +849,8 @@
       "How do you roll out UI and backend changes safely?",
       "How do you prevent inconsistent flag behavior?"
     ],
-    "instant_answer": "For feature flags, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For feature flags, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For feature flags, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For feature flags, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "feature flags",
@@ -869,8 +869,8 @@
       "How do you trace a bug from browser to backend?",
       "What do you check when a user reports a broken page?"
     ],
-    "instant_answer": "For debugging production, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For debugging production, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For debugging production, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For debugging production, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "full stack",
       "debugging",

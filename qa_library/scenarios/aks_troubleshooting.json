@@ -31,7 +31,8 @@
       "rollback"
     ],
     "answer_style": "hands-on Kubernetes troubleshooting",
-    "difficulty": "high"
+    "difficulty": "high",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'A pod in AKS keeps restarting with CrashLoopBackOff. How would you troubleshoot it?' directly.\n- Explain the practical checks, examples, and tradeoffs for AKS Pod Restart.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'A pod in AKS keeps restarting with CrashLoopBackOff. How would you troubleshoot it?' directly.\n- Explain the practical checks, examples, and tradeoffs for AKS Pod Restart.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   },
   {
     "id": "scenario_aks_service_unreachable_001",
@@ -64,6 +65,7 @@
       "health probe"
     ],
     "answer_style": "network and platform focused",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'A service deployed in AKS is not reachable. What would you check?' directly.\n- Explain the practical checks, examples, and tradeoffs for AKS Networking.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'A service deployed in AKS is not reachable. What would you check?' directly.\n- Explain the practical checks, examples, and tradeoffs for AKS Networking.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   }
 ]

@@ -8,8 +8,8 @@
       "Explain decorators with an example.",
       "When would you use a decorator in Python?"
     ],
-    "instant_answer": "For decorators, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For decorators, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For decorators, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For decorators, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "decorators",
@@ -28,8 +28,8 @@
       "What is yield used for?",
       "How do generators help memory usage?"
     ],
-    "instant_answer": "For generators, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For generators, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For generators, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For generators, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "generators",
@@ -48,8 +48,8 @@
       "What does with do in Python?",
       "How do you manage resources safely?"
     ],
-    "instant_answer": "For context managers, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For context managers, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For context managers, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For context managers, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "context manager",
@@ -68,8 +68,8 @@
       "Why use typing in Python?",
       "How do type hints help maintainability?"
     ],
-    "instant_answer": "For typing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For typing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For typing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For typing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "typing",
@@ -88,8 +88,8 @@
       "Why use Pydantic models?",
       "How do you validate request bodies in Python?"
     ],
-    "instant_answer": "For pydantic, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For pydantic, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For pydantic, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For pydantic, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "pydantic",
@@ -108,8 +108,8 @@
       "How do you manage sessions in SQLAlchemy?",
       "What are ORM risks?"
     ],
-    "instant_answer": "For sqlalchemy, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For sqlalchemy, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For sqlalchemy, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For sqlalchemy, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "sqlalchemy",
@@ -128,8 +128,8 @@
       "How do select_related and prefetch_related help?",
       "How do you fix N+1 queries in Django?"
     ],
-    "instant_answer": "For django orm, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For django orm, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For django orm, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For django orm, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "django",
@@ -148,8 +148,8 @@
       "What belongs in Flask blueprints?",
       "How do you make Flask apps maintainable?"
     ],
-    "instant_answer": "For flask, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For flask, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For flask, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For flask, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "flask",
@@ -168,8 +168,8 @@
       "How do you inject database sessions in FastAPI?",
       "How do you share auth logic in FastAPI?"
     ],
-    "instant_answer": "For fastapi dependencies, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For fastapi dependencies, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For fastapi dependencies, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For fastapi dependencies, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "fastapi",
@@ -188,8 +188,8 @@
       "How do you retry Celery tasks?",
       "How do you monitor Python background workers?"
     ],
-    "instant_answer": "For celery, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For celery, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For celery, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For celery, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "celery",
@@ -208,8 +208,8 @@
       "How do you share test setup in pytest?",
       "When do you use fixture scopes?"
     ],
-    "instant_answer": "For pytest fixtures, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For pytest fixtures, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For pytest fixtures, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For pytest fixtures, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "pytest",
@@ -228,8 +228,8 @@
       "When should you use unittest.mock?",
       "What should you avoid mocking?"
     ],
-    "instant_answer": "For mocking, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For mocking, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For mocking, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For mocking, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "mocking",
@@ -248,8 +248,8 @@
       "What happens if async code calls blocking functions?",
       "How do you debug slow asyncio apps?"
     ],
-    "instant_answer": "For async blocking, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For async blocking, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For async blocking, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For async blocking, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "asyncio",
@@ -268,8 +268,8 @@
       "How do you run CPU-bound Python work?",
       "Threads vs processes in Python?"
     ],
-    "instant_answer": "For multiprocessing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For multiprocessing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For multiprocessing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For multiprocessing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "multiprocessing",
@@ -288,8 +288,8 @@
       "What should Python logs include?",
       "How do you structure logs for production?"
     ],
-    "instant_answer": "For logging, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For logging, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For logging, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For logging, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "logging",
@@ -308,8 +308,8 @@
       "When do you raise custom exceptions?",
       "How do you avoid swallowing exceptions?"
     ],
-    "instant_answer": "For exceptions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For exceptions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For exceptions, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For exceptions, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "exceptions",
@@ -328,8 +328,8 @@
       "venv vs Poetry?",
       "How do you manage dependency versions?"
     ],
-    "instant_answer": "For virtualenv, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For virtualenv, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For virtualenv, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For virtualenv, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "venv",
@@ -348,8 +348,8 @@
       "What is pyproject.toml?",
       "How do you publish or install Python packages?"
     ],
-    "instant_answer": "For packaging, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For packaging, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For packaging, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For packaging, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "packaging",
@@ -368,8 +368,8 @@
       "Python code is slow. What tools do you use?",
       "How do you find bottlenecks in Python?"
     ],
-    "instant_answer": "For performance profiling, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For performance profiling, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For performance profiling, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For performance profiling, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "profiling",
@@ -388,8 +388,8 @@
       "Pandas job is slow. What do you check?",
       "How do you reduce memory use in pandas?"
     ],
-    "instant_answer": "For pandas performance, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For pandas performance, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For pandas performance, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For pandas performance, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "pandas",
@@ -408,8 +408,8 @@
       "How do you avoid loading huge files into memory?",
       "How do you stream CSV or JSON data?"
     ],
-    "instant_answer": "For streaming files, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For streaming files, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For streaming files, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For streaming files, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "streaming",
@@ -428,8 +428,8 @@
       "How do you handle retries and timeouts in requests?",
       "How do you call external APIs safely?"
     ],
-    "instant_answer": "For api clients, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For api clients, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For api clients, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For api clients, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "api client",
@@ -448,8 +448,8 @@
       "How do you avoid unsafe deserialization?",
       "What are common Python security mistakes?"
     ],
-    "instant_answer": "For security, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For security, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For security, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For security, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "security",
@@ -468,8 +468,8 @@
       "How do you make Python code testable?",
       "How do you avoid hardcoded dependencies?"
     ],
-    "instant_answer": "For dependency injection, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For dependency injection, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For dependency injection, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For dependency injection, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "dependency injection",
@@ -488,8 +488,8 @@
       "Dataclass vs regular class?",
       "How do dataclasses improve Python models?"
     ],
-    "instant_answer": "For dataclasses, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For dataclasses, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For dataclasses, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For dataclasses, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "dataclasses",
@@ -508,8 +508,8 @@
       "List vs tuple vs set vs dict?",
       "How do Python dictionaries work in practice?"
     ],
-    "instant_answer": "For collections, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For collections, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For collections, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For collections, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "collections",
@@ -528,8 +528,8 @@
       "How do object references work in Python?",
       "When can copying cause bugs?"
     ],
-    "instant_answer": "For copying, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For copying, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For copying, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For copying, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "copy",
@@ -548,8 +548,8 @@
       "Why avoid mutable default arguments?",
       "Explain a common Python function default bug."
     ],
-    "instant_answer": "For mutability, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For mutability, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For mutability, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For mutability, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "mutability",
@@ -568,8 +568,8 @@
       "How do you avoid circular imports?",
       "How do you structure Python packages?"
     ],
-    "instant_answer": "For imports, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For imports, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For imports, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For imports, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "imports",
@@ -588,8 +588,8 @@
       "How do Python apps read environment variables?",
       "How do you separate dev and prod config?"
     ],
-    "instant_answer": "For configuration, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For configuration, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For configuration, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For configuration, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "configuration",
@@ -608,8 +608,8 @@
       "How do you use Alembic?",
       "How do you manage schema changes with SQLAlchemy?"
     ],
-    "instant_answer": "For database migrations, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For database migrations, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For database migrations, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For database migrations, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "alembic",
@@ -628,8 +628,8 @@
       "How do you validate JWT in FastAPI?",
       "How do you secure Python endpoints?"
     ],
-    "instant_answer": "For auth, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For auth, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For auth, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For auth, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "authentication",
@@ -648,8 +648,8 @@
       "How do you check permissions in Python APIs?",
       "How do you enforce RBAC?"
     ],
-    "instant_answer": "For authorization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For authorization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For authorization, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For authorization, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "authorization",
@@ -668,8 +668,8 @@
       "How do you avoid duplicate task processing?",
       "How do you handle failed Python jobs?"
     ],
-    "instant_answer": "For background retries, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For background retries, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For background retries, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For background retries, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "background jobs",
@@ -688,8 +688,8 @@
       "When use WebSockets instead of REST?",
       "How do you manage realtime Python connections?"
     ],
-    "instant_answer": "For websockets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For websockets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For websockets, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For websockets, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "websocket",
@@ -708,8 +708,8 @@
       "How do you use TestClient?",
       "How do you test Python API validation?"
     ],
-    "instant_answer": "For testing APIs, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For testing APIs, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For testing APIs, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For testing APIs, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "fastapi",
@@ -728,8 +728,8 @@
       "What tools do you use for linting and formatting?",
       "How do ruff, black, or mypy help?"
     ],
-    "instant_answer": "For linting, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For linting, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For linting, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For linting, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "linting",
@@ -748,8 +748,8 @@
       "What belongs in a Python Dockerfile?",
       "How do you keep Python images small?"
     ],
-    "instant_answer": "For docker, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For docker, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For docker, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For docker, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "docker",
@@ -768,8 +768,8 @@
       "Uvicorn vs Gunicorn?",
       "How do workers affect Python API performance?"
     ],
-    "instant_answer": "For gunicorn, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For gunicorn, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For gunicorn, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For gunicorn, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "gunicorn",
@@ -788,8 +788,8 @@
       "How do you avoid committing secrets?",
       "How do Python apps access secret stores?"
     ],
-    "instant_answer": "For secrets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For secrets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For secrets, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For secrets, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "secrets",
@@ -808,8 +808,8 @@
       "How do you serialize datetimes?",
       "How do you avoid API serialization bugs?"
     ],
-    "instant_answer": "For serialization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For serialization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For serialization, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For serialization, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "json",
@@ -828,8 +828,8 @@
       "How do you test Python ETL code?",
       "How do you catch bad data in Python jobs?"
     ],
-    "instant_answer": "For data validation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For data validation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For data validation, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For data validation, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "data validation",
@@ -848,8 +848,8 @@
       "When are Python objects not thread-safe?",
       "How do you protect shared state?"
     ],
-    "instant_answer": "For thread safety, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For thread safety, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For thread safety, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For thread safety, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "thread safety",
@@ -868,8 +868,8 @@
       "How do you avoid file descriptor leaks?",
       "How do you use pathlib and context managers?"
     ],
-    "instant_answer": "For file handling, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For file handling, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For file handling, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For file handling, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "python",
       "files",

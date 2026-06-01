@@ -11,7 +11,16 @@
     ],
     "instant_answer": "I am a production support and DevOps-oriented engineer with experience troubleshooting cloud applications, Kubernetes/AKS, CI/CD, Kafka or messaging flows, and production incidents. I focus on quickly identifying impact, stabilizing systems, coordinating with teams, and then driving RCA and preventive improvements.",
     "detailed_answer": "My background is centered around production support, cloud, and DevOps work. I have worked with application troubleshooting, Azure services, Kubernetes/AKS, Java microservices, CI/CD pipelines, monitoring, incident management, and messaging systems like Kafka or MQ. In incidents, my strength is staying calm, checking evidence through logs and metrics, coordinating across teams, and restoring service first. I also care about long-term fixes, so after recovery I focus on RCA, automation, better alerts, and reducing repeat issues.",
-    "keywords": ["production support", "DevOps", "Azure", "AKS", "CI/CD", "Kafka", "incident management", "RCA"],
+    "keywords": [
+      "production support",
+      "DevOps",
+      "Azure",
+      "AKS",
+      "CI/CD",
+      "Kafka",
+      "incident management",
+      "RCA"
+    ],
     "answer_style": "confident, concise, practical",
     "difficulty": "medium"
   },
@@ -26,8 +35,16 @@
       "What interests you about this position?"
     ],
     "instant_answer": "I am interested because the role aligns with my production support, cloud, and DevOps experience. I like work where reliability, troubleshooting, automation, and cross-team collaboration directly improve customer experience.",
-    "detailed_answer": "This role interests me because it connects closely with the work I enjoy most: supporting reliable applications, troubleshooting complex issues, improving deployment and monitoring processes, and collaborating across teams. I am looking for a place where I can use my production experience while also growing deeper in cloud, automation, and engineering practices.",
-    "keywords": ["role alignment", "reliability", "cloud", "DevOps", "customer impact", "growth", "collaboration"],
+    "detailed_answer": "This role interests me because it connects closely with the work I enjoy most: supporting reliable applications, troubleshooting complex issues, improving deployment and monitoring processes, and collaborating across teams. I am looking for a place where I can use my production experience while also growing deeper in cloud, automation, and engineering practices.\n\nInterview structure:\n- Start by answering 'Why do you want to work here?' directly.\n- Explain the practical checks, examples, and tradeoffs for Why This Company.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "role alignment",
+      "reliability",
+      "cloud",
+      "DevOps",
+      "customer impact",
+      "growth",
+      "collaboration"
+    ],
     "answer_style": "professional and tailored",
     "difficulty": "low"
   }

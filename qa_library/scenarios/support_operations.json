@@ -21,9 +21,19 @@
       "step_5": "Mitigate with rollback, scaling, timeout tuning, dependency failover, or traffic rerouting.",
       "step_6": "Add monitoring around latency percentiles, dependency timing, and timeout thresholds."
     },
-    "keywords": ["504", "timeout", "correlation ID", "distributed tracing", "thread pool", "connection pool", "dependency", "latency"],
+    "keywords": [
+      "504",
+      "timeout",
+      "correlation ID",
+      "distributed tracing",
+      "thread pool",
+      "connection pool",
+      "dependency",
+      "latency"
+    ],
     "answer_style": "production troubleshooting",
-    "difficulty": "high"
+    "difficulty": "high",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'An API is timing out in production. How would you troubleshoot it?' directly.\n- Explain the practical checks, examples, and tradeoffs for API Timeout.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'An API is timing out in production. How would you troubleshoot it?' directly.\n- Explain the practical checks, examples, and tradeoffs for API Timeout.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   },
   {
     "id": "scenario_db_connection_001",
@@ -46,9 +56,19 @@
       "step_5": "Inspect app connection pool metrics and slow queries.",
       "step_6": "Mitigate by fixing config, rotating credentials, scaling pool cautiously, or failing over if needed."
     },
-    "keywords": ["database", "connection pool", "JDBC", "credentials", "firewall", "private endpoint", "DNS", "SSL"],
+    "keywords": [
+      "database",
+      "connection pool",
+      "JDBC",
+      "credentials",
+      "firewall",
+      "private endpoint",
+      "DNS",
+      "SSL"
+    ],
     "answer_style": "infrastructure plus app troubleshooting",
-    "difficulty": "high"
+    "difficulty": "high",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'The application cannot connect to the database. What would you check?' directly.\n- Explain the practical checks, examples, and tradeoffs for Database Connection Issue.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'The application cannot connect to the database. What would you check?' directly.\n- Explain the practical checks, examples, and tradeoffs for Database Connection Issue.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   },
   {
     "id": "scenario_autosys_failure_001",
@@ -70,8 +90,18 @@
       "step_5": "Coordinate with business before rerun if duplicate processing is possible.",
       "step_6": "After recovery, document cause and add checks or alerts."
     },
-    "keywords": ["Autosys", "batch", "exit code", "dependency", "rerun", "SLA", "input file", "scheduler"],
+    "keywords": [
+      "Autosys",
+      "batch",
+      "exit code",
+      "dependency",
+      "rerun",
+      "SLA",
+      "input file",
+      "scheduler"
+    ],
     "answer_style": "batch operations focused",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'An Autosys batch job failed. How would you handle it?' directly.\n- Explain the practical checks, examples, and tradeoffs for Autosys Job Failure.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'An Autosys batch job failed. How would you handle it?' directly.\n- Explain the practical checks, examples, and tradeoffs for Autosys Job Failure.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   }
 ]

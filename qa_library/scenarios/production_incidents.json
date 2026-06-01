@@ -31,7 +31,8 @@
       "RCA"
     ],
     "answer_style": "calm, structured, incident-management focused",
-    "difficulty": "high"
+    "difficulty": "high",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'A critical production application is down and users cannot access it. What would you do?' directly.\n- Explain the practical checks, examples, and tradeoffs for Production Incident.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'A critical production application is down and users cannot access it. What would you do?' directly.\n- Explain the practical checks, examples, and tradeoffs for Production Incident.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   },
   {
     "id": "scenario_app_slowness_001",
@@ -64,6 +65,7 @@
       "dependency"
     ],
     "answer_style": "diagnostic and metrics-driven",
-    "difficulty": "high"
+    "difficulty": "high",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'Users report that the application is very slow. How would you investigate?' directly.\n- Explain the practical checks, examples, and tradeoffs for Application Performance.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'Users report that the application is very slow. How would you investigate?' directly.\n- Explain the practical checks, examples, and tradeoffs for Application Performance.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   }
 ]

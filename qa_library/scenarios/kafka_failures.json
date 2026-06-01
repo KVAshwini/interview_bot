@@ -31,6 +31,7 @@
       "throughput"
     ],
     "answer_style": "message-driven systems troubleshooting",
-    "difficulty": "high"
+    "difficulty": "high",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'Kafka consumer lag is increasing in production. What would you do?' directly.\n- Explain the practical checks, examples, and tradeoffs for Kafka Consumer Lag.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'Kafka consumer lag is increasing in production. What would you do?' directly.\n- Explain the practical checks, examples, and tradeoffs for Kafka Consumer Lag.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   }
 ]

@@ -8,8 +8,8 @@
       "What do you look for in a query plan?",
       "How do execution plans reveal bottlenecks?"
     ],
-    "instant_answer": "For execution plan, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For execution plan, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For execution plan, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For execution plan, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "execution plan",
@@ -28,8 +28,8 @@
       "Why do functions on columns hurt indexes?",
       "How do you write index-friendly predicates?"
     ],
-    "instant_answer": "For sargability, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For sargability, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For sargability, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For sargability, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "sargable",
@@ -48,8 +48,8 @@
       "How can parameters make SQL performance inconsistent?",
       "How do you fix parameter sniffing issues?"
     ],
-    "instant_answer": "For parameter sniffing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For parameter sniffing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For parameter sniffing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For parameter sniffing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "parameter sniffing",
@@ -68,8 +68,8 @@
       "How do included columns help?",
       "When would you create a covering index?"
     ],
-    "instant_answer": "For covering indexes, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For covering indexes, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For covering indexes, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For covering indexes, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "covering index",
@@ -88,8 +88,8 @@
       "Why does column order matter in indexes?",
       "How do multi-column indexes work?"
     ],
-    "instant_answer": "For composite indexes, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For composite indexes, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For composite indexes, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For composite indexes, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "composite index",
@@ -108,8 +108,8 @@
       "What causes database deadlocks?",
       "How do you reduce deadlocks?"
     ],
-    "instant_answer": "For deadlocks, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For deadlocks, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For deadlocks, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For deadlocks, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "deadlock",
@@ -128,8 +128,8 @@
       "Read committed vs snapshot isolation?",
       "How do isolation levels affect concurrency?"
     ],
-    "instant_answer": "For isolation levels, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For isolation levels, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For isolation levels, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For isolation levels, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "isolation level",
@@ -148,8 +148,8 @@
       "How long should transactions stay open?",
       "How do you avoid lock contention?"
     ],
-    "instant_answer": "For transactions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For transactions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For transactions, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For transactions, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "transactions",
@@ -168,8 +168,8 @@
       "How do you design relational schema?",
       "What are normalization tradeoffs?"
     ],
-    "instant_answer": "For normalization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For normalization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For normalization, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For normalization, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "normalization",
@@ -188,8 +188,8 @@
       "CTE vs subquery?",
       "How do common table expressions help readability?"
     ],
-    "instant_answer": "For cte, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For cte, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For cte, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For cte, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "cte",
@@ -208,8 +208,8 @@
       "How do you query hierarchical data?",
       "How do you handle parent-child relationships in SQL?"
     ],
-    "instant_answer": "For recursive cte, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For recursive cte, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For recursive cte, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For recursive cte, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "recursive cte",
@@ -228,8 +228,8 @@
       "Rows vs range in window functions?",
       "How do running totals work in SQL?"
     ],
-    "instant_answer": "For window frames, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For window frames, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For window frames, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For window frames, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "window functions",
@@ -248,8 +248,8 @@
       "How do you find duplicate records?",
       "How do you keep the latest row per key?"
     ],
-    "instant_answer": "For deduplication, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For deduplication, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For deduplication, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For deduplication, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "duplicates",
@@ -268,8 +268,8 @@
       "MERGE vs insert/update?",
       "How do you load changed records safely?"
     ],
-    "instant_answer": "For merge upsert, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For merge upsert, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For merge upsert, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For merge upsert, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "merge",
@@ -288,8 +288,8 @@
       "How do you use watermarks?",
       "How do you avoid full reloads?"
     ],
-    "instant_answer": "For incremental load, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For incremental load, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For incremental load, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For incremental load, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "incremental load",
@@ -308,8 +308,8 @@
       "When should you partition a table?",
       "What are partitioning risks?"
     ],
-    "instant_answer": "For partitioning, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For partitioning, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For partitioning, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For partitioning, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "partitioning",
@@ -328,8 +328,8 @@
       "Temp table vs table variable?",
       "How do temp objects affect SQL performance?"
     ],
-    "instant_answer": "For temp tables, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For temp tables, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For temp tables, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For temp tables, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "temp table",
@@ -348,8 +348,8 @@
       "View vs table?",
       "What are view performance concerns?"
     ],
-    "instant_answer": "For views, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For views, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For views, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For views, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "views",
@@ -368,8 +368,8 @@
       "How do indexed views help?",
       "When do you precompute query results?"
     ],
-    "instant_answer": "For materialized views, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For materialized views, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For materialized views, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For materialized views, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "materialized view",
@@ -388,8 +388,8 @@
       "How do try/catch blocks work in SQL procedures?",
       "How do you rollback on stored procedure failure?"
     ],
-    "instant_answer": "For stored proc errors, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For stored proc errors, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For stored proc errors, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For stored proc errors, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "stored procedure",
@@ -408,8 +408,8 @@
       "What are dynamic SQL risks?",
       "How do you prevent SQL injection in dynamic SQL?"
     ],
-    "instant_answer": "For dynamic sql, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For dynamic sql, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For dynamic sql, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For dynamic sql, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "dynamic sql",
@@ -428,8 +428,8 @@
       "Why use parameterized queries?",
       "What makes string-built SQL dangerous?"
     ],
-    "instant_answer": "For sql injection, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For sql injection, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For sql injection, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For sql injection, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "sql injection",
@@ -448,8 +448,8 @@
       "When should you use foreign key constraints?",
       "What are referential integrity tradeoffs?"
     ],
-    "instant_answer": "For referential integrity, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For referential integrity, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For referential integrity, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For referential integrity, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "foreign key",
@@ -468,8 +468,8 @@
       "Check constraint vs application validation?",
       "What constraints do you add to tables?"
     ],
-    "instant_answer": "For constraints, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For constraints, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For constraints, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For constraints, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "constraints",
@@ -488,8 +488,8 @@
       "Why can NULL cause bugs?",
       "How do you handle NULLs in joins and filters?"
     ],
-    "instant_answer": "For nulls, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For nulls, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For nulls, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For nulls, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "null",
@@ -508,8 +508,8 @@
       "How do joins inflate aggregates?",
       "How do you avoid double counting in SQL?"
     ],
-    "instant_answer": "For aggregates, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For aggregates, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For aggregates, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For aggregates, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "group by",
@@ -528,8 +528,8 @@
       "When do you filter before or after aggregation?",
       "Explain HAVING clause."
     ],
-    "instant_answer": "For having, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For having, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For having, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For having, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "where",
@@ -548,8 +548,8 @@
       "When do you use INTERSECT or EXCEPT?",
       "How do SQL set operations work?"
     ],
-    "instant_answer": "For set operations, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For set operations, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For set operations, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For set operations, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "union",
@@ -568,8 +568,8 @@
       "How do SQL ranking functions differ?",
       "How do you find top records per group?"
     ],
-    "instant_answer": "For ranking, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For ranking, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For ranking, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For ranking, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "rank",
@@ -588,8 +588,8 @@
       "How do date ranges cause off-by-one bugs?",
       "How do you filter by day in SQL?"
     ],
-    "instant_answer": "For date queries, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For date queries, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For date queries, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For date queries, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "date",
@@ -608,8 +608,8 @@
       "Dashboard query is slow. What do you check?",
       "How do you tune analytical SQL?"
     ],
-    "instant_answer": "For slow reports, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For slow reports, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For slow reports, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For slow reports, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "reporting",
@@ -628,8 +628,8 @@
       "How do you reconcile source and target tables?",
       "What SQL checks prove a load succeeded?"
     ],
-    "instant_answer": "For etl validation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For etl validation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For etl validation, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For etl validation, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "etl",
@@ -648,8 +648,8 @@
       "How do fact and dimension tables work?",
       "How do you model analytics data?"
     ],
-    "instant_answer": "For data warehouse, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For data warehouse, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For data warehouse, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For data warehouse, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "data warehouse",
@@ -668,8 +668,8 @@
       "What slows down bulk loads?",
       "How do indexes affect insert performance?"
     ],
-    "instant_answer": "For slow inserts, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For slow inserts, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For slow inserts, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For slow inserts, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "insert",
@@ -688,8 +688,8 @@
       "Why are users waiting on database locks?",
       "How do you find blockers in SQL?"
     ],
-    "instant_answer": "For locking, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For locking, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For locking, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For locking, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "blocking",
@@ -708,8 +708,8 @@
       "How do stale stats affect query plans?",
       "When do you update statistics?"
     ],
-    "instant_answer": "For statistics, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For statistics, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For statistics, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For statistics, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "statistics",
@@ -728,8 +728,8 @@
       "Fragmentation vs statistics?",
       "How do you decide rebuild or reorganize?"
     ],
-    "instant_answer": "For index maintenance, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For index maintenance, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For index maintenance, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For index maintenance, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "index maintenance",
@@ -748,8 +748,8 @@
       "Why are query hints risky?",
       "How do you avoid overusing hints?"
     ],
-    "instant_answer": "For query hints, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For query hints, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For query hints, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For query hints, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "query hints",
@@ -768,8 +768,8 @@
       "How do you apply least privilege in databases?",
       "How do roles work in SQL security?"
     ],
-    "instant_answer": "For permissions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For permissions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For permissions, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For permissions, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "permissions",
@@ -788,8 +788,8 @@
       "How do you track who changed data?",
       "What database audit logs matter?"
     ],
-    "instant_answer": "For auditing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For auditing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For auditing, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For auditing, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "audit",
@@ -808,8 +808,8 @@
       "How do schema changes affect restore plans?",
       "Why test database restores?"
     ],
-    "instant_answer": "For backup restore, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For backup restore, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For backup restore, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For backup restore, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "backup",
@@ -828,8 +828,8 @@
       "How do you make schema deployments reversible?",
       "What if a migration fails halfway?"
     ],
-    "instant_answer": "For migration rollback, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For migration rollback, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For migration rollback, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For migration rollback, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "migration",
@@ -848,8 +848,8 @@
       "Why can big deletes hurt production?",
       "How do you batch delete records?"
     ],
-    "instant_answer": "For large deletes, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For large deletes, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For large deletes, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For large deletes, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "delete",
@@ -868,8 +868,8 @@
       "How do you keep large tables manageable?",
       "How do retention policies affect SQL design?"
     ],
-    "instant_answer": "For archiving, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
-    "detailed_answer": "For archiving, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "instant_answer": "For archiving, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage.",
+    "detailed_answer": "For archiving, my answer would start with the exact behavior I expect and the signal showing that something is wrong. From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, so the interviewer hears both technical depth and production judgment.",
     "keywords": [
       "sql",
       "archiving",

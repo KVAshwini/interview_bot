@@ -8,16 +8,16 @@ PACK_DIR = ROOT / "qa_library" / "professions"
 
 def item(pack: str, idx: int, topic: str, area: str, question: str, alternates: list[str], keywords: list[str], difficulty: str = "high") -> dict:
     instant = (
-        f"For {area}, I start by clarifying the expected behavior, inputs, dependencies, and production impact. "
-        f"Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. "
-        f"I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage."
+        f"For {area}, I first pin down the expected behavior, the failing path, and the impact on users or downstream systems. "
+        f"Then I trace the code and data flow, check edge cases and recent changes, and validate the answer with targeted tests. "
+        f"If the topic has production risk, I also call out logging, monitoring, rollback, or regression coverage."
     )
     detailed = (
-        f"For {area}, I approach it systematically instead of guessing. First I define the expected behavior, affected users, "
-        f"inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and "
-        f"check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. "
-        f"If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, "
-        f"observability, documentation, or guardrails so the same issue is easier to detect and less likely to return."
+        f"For {area}, my answer would start with the exact behavior I expect and the signal showing that something is wrong. "
+        f"From there I follow the request, job, or data path through the relevant layers and check state, validation, permissions, "
+        f"error handling, concurrency, resource usage, and integration boundaries. If users are affected, I separate mitigation from root cause: "
+        f"stabilize first, then fix carefully. I finish by explaining how I would prove the fix with tests, logs, metrics, or a small rollout, "
+        f"so the interviewer hears both technical depth and production judgment."
     )
     return {
         "id": f"profession_{pack}_deep_{idx:03d}",

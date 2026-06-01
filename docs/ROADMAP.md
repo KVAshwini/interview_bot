@@ -23,6 +23,8 @@ Status: done for local MVP.
 - Expand match explanations.
 - Add a guided missed-question promotion workflow.
 
+Status: local concept scoring, profession-specific search evaluation tests, pack manifests, and pack manager UI are in place. Local embeddings remain the main open item.
+
 ## Phase 3: Voice Prep Mode
 
 - Add push-to-talk voice input.
@@ -38,6 +40,8 @@ Status: optional file transcription, push-to-talk scripts, voice dependency chec
 - Floating overlay.
 - Low-latency answer updates.
 - Company-specific prep packs.
+
+Status: Windows native overlay exists with transparency, screen-capture hiding, always-on-top behavior, and pack selection. Streaming transcription and low-latency auto-updates remain open.
 
 ## Phase 5: Career Memory
 

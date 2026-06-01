@@ -226,6 +226,7 @@ Use these records to add new cached answers with `scripts/add_question.py`.
 python3 -m pytest
 python3 -m compileall app scripts tests
 python3 -m json.tool qa_library/technical/devops_massive_interview_bank.json
+python3 scripts/audit_pack_quality.py
 ```
 
 ## Optional speech-to-text

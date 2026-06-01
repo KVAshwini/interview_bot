@@ -19,8 +19,18 @@
       "step_5": "Mitigate by renewing, rebinding, rolling pods, or reverting a bad certificate update.",
       "step_6": "Add expiry alerts and rotation runbooks."
     },
-    "keywords": ["TLS", "SSL", "certificate", "SAN", "chain", "trust store", "Key Vault", "ingress"],
+    "keywords": [
+      "TLS",
+      "SSL",
+      "certificate",
+      "SAN",
+      "chain",
+      "trust store",
+      "Key Vault",
+      "ingress"
+    ],
     "answer_style": "security and platform troubleshooting",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "detailed_answer": "\n\nInterview structure:\n- Start by answering 'Users are seeing SSL or certificate errors. What would you check?' directly.\n- Explain the practical checks, examples, and tradeoffs for TLS Certificate Issue.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.\n\nInterview structure:\n- Start by answering 'Users are seeing SSL or certificate errors. What would you check?' directly.\n- Explain the practical checks, examples, and tradeoffs for TLS Certificate Issue.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating."
   }
 ]

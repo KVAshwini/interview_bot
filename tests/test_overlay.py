@@ -45,3 +45,11 @@ def test_apply_capture_exclusion_is_windows_only(monkeypatch) -> None:
     monkeypatch.setattr(sys, "platform", "linux")
 
     assert not overlay.apply_capture_exclusion(Root(), True)
+
+
+def test_overlay_pack_options_include_profession_filters() -> None:
+    options = overlay.OverlayApp.__new__(overlay.OverlayApp)._pack_options()
+
+    assert options["All"] == "all"
+    assert options["Developer - Python"] == "developer_python"
+    assert options["QA Engineer / Test Automation"] == "qa"

@@ -22,13 +22,14 @@ ROLE_CONTEXT = {
 def make_item(pack: str, idx: int, topic: str, area: str, question: str, alternates: list[str], keywords: list[str], difficulty: str = "high") -> dict:
     context = ROLE_CONTEXT[pack]
     instant = (
-        f"For {area}, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. "
-        f"Then I evaluate the key risks around {context}. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical."
+        f"For {area}, I first clarify the goal, the people or systems affected, the current evidence, and the decision that depends on it. "
+        f"Then I focus on the risks around {context}. A strong answer should include what I would do immediately, how I would validate it, and how I would prevent the same issue from repeating."
     )
     detailed = (
-        f"For {area}, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. "
-        f"Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. "
-        f"After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are {context}, because those are usually where interviewers expect depth."
+        f"For {area}, I would begin by confirming the objective, stakeholders, affected workflow or system, constraints, and success criteria. "
+        f"Then I review the relevant artifacts, data, logs, process steps, ownership, dependencies, and recent changes so I can distinguish symptoms from root cause. "
+        f"If there is active business or production impact, I reduce that impact first and keep communication clear. After the immediate issue is under control, I validate the outcome with evidence and close the loop through documentation, automation, monitoring, controls, or process improvement. "
+        f"In this area, the depth comes from covering {context} with concrete examples rather than giving a generic process answer."
     )
     return {
         "id": f"profession_{pack}_deep_{idx:03d}",

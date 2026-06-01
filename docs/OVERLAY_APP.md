@@ -19,6 +19,8 @@ python -m app.overlay
 
 The overlay enables `Hide from screen capture` by default on Windows. It calls `SetWindowDisplayAffinity` with `WDA_EXCLUDEFROMCAPTURE`, then falls back to `WDA_MONITOR` when needed.
 
+The overlay also includes a pack selector, so the local desktop app can answer from DevOps, scenario, behavioral, and profession-specific packs such as Python Developer, QA Engineer, Cloud Engineer, and DBA.
+
 This depends on the meeting app using normal Windows capture APIs. Test your exact workflow before an interview:
 
 - Zoom full-screen share
@@ -50,5 +52,6 @@ dist\InterviewHelpBotOverlay.exe
 - Launch `run_overlay.bat`.
 - Confirm the overlay is always on top.
 - Toggle `Transparency`.
+- Select a profession pack and confirm answers stay within that role.
 - Confirm `Hide from screen capture` says hidden.
 - Verify meeting participants cannot see it in Zoom/Webex/Teams.

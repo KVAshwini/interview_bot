@@ -3,7 +3,9 @@ import sys
 import tkinter as tk
 from tkinter import ttk
 
+from app.answer_engine import ALLOWED_CATEGORY_FILTERS
 from app.answer_engine import answer_payload
+from app.professions import profession_options
 from app.session_log import log_answer
 
 
@@ -41,6 +43,7 @@ class OverlayApp:
         self.capture_hidden = tk.BooleanVar(value=True)
         self.mode = tk.StringVar(value="instant")
         self.voice = tk.StringVar(value="natural")
+        self.category_filter = tk.StringVar(value="all")
         self.status = tk.StringVar(value="Private overlay ready")
 
         self._build()
@@ -73,6 +76,15 @@ class OverlayApp:
         ttk.Combobox(controls, textvariable=self.voice, values=("natural", "raw"), width=10, state="readonly").pack(
             side="left", padx=(6, 14)
         )
+        ttk.Label(controls, text="Pack").pack(side="left")
+        self.pack_options = self._pack_options()
+        ttk.Combobox(
+            controls,
+            textvariable=self.category_filter,
+            values=tuple(self.pack_options.keys()),
+            width=24,
+            state="readonly",
+        ).pack(side="left", padx=(6, 14))
         ttk.Button(controls, text="Answer", command=self.ask).pack(side="left")
         ttk.Button(controls, text="Clear", command=self.clear).pack(side="left", padx=6)
 
@@ -112,9 +124,31 @@ class OverlayApp:
             return
         self._set_answer("Searching local library...")
         self.root.update_idletasks()
-        payload = answer_payload(question, mode=self.mode.get(), limit=3, voice=self.voice.get())
+        selected_pack = self.pack_options.get(self.category_filter.get(), "all")
+        payload = answer_payload(
+            question,
+            mode=self.mode.get(),
+            limit=3,
+            voice=self.voice.get(),
+            category_filter=selected_pack,
+        )
         log_answer(payload)
         self._set_answer(self._format_payload(payload))
+
+    def _pack_options(self) -> dict[str, str]:
+        base_options = {
+            "All": "all",
+            "DevOps": "devops",
+            "Kubernetes": "kubernetes",
+            "Azure": "azure",
+            "Terraform": "terraform",
+            "Linux": "linux",
+            "Scenario": "scenario",
+            "Behavioral": "behavioral",
+        }
+        profession_filters = {item["label"]: item["key"] for item in profession_options()}
+        options = {**base_options, **profession_filters}
+        return {label: key for label, key in options.items() if key in ALLOWED_CATEGORY_FILTERS}
 
     def _set_answer(self, text: str) -> None:
         self.answer.configure(state="normal")

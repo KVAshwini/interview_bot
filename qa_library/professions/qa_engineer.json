@@ -4,10 +4,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "What is the role of a QA Engineer?",
-    "alternate_questions": ["What does a QA Engineer do?", "How do you explain QA responsibility?"],
+    "alternate_questions": [
+      "What does a QA Engineer do?",
+      "How do you explain QA responsibility?"
+    ],
     "instant_answer": "A QA Engineer protects product quality by understanding requirements, identifying risk, designing test coverage, finding defects early, and helping the team release with confidence. I do not see QA as only clicking through screens at the end. Good QA is involved from requirement review through test planning, automation, regression, release validation, defect analysis, and continuous improvement.",
     "detailed_answer": "A QA Engineer protects product quality by understanding requirements, identifying risk, designing test coverage, finding defects early, and helping the team release with confidence. I do not see QA as only clicking through screens at the end. Good QA is involved from requirement review through test planning, automation, regression, release validation, defect analysis, and continuous improvement.\n\nInterview structure:\n- Start with quality ownership and risk reduction.\n- Mention requirement review, test planning, execution, automation, and defect management.\n- Explain collaboration with developers, product, business, and release teams.\n- Close with measurable quality: fewer escapes, stable regression, and faster feedback.",
-    "keywords": ["qa engineer", "quality assurance", "test planning", "defect management", "release quality", "automation"],
+    "keywords": [
+      "qa engineer",
+      "quality assurance",
+      "test planning",
+      "defect management",
+      "release quality",
+      "automation"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -16,10 +26,19 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "What is the difference between manual testing and automation testing?",
-    "alternate_questions": ["When do you choose manual testing vs automation?", "What should not be automated?"],
+    "alternate_questions": [
+      "When do you choose manual testing vs automation?",
+      "What should not be automated?"
+    ],
     "instant_answer": "Manual testing is best for exploration, new features, usability, unclear requirements, and cases where human judgment matters. Automation is best for stable, repeatable, high-value checks like regression, API contracts, smoke tests, and critical user flows. I choose automation when the test is repeatable, valuable, stable, and worth maintaining; I avoid automating unstable or one-time checks too early.",
     "detailed_answer": "Manual testing is best for exploration, new features, usability, unclear requirements, and cases where human judgment matters. Automation is best for stable, repeatable, high-value checks like regression, API contracts, smoke tests, and critical user flows. I choose automation when the test is repeatable, valuable, stable, and worth maintaining; I avoid automating unstable or one-time checks too early.",
-    "keywords": ["manual testing", "automation testing", "regression", "exploratory testing", "test strategy"],
+    "keywords": [
+      "manual testing",
+      "automation testing",
+      "regression",
+      "exploratory testing",
+      "test strategy"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -28,10 +47,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you create a test plan?",
-    "alternate_questions": ["What do you include in a test plan?", "How do you plan testing for a release?"],
+    "alternate_questions": [
+      "What do you include in a test plan?",
+      "How do you plan testing for a release?"
+    ],
     "instant_answer": "I start with scope, requirements, user flows, risks, dependencies, environments, test data, timelines, entry and exit criteria, and stakeholders. Then I define test types such as functional, regression, integration, API, performance, security, and UAT support if needed. A useful test plan is practical: it makes coverage, ownership, risks, and release readiness clear.",
     "detailed_answer": "I start with scope, requirements, user flows, risks, dependencies, environments, test data, timelines, entry and exit criteria, and stakeholders. Then I define test types such as functional, regression, integration, API, performance, security, and UAT support if needed. A useful test plan is practical: it makes coverage, ownership, risks, and release readiness clear.\n\nI also call out what is not in scope, known constraints, test data needs, and rollback or release validation checks.",
-    "keywords": ["test plan", "test strategy", "scope", "entry criteria", "exit criteria", "risk based testing"],
+    "keywords": [
+      "test plan",
+      "test strategy",
+      "scope",
+      "entry criteria",
+      "exit criteria",
+      "risk based testing"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -40,10 +69,19 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you write good test cases?",
-    "alternate_questions": ["What makes a test case effective?", "How do you design test scenarios?"],
+    "alternate_questions": [
+      "What makes a test case effective?",
+      "How do you design test scenarios?"
+    ],
     "instant_answer": "Good test cases are clear, traceable to requirements, easy to execute, and focused on expected behavior and risk. I include preconditions, test data, steps, expected result, priority, and references to the user story or requirement. I cover positive, negative, boundary, integration, permission, and error-handling scenarios, not just the happy path.",
-    "detailed_answer": "Good test cases are clear, traceable to requirements, easy to execute, and focused on expected behavior and risk. I include preconditions, test data, steps, expected result, priority, and references to the user story or requirement. I cover positive, negative, boundary, integration, permission, and error-handling scenarios, not just the happy path.",
-    "keywords": ["test cases", "test scenarios", "boundary testing", "negative testing", "requirements traceability"],
+    "detailed_answer": "Good test cases are clear, traceable to requirements, easy to execute, and focused on expected behavior and risk. I include preconditions, test data, steps, expected result, priority, and references to the user story or requirement. I cover positive, negative, boundary, integration, permission, and error-handling scenarios, not just the happy path.\n\nInterview structure:\n- Start by answering 'How do you write good test cases?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "test cases",
+      "test scenarios",
+      "boundary testing",
+      "negative testing",
+      "requirements traceability"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -52,10 +90,21 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you test APIs?",
-    "alternate_questions": ["What do you validate in API testing?", "How do you approach REST API testing?"],
+    "alternate_questions": [
+      "What do you validate in API testing?",
+      "How do you approach REST API testing?"
+    ],
     "instant_answer": "I validate status codes, response body, schema, headers, authentication, authorization, required fields, error handling, idempotency, pagination, timeouts, rate limits, and data consistency with the backend. I also test negative cases such as invalid payloads, missing tokens, wrong permissions, boundary values, and dependency failures. For automation, I keep API tests fast and reliable in CI.",
-    "detailed_answer": "I validate status codes, response body, schema, headers, authentication, authorization, required fields, error handling, idempotency, pagination, timeouts, rate limits, and data consistency with the backend. I also test negative cases such as invalid payloads, missing tokens, wrong permissions, boundary values, and dependency failures. For automation, I keep API tests fast and reliable in CI.",
-    "keywords": ["api testing", "rest api", "status code", "schema validation", "authentication", "authorization", "postman"],
+    "detailed_answer": "I validate status codes, response body, schema, headers, authentication, authorization, required fields, error handling, idempotency, pagination, timeouts, rate limits, and data consistency with the backend. I also test negative cases such as invalid payloads, missing tokens, wrong permissions, boundary values, and dependency failures. For automation, I keep API tests fast and reliable in CI.\n\nInterview structure:\n- Start by answering 'How do you test APIs?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "api testing",
+      "rest api",
+      "status code",
+      "schema validation",
+      "authentication",
+      "authorization",
+      "postman"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -64,10 +113,19 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you decide regression testing scope?",
-    "alternate_questions": ["How do you plan regression testing?", "How do you reduce regression time?"],
+    "alternate_questions": [
+      "How do you plan regression testing?",
+      "How do you reduce regression time?"
+    ],
     "instant_answer": "I decide regression scope based on changed areas, impacted modules, integration points, defect history, critical user journeys, production risk, and release timeline. I do not run everything blindly if time is limited; I use risk-based selection. High-value stable regression checks should be automated, while new or risky areas may need focused manual testing.",
-    "detailed_answer": "I decide regression scope based on changed areas, impacted modules, integration points, defect history, critical user journeys, production risk, and release timeline. I do not run everything blindly if time is limited; I use risk-based selection. High-value stable regression checks should be automated, while new or risky areas may need focused manual testing.",
-    "keywords": ["regression testing", "risk based testing", "impact analysis", "critical user journeys", "automation"],
+    "detailed_answer": "I decide regression scope based on changed areas, impacted modules, integration points, defect history, critical user journeys, production risk, and release timeline. I do not run everything blindly if time is limited; I use risk-based selection. High-value stable regression checks should be automated, while new or risky areas may need focused manual testing.\n\nInterview structure:\n- Start by answering 'How do you decide regression testing scope?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "regression testing",
+      "risk based testing",
+      "impact analysis",
+      "critical user journeys",
+      "automation"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -76,10 +134,18 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "What is the difference between smoke testing and sanity testing?",
-    "alternate_questions": ["Explain smoke vs sanity testing.", "When do you run smoke and sanity tests?"],
+    "alternate_questions": [
+      "Explain smoke vs sanity testing.",
+      "When do you run smoke and sanity tests?"
+    ],
     "instant_answer": "Smoke testing is a broad, quick check that the main build is stable enough for deeper testing. Sanity testing is narrower and verifies a specific fix or changed area works as expected. After a deployment, I run smoke tests to validate core flows; after a bug fix or small change, I run sanity tests around that change and related impact areas.",
     "detailed_answer": "Smoke testing is a broad, quick check that the main build is stable enough for deeper testing. Sanity testing is narrower and verifies a specific fix or changed area works as expected. After a deployment, I run smoke tests to validate core flows; after a bug fix or small change, I run sanity tests around that change and related impact areas.",
-    "keywords": ["smoke testing", "sanity testing", "build validation", "release testing"],
+    "keywords": [
+      "smoke testing",
+      "sanity testing",
+      "build validation",
+      "release testing"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "low"
   },
@@ -88,10 +154,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "Explain the defect lifecycle.",
-    "alternate_questions": ["What are the stages of a bug?", "How does a defect move through workflow?"],
-    "instant_answer": "A typical defect lifecycle is new, triaged, assigned, in progress, fixed, ready for retest, retested, verified, and closed. It can also move to rejected, duplicate, deferred, cannot reproduce, or won’t fix. As QA, I make sure the defect has clear steps, evidence, severity, priority, environment, expected result, actual result, and retest notes.",
-    "detailed_answer": "A typical defect lifecycle is new, triaged, assigned, in progress, fixed, ready for retest, retested, verified, and closed. It can also move to rejected, duplicate, deferred, cannot reproduce, or won’t fix. As QA, I make sure the defect has clear steps, evidence, severity, priority, environment, expected result, actual result, and retest notes.",
-    "keywords": ["defect lifecycle", "bug lifecycle", "severity", "priority", "retest", "verification"],
+    "alternate_questions": [
+      "What are the stages of a bug?",
+      "How does a defect move through workflow?"
+    ],
+    "instant_answer": "A typical defect lifecycle is new, triaged, assigned, in progress, fixed, ready for retest, retested, verified, and closed. It can also move to rejected, duplicate, deferred, cannot reproduce, or won\u2019t fix. As QA, I make sure the defect has clear steps, evidence, severity, priority, environment, expected result, actual result, and retest notes.",
+    "detailed_answer": "A typical defect lifecycle is new, triaged, assigned, in progress, fixed, ready for retest, retested, verified, and closed. It can also move to rejected, duplicate, deferred, cannot reproduce, or won\u2019t fix. As QA, I make sure the defect has clear steps, evidence, severity, priority, environment, expected result, actual result, and retest notes.\n\nInterview structure:\n- Start by answering 'Explain the defect lifecycle.' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "defect lifecycle",
+      "bug lifecycle",
+      "severity",
+      "priority",
+      "retest",
+      "verification"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "low"
   },
@@ -100,10 +176,19 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "What is the difference between severity and priority?",
-    "alternate_questions": ["Explain severity vs priority.", "How do you classify defects?"],
+    "alternate_questions": [
+      "Explain severity vs priority.",
+      "How do you classify defects?"
+    ],
     "instant_answer": "Severity is the technical or business impact of the defect. Priority is how quickly the team should fix it. A crash in a critical payment flow is high severity and high priority. A typo on a rarely used page may be low severity and low priority. A branding issue on the homepage might be low severity but high priority because visibility is high.",
     "detailed_answer": "Severity is the technical or business impact of the defect. Priority is how quickly the team should fix it. A crash in a critical payment flow is high severity and high priority. A typo on a rarely used page may be low severity and low priority. A branding issue on the homepage might be low severity but high priority because visibility is high.",
-    "keywords": ["severity", "priority", "defect triage", "bug classification", "impact"],
+    "keywords": [
+      "severity",
+      "priority",
+      "defect triage",
+      "bug classification",
+      "impact"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "low"
   },
@@ -112,10 +197,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you handle flaky automated tests?",
-    "alternate_questions": ["Automation tests fail randomly. What do you do?", "How do you stabilize flaky tests?"],
+    "alternate_questions": [
+      "Automation tests fail randomly. What do you do?",
+      "How do you stabilize flaky tests?"
+    ],
     "instant_answer": "I do not ignore flaky tests because they reduce trust in automation. I first identify the pattern: timing issue, test data dependency, environment instability, async wait, order dependency, external service, or real intermittent bug. Then I fix waits, isolate data, mock unstable dependencies where appropriate, improve cleanup, and quarantine only temporarily with an owner and deadline.",
     "detailed_answer": "I do not ignore flaky tests because they reduce trust in automation. I first identify the pattern: timing issue, test data dependency, environment instability, async wait, order dependency, external service, or real intermittent bug. Then I fix waits, isolate data, mock unstable dependencies where appropriate, improve cleanup, and quarantine only temporarily with an owner and deadline.",
-    "keywords": ["flaky test", "test automation", "stability", "waits", "test data", "ci"],
+    "keywords": [
+      "flaky test",
+      "test automation",
+      "stability",
+      "waits",
+      "test data",
+      "ci"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -124,10 +219,21 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you integrate automated tests into CI/CD?",
-    "alternate_questions": ["How should QA tests run in pipelines?", "What tests belong in CI?"],
+    "alternate_questions": [
+      "How should QA tests run in pipelines?",
+      "What tests belong in CI?"
+    ],
     "instant_answer": "I keep CI tests fast, reliable, and layered. Unit and API tests should run early, smoke tests should block bad builds, and heavier UI or end-to-end regression can run on schedule or before release. I publish clear reports, fail the pipeline only for trusted checks, and track flaky tests separately so automation remains credible.",
-    "detailed_answer": "I keep CI tests fast, reliable, and layered. Unit and API tests should run early, smoke tests should block bad builds, and heavier UI or end-to-end regression can run on schedule or before release. I publish clear reports, fail the pipeline only for trusted checks, and track flaky tests separately so automation remains credible.",
-    "keywords": ["ci", "ci/cd", "test automation", "pipeline", "smoke tests", "api tests", "ui tests"],
+    "detailed_answer": "I keep CI tests fast, reliable, and layered. Unit and API tests should run early, smoke tests should block bad builds, and heavier UI or end-to-end regression can run on schedule or before release. I publish clear reports, fail the pipeline only for trusted checks, and track flaky tests separately so automation remains credible.\n\nInterview structure:\n- Start by answering 'How do you integrate automated tests into CI/CD?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "ci",
+      "ci/cd",
+      "test automation",
+      "pipeline",
+      "smoke tests",
+      "api tests",
+      "ui tests"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -136,10 +242,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you manage test data?",
-    "alternate_questions": ["How do you prepare test data?", "What are test data challenges?"],
+    "alternate_questions": [
+      "How do you prepare test data?",
+      "What are test data challenges?"
+    ],
     "instant_answer": "I manage test data based on repeatability, privacy, and coverage. I avoid using sensitive production data unless it is masked and approved. For automation, I prefer isolated data setup and cleanup, stable seed data, or API-based test data creation. I also cover boundary values, negative data, permission differences, and realistic business scenarios.",
-    "detailed_answer": "I manage test data based on repeatability, privacy, and coverage. I avoid using sensitive production data unless it is masked and approved. For automation, I prefer isolated data setup and cleanup, stable seed data, or API-based test data creation. I also cover boundary values, negative data, permission differences, and realistic business scenarios.",
-    "keywords": ["test data", "data masking", "automation", "seed data", "privacy", "boundary testing"],
+    "detailed_answer": "I manage test data based on repeatability, privacy, and coverage. I avoid using sensitive production data unless it is masked and approved. For automation, I prefer isolated data setup and cleanup, stable seed data, or API-based test data creation. I also cover boundary values, negative data, permission differences, and realistic business scenarios.\n\nInterview structure:\n- Start by answering 'How do you manage test data?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "test data",
+      "data masking",
+      "automation",
+      "seed data",
+      "privacy",
+      "boundary testing"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -148,10 +264,19 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "What is the role of QA in an Agile team?",
-    "alternate_questions": ["How does QA work in Scrum?", "How do testers contribute in Agile?"],
+    "alternate_questions": [
+      "How does QA work in Scrum?",
+      "How do testers contribute in Agile?"
+    ],
     "instant_answer": "In Agile, QA should be involved early, not only at the end of the sprint. I participate in refinement, clarify acceptance criteria, identify risks, plan test coverage, test continuously, automate stable checks, and give fast feedback. I also help the team define done so quality includes testing, regression impact, documentation, and release readiness.",
-    "detailed_answer": "In Agile, QA should be involved early, not only at the end of the sprint. I participate in refinement, clarify acceptance criteria, identify risks, plan test coverage, test continuously, automate stable checks, and give fast feedback. I also help the team define done so quality includes testing, regression impact, documentation, and release readiness.",
-    "keywords": ["agile qa", "scrum", "acceptance criteria", "definition of done", "shift left testing"],
+    "detailed_answer": "In Agile, QA should be involved early, not only at the end of the sprint. I participate in refinement, clarify acceptance criteria, identify risks, plan test coverage, test continuously, automate stable checks, and give fast feedback. I also help the team define done so quality includes testing, regression impact, documentation, and release readiness.\n\nInterview structure:\n- Start by answering 'What is the role of QA in an Agile team?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "agile qa",
+      "scrum",
+      "acceptance criteria",
+      "definition of done",
+      "shift left testing"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -160,10 +285,19 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "What is exploratory testing and when do you use it?",
-    "alternate_questions": ["How do you perform exploratory testing?", "Why is exploratory testing useful?"],
+    "alternate_questions": [
+      "How do you perform exploratory testing?",
+      "Why is exploratory testing useful?"
+    ],
     "instant_answer": "Exploratory testing is simultaneous learning, test design, and execution. I use it when requirements are new, risk is unclear, user behavior may vary, or automation does not cover enough. I still keep it disciplined by using charters, noting observations, capturing defects clearly, and turning repeated valuable checks into regression or automation later.",
-    "detailed_answer": "Exploratory testing is simultaneous learning, test design, and execution. I use it when requirements are new, risk is unclear, user behavior may vary, or automation does not cover enough. I still keep it disciplined by using charters, noting observations, capturing defects clearly, and turning repeated valuable checks into regression or automation later.",
-    "keywords": ["exploratory testing", "manual testing", "risk", "test charter", "defects"],
+    "detailed_answer": "Exploratory testing is simultaneous learning, test design, and execution. I use it when requirements are new, risk is unclear, user behavior may vary, or automation does not cover enough. I still keep it disciplined by using charters, noting observations, capturing defects clearly, and turning repeated valuable checks into regression or automation later.\n\nInterview structure:\n- Start by answering 'What is exploratory testing and when do you use it?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "exploratory testing",
+      "manual testing",
+      "risk",
+      "test charter",
+      "defects"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "medium"
   },
@@ -172,10 +306,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "How do you decide if a release is ready?",
-    "alternate_questions": ["What are QA release sign-off criteria?", "How do you give QA sign-off?"],
+    "alternate_questions": [
+      "What are QA release sign-off criteria?",
+      "How do you give QA sign-off?"
+    ],
     "instant_answer": "I look at test execution status, critical defects, regression results, automation results, known issues, business risk, environment stability, rollback plan, and stakeholder acceptance. QA sign-off does not mean zero bugs; it means the remaining risk is understood and accepted. If there is a blocker or unknown high risk, I clearly recommend holding the release.",
-    "detailed_answer": "I look at test execution status, critical defects, regression results, automation results, known issues, business risk, environment stability, rollback plan, and stakeholder acceptance. QA sign-off does not mean zero bugs; it means the remaining risk is understood and accepted. If there is a blocker or unknown high risk, I clearly recommend holding the release.",
-    "keywords": ["release readiness", "qa sign off", "regression", "known issues", "risk", "rollback"],
+    "detailed_answer": "I look at test execution status, critical defects, regression results, automation results, known issues, business risk, environment stability, rollback plan, and stakeholder acceptance. QA sign-off does not mean zero bugs; it means the remaining risk is understood and accepted. If there is a blocker or unknown high risk, I clearly recommend holding the release.\n\nInterview structure:\n- Start by answering 'How do you decide if a release is ready?' directly.\n- Explain the practical checks, examples, and tradeoffs for QA Engineer.\n- Close with how you would validate the result, reduce risk, and prevent the same issue from repeating.",
+    "keywords": [
+      "release readiness",
+      "qa sign off",
+      "regression",
+      "known issues",
+      "risk",
+      "rollback"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   },
@@ -184,10 +328,20 @@
     "category": "profession",
     "topic": "QA Engineer",
     "question": "A bug escaped to production. What do you do as QA?",
-    "alternate_questions": ["How do you handle production defects as QA?", "A defect was missed. What is your response?"],
+    "alternate_questions": [
+      "How do you handle production defects as QA?",
+      "A defect was missed. What is your response?"
+    ],
     "instant_answer": "I first help confirm the issue, impact, reproduction steps, affected versions, and workaround. I avoid blame and focus on containment and clear communication. After the fix, I retest and check regression impact. Then I review why the bug escaped: missing requirement, test gap, environment difference, data gap, automation gap, or communication issue, and I add prevention coverage.",
     "detailed_answer": "I first help confirm the issue, impact, reproduction steps, affected versions, and workaround. I avoid blame and focus on containment and clear communication. After the fix, I retest and check regression impact. Then I review why the bug escaped: missing requirement, test gap, environment difference, data gap, automation gap, or communication issue, and I add prevention coverage.",
-    "keywords": ["production bug", "escaped defect", "rca", "regression", "retest", "test gap"],
+    "keywords": [
+      "production bug",
+      "escaped defect",
+      "rca",
+      "regression",
+      "retest",
+      "test gap"
+    ],
     "answer_style": "profession_interview_practical",
     "difficulty": "high"
   }
