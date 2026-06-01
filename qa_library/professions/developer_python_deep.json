@@ -1,0 +1,882 @@
+[
+  {
+    "id": "profession_developer_python_deep_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do Python decorators work?",
+    "alternate_questions": [
+      "Explain decorators with an example.",
+      "When would you use a decorator in Python?"
+    ],
+    "instant_answer": "For decorators, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For decorators, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "decorators",
+      "functions",
+      "wrappers"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_002",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "When do you use generators in Python?",
+    "alternate_questions": [
+      "What is yield used for?",
+      "How do generators help memory usage?"
+    ],
+    "instant_answer": "For generators, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For generators, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "generators",
+      "yield",
+      "memory"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_003",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do context managers work in Python?",
+    "alternate_questions": [
+      "What does with do in Python?",
+      "How do you manage resources safely?"
+    ],
+    "instant_answer": "For context managers, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For context managers, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "context manager",
+      "with",
+      "resources"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_004",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you use type hints in Python?",
+    "alternate_questions": [
+      "Why use typing in Python?",
+      "How do type hints help maintainability?"
+    ],
+    "instant_answer": "For typing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For typing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "typing",
+      "mypy",
+      "maintainability"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_005",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How does Pydantic help API development?",
+    "alternate_questions": [
+      "Why use Pydantic models?",
+      "How do you validate request bodies in Python?"
+    ],
+    "instant_answer": "For pydantic, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For pydantic, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "pydantic",
+      "validation",
+      "fastapi"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_006",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you use SQLAlchemy safely?",
+    "alternate_questions": [
+      "How do you manage sessions in SQLAlchemy?",
+      "What are ORM risks?"
+    ],
+    "instant_answer": "For sqlalchemy, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For sqlalchemy, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "sqlalchemy",
+      "orm",
+      "sessions"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_007",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you avoid performance issues in Django ORM?",
+    "alternate_questions": [
+      "How do select_related and prefetch_related help?",
+      "How do you fix N+1 queries in Django?"
+    ],
+    "instant_answer": "For django orm, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For django orm, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "django",
+      "orm",
+      "n+1"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_008",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you structure a Flask application?",
+    "alternate_questions": [
+      "What belongs in Flask blueprints?",
+      "How do you make Flask apps maintainable?"
+    ],
+    "instant_answer": "For flask, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For flask, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "flask",
+      "blueprints",
+      "api"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_009",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do FastAPI dependencies work?",
+    "alternate_questions": [
+      "How do you inject database sessions in FastAPI?",
+      "How do you share auth logic in FastAPI?"
+    ],
+    "instant_answer": "For fastapi dependencies, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For fastapi dependencies, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "fastapi",
+      "dependencies",
+      "auth"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_010",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you use Celery for background jobs?",
+    "alternate_questions": [
+      "How do you retry Celery tasks?",
+      "How do you monitor Python background workers?"
+    ],
+    "instant_answer": "For celery, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For celery, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "celery",
+      "background jobs",
+      "retry"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_011",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do pytest fixtures work?",
+    "alternate_questions": [
+      "How do you share test setup in pytest?",
+      "When do you use fixture scopes?"
+    ],
+    "instant_answer": "For pytest fixtures, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For pytest fixtures, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "pytest",
+      "fixtures",
+      "testing"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_012",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you mock dependencies in Python tests?",
+    "alternate_questions": [
+      "When should you use unittest.mock?",
+      "What should you avoid mocking?"
+    ],
+    "instant_answer": "For mocking, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For mocking, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "mocking",
+      "tests",
+      "pytest"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_013",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you avoid blocking the event loop?",
+    "alternate_questions": [
+      "What happens if async code calls blocking functions?",
+      "How do you debug slow asyncio apps?"
+    ],
+    "instant_answer": "For async blocking, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For async blocking, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "asyncio",
+      "event loop",
+      "blocking"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_014",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "When do you use multiprocessing in Python?",
+    "alternate_questions": [
+      "How do you run CPU-bound Python work?",
+      "Threads vs processes in Python?"
+    ],
+    "instant_answer": "For multiprocessing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For multiprocessing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "multiprocessing",
+      "cpu bound",
+      "gil"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_015",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you set up logging in Python services?",
+    "alternate_questions": [
+      "What should Python logs include?",
+      "How do you structure logs for production?"
+    ],
+    "instant_answer": "For logging, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For logging, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "logging",
+      "structured logs",
+      "production"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_016",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you design Python exception handling?",
+    "alternate_questions": [
+      "When do you raise custom exceptions?",
+      "How do you avoid swallowing exceptions?"
+    ],
+    "instant_answer": "For exceptions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For exceptions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "exceptions",
+      "error handling",
+      "custom exceptions"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_017",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you keep Python environments reproducible?",
+    "alternate_questions": [
+      "venv vs Poetry?",
+      "How do you manage dependency versions?"
+    ],
+    "instant_answer": "For virtualenv, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For virtualenv, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "venv",
+      "poetry",
+      "dependencies"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_018",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you package a Python project?",
+    "alternate_questions": [
+      "What is pyproject.toml?",
+      "How do you publish or install Python packages?"
+    ],
+    "instant_answer": "For packaging, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For packaging, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "packaging",
+      "pyproject",
+      "pip"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_019",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you profile Python performance?",
+    "alternate_questions": [
+      "Python code is slow. What tools do you use?",
+      "How do you find bottlenecks in Python?"
+    ],
+    "instant_answer": "For performance profiling, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For performance profiling, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "profiling",
+      "cprofile",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_020",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you optimize pandas processing?",
+    "alternate_questions": [
+      "Pandas job is slow. What do you check?",
+      "How do you reduce memory use in pandas?"
+    ],
+    "instant_answer": "For pandas performance, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For pandas performance, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "pandas",
+      "dataframe",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_021",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you process large files in Python?",
+    "alternate_questions": [
+      "How do you avoid loading huge files into memory?",
+      "How do you stream CSV or JSON data?"
+    ],
+    "instant_answer": "For streaming files, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For streaming files, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "streaming",
+      "files",
+      "memory"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_022",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you build a reliable Python API client?",
+    "alternate_questions": [
+      "How do you handle retries and timeouts in requests?",
+      "How do you call external APIs safely?"
+    ],
+    "instant_answer": "For api clients, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For api clients, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "api client",
+      "timeouts",
+      "retries"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_023",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "What Python security issues do you watch for?",
+    "alternate_questions": [
+      "How do you avoid unsafe deserialization?",
+      "What are common Python security mistakes?"
+    ],
+    "instant_answer": "For security, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For security, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "security",
+      "deserialization",
+      "secrets"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_024",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you apply dependency injection in Python?",
+    "alternate_questions": [
+      "How do you make Python code testable?",
+      "How do you avoid hardcoded dependencies?"
+    ],
+    "instant_answer": "For dependency injection, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For dependency injection, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "dependency injection",
+      "testing",
+      "design"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_025",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "When would you use dataclasses?",
+    "alternate_questions": [
+      "Dataclass vs regular class?",
+      "How do dataclasses improve Python models?"
+    ],
+    "instant_answer": "For dataclasses, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For dataclasses, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "dataclasses",
+      "models",
+      "typing"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_026",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you choose Python data structures?",
+    "alternate_questions": [
+      "List vs tuple vs set vs dict?",
+      "How do Python dictionaries work in practice?"
+    ],
+    "instant_answer": "For collections, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For collections, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "collections",
+      "dict",
+      "set"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_027",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "What is the difference between shallow copy and deep copy?",
+    "alternate_questions": [
+      "How do object references work in Python?",
+      "When can copying cause bugs?"
+    ],
+    "instant_answer": "For copying, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For copying, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "copy",
+      "references",
+      "mutability"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_028",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do mutable defaults cause bugs in Python?",
+    "alternate_questions": [
+      "Why avoid mutable default arguments?",
+      "Explain a common Python function default bug."
+    ],
+    "instant_answer": "For mutability, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For mutability, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "mutability",
+      "defaults",
+      "bug"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_029",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do Python imports and modules work?",
+    "alternate_questions": [
+      "How do you avoid circular imports?",
+      "How do you structure Python packages?"
+    ],
+    "instant_answer": "For imports, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For imports, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "imports",
+      "modules",
+      "packages"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_030",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you manage configuration in Python apps?",
+    "alternate_questions": [
+      "How do Python apps read environment variables?",
+      "How do you separate dev and prod config?"
+    ],
+    "instant_answer": "For configuration, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For configuration, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "configuration",
+      "environment",
+      "settings"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_031",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you run migrations in Python projects?",
+    "alternate_questions": [
+      "How do you use Alembic?",
+      "How do you manage schema changes with SQLAlchemy?"
+    ],
+    "instant_answer": "For database migrations, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For database migrations, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "alembic",
+      "migrations",
+      "database"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_032",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you implement authentication in a Python API?",
+    "alternate_questions": [
+      "How do you validate JWT in FastAPI?",
+      "How do you secure Python endpoints?"
+    ],
+    "instant_answer": "For auth, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For auth, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "authentication",
+      "jwt",
+      "fastapi"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_033",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you implement authorization in Python services?",
+    "alternate_questions": [
+      "How do you check permissions in Python APIs?",
+      "How do you enforce RBAC?"
+    ],
+    "instant_answer": "For authorization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For authorization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "authorization",
+      "rbac",
+      "permissions"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_034",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you design retries for Python background jobs?",
+    "alternate_questions": [
+      "How do you avoid duplicate task processing?",
+      "How do you handle failed Python jobs?"
+    ],
+    "instant_answer": "For background retries, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For background retries, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "background jobs",
+      "retries",
+      "idempotency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_035",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you handle WebSockets in Python?",
+    "alternate_questions": [
+      "When use WebSockets instead of REST?",
+      "How do you manage realtime Python connections?"
+    ],
+    "instant_answer": "For websockets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For websockets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "websocket",
+      "realtime",
+      "fastapi"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_036",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you test FastAPI endpoints?",
+    "alternate_questions": [
+      "How do you use TestClient?",
+      "How do you test Python API validation?"
+    ],
+    "instant_answer": "For testing APIs, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For testing APIs, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "fastapi",
+      "testclient",
+      "api tests"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_037",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you maintain Python code quality?",
+    "alternate_questions": [
+      "What tools do you use for linting and formatting?",
+      "How do ruff, black, or mypy help?"
+    ],
+    "instant_answer": "For linting, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For linting, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "linting",
+      "formatting",
+      "ruff"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_038",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you containerize a Python service?",
+    "alternate_questions": [
+      "What belongs in a Python Dockerfile?",
+      "How do you keep Python images small?"
+    ],
+    "instant_answer": "For docker, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For docker, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "docker",
+      "container",
+      "deployment"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_039",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you run Python web apps in production?",
+    "alternate_questions": [
+      "Uvicorn vs Gunicorn?",
+      "How do workers affect Python API performance?"
+    ],
+    "instant_answer": "For gunicorn, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For gunicorn, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "gunicorn",
+      "uvicorn",
+      "workers"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_040",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you protect secrets in Python applications?",
+    "alternate_questions": [
+      "How do you avoid committing secrets?",
+      "How do Python apps access secret stores?"
+    ],
+    "instant_answer": "For secrets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For secrets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "secrets",
+      "security",
+      "environment"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_041",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you handle JSON serialization in Python?",
+    "alternate_questions": [
+      "How do you serialize datetimes?",
+      "How do you avoid API serialization bugs?"
+    ],
+    "instant_answer": "For serialization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For serialization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "json",
+      "serialization",
+      "datetime"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_042",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you validate data pipelines in Python?",
+    "alternate_questions": [
+      "How do you test Python ETL code?",
+      "How do you catch bad data in Python jobs?"
+    ],
+    "instant_answer": "For data validation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For data validation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "data validation",
+      "etl",
+      "pipeline"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_043",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you handle thread safety in Python?",
+    "alternate_questions": [
+      "When are Python objects not thread-safe?",
+      "How do you protect shared state?"
+    ],
+    "instant_answer": "For thread safety, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For thread safety, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "thread safety",
+      "locks",
+      "concurrency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_deep_044",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you handle files safely in Python?",
+    "alternate_questions": [
+      "How do you avoid file descriptor leaks?",
+      "How do you use pathlib and context managers?"
+    ],
+    "instant_answer": "For file handling, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For file handling, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "python",
+      "files",
+      "pathlib",
+      "context manager"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "id": "profession_developer_java_deep_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you secure endpoints in Spring Security?",
+    "alternate_questions": [
+      "How do you configure authentication and authorization in Spring?",
+      "How do you protect Java APIs?"
+    ],
+    "instant_answer": "For spring security, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For spring security, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring security",
+      "authorization",
+      "jwt"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_002",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you avoid JPA performance problems?",
+    "alternate_questions": [
+      "How do you fix N+1 queries in Hibernate?",
+      "What are common ORM issues in Java?"
+    ],
+    "instant_answer": "For jpa performance, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For jpa performance, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "jpa",
+      "hibernate",
+      "n+1"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_003",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How does garbage collection affect Java applications?",
+    "alternate_questions": [
+      "What GC metrics do you monitor?",
+      "How do you tune GC issues?"
+    ],
+    "instant_answer": "For garbage collection, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For garbage collection, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "garbage collection",
+      "jvm",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_004",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "When do you use Java Streams?",
+    "alternate_questions": [
+      "What are the tradeoffs of streams?",
+      "How do you avoid stream performance mistakes?"
+    ],
+    "instant_answer": "For streams, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For streams, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "streams",
+      "collections",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_005",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you use Optional correctly?",
+    "alternate_questions": [
+      "When should Optional not be used?",
+      "How does Optional reduce null bugs?"
+    ],
+    "instant_answer": "For optionals, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For optionals, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "optional",
+      "null",
+      "api design"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_006",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "Why are equals and hashCode important?",
+    "alternate_questions": [
+      "What happens if hashCode is wrong?",
+      "How do Java collections use equals?"
+    ],
+    "instant_answer": "For equals hashcode, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For equals hashcode, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "equals",
+      "hashcode",
+      "collections"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_007",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "Why is immutability useful in Java?",
+    "alternate_questions": [
+      "How do immutable objects help concurrency?",
+      "How do you design immutable classes?"
+    ],
+    "instant_answer": "For immutability, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For immutability, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "immutability",
+      "thread safety",
+      "design"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_008",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you configure Java thread pools?",
+    "alternate_questions": [
+      "What can go wrong with ExecutorService?",
+      "How do thread pools affect performance?"
+    ],
+    "instant_answer": "For thread pools, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For thread pools, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "thread pool",
+      "executorservice",
+      "concurrency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_009",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "When do you use CompletableFuture?",
+    "alternate_questions": [
+      "How do you handle async work in Java?",
+      "How do you combine async operations?"
+    ],
+    "instant_answer": "For completablefuture, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For completablefuture, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "completablefuture",
+      "async",
+      "concurrency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_010",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you handle synchronization in Java?",
+    "alternate_questions": [
+      "synchronized vs ReentrantLock?",
+      "How do you avoid deadlocks?"
+    ],
+    "instant_answer": "For locks, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For locks, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "synchronization",
+      "locks",
+      "deadlock"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_011",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "What can go wrong with @Transactional?",
+    "alternate_questions": [
+      "Why might Spring transaction rollback not happen?",
+      "How do proxy transactions work?"
+    ],
+    "instant_answer": "For spring transactions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For spring transactions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring",
+      "transactional",
+      "rollback"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_012",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "Explain Spring bean lifecycle.",
+    "alternate_questions": [
+      "How does Spring create beans?",
+      "What is dependency injection in Spring?"
+    ],
+    "instant_answer": "For bean lifecycle, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For bean lifecycle, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring",
+      "bean lifecycle",
+      "dependency injection"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_013",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you manage Spring configuration?",
+    "alternate_questions": [
+      "Profiles vs properties?",
+      "How do you separate environment config in Java?"
+    ],
+    "instant_answer": "For configuration, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For configuration, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring",
+      "configuration",
+      "profiles"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_014",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you use Spring Boot Actuator?",
+    "alternate_questions": [
+      "What production endpoints do you expose?",
+      "How do you monitor Spring Boot apps?"
+    ],
+    "instant_answer": "For actuator, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For actuator, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring boot",
+      "actuator",
+      "monitoring"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_015",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you handle exceptions in Spring Boot?",
+    "alternate_questions": [
+      "How do you use ControllerAdvice?",
+      "How do you return clean API errors in Java?"
+    ],
+    "instant_answer": "For exception handling, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For exception handling, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring boot",
+      "exceptions",
+      "controlleradvice"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_016",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you validate requests in Spring Boot?",
+    "alternate_questions": [
+      "How do Bean Validation annotations work?",
+      "How do you handle validation errors?"
+    ],
+    "instant_answer": "For validation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For validation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring boot",
+      "validation",
+      "bean validation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_017",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you make Java microservices resilient?",
+    "alternate_questions": [
+      "How do you handle downstream failures?",
+      "How do retries and circuit breakers work in Java?"
+    ],
+    "instant_answer": "For microservices resilience, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For microservices resilience, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "microservices",
+      "resilience",
+      "circuit breaker"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_018",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you consume Kafka messages in Java?",
+    "alternate_questions": [
+      "How do Kafka consumer groups work?",
+      "How do you handle retries in Kafka consumers?"
+    ],
+    "instant_answer": "For kafka, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For kafka, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "kafka",
+      "consumer",
+      "retry"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_019",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you make Java message processing idempotent?",
+    "alternate_questions": [
+      "How do you prevent duplicate events?",
+      "How do you handle Kafka redelivery?"
+    ],
+    "instant_answer": "For idempotency, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For idempotency, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "idempotency",
+      "messaging",
+      "events"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_020",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do Maven and Gradle manage builds?",
+    "alternate_questions": [
+      "Maven vs Gradle?",
+      "How do you manage Java dependencies?"
+    ],
+    "instant_answer": "For maven gradle, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For maven gradle, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "maven",
+      "gradle",
+      "dependencies"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_021",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do Spring test slices work?",
+    "alternate_questions": [
+      "When use @WebMvcTest vs @SpringBootTest?",
+      "How do you keep Spring tests fast?"
+    ],
+    "instant_answer": "For testing slices, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For testing slices, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring tests",
+      "webmvctest",
+      "springboottest"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_022",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "Why use Testcontainers?",
+    "alternate_questions": [
+      "How do you test database integration in Java?",
+      "How do you avoid fake integration tests?"
+    ],
+    "instant_answer": "For testcontainers, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For testcontainers, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "testcontainers",
+      "integration tests",
+      "database"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_023",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you use Mockito effectively?",
+    "alternate_questions": [
+      "When should you mock dependencies?",
+      "What are mocking pitfalls?"
+    ],
+    "instant_answer": "For mockito, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For mockito, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "mockito",
+      "unit tests",
+      "mocking"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_024",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "When would you use Java records?",
+    "alternate_questions": [
+      "What are records good for?",
+      "Records vs classes in Java?"
+    ],
+    "instant_answer": "For records, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For records, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "records",
+      "dto",
+      "immutability"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_025",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "What are sealed classes useful for?",
+    "alternate_questions": [
+      "How do sealed types improve design?",
+      "When use sealed classes in Java?"
+    ],
+    "instant_answer": "For sealed classes, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For sealed classes, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "sealed classes",
+      "types",
+      "design"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_026",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do Java generics work?",
+    "alternate_questions": [
+      "What is type erasure?",
+      "Why use generics?"
+    ],
+    "instant_answer": "For generics, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For generics, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "generics",
+      "type erasure",
+      "collections"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_027",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How does Java class loading work?",
+    "alternate_questions": [
+      "What are classpath issues?",
+      "How do dependency conflicts happen?"
+    ],
+    "instant_answer": "For class loading, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For class loading, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "classloader",
+      "classpath",
+      "dependencies"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_028",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How can Java have memory leaks?",
+    "alternate_questions": [
+      "What causes retained objects in Java?",
+      "How do you detect Java memory leaks?"
+    ],
+    "instant_answer": "For memory leaks, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For memory leaks, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "memory leak",
+      "heap dump",
+      "jvm"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_029",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you implement pagination in Spring APIs?",
+    "alternate_questions": [
+      "Page vs Slice in Spring Data?",
+      "How do you paginate large tables?"
+    ],
+    "instant_answer": "For api pagination, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For api pagination, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring data",
+      "pagination",
+      "api"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_030",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you manage database migrations in Java apps?",
+    "alternate_questions": [
+      "Flyway vs Liquibase?",
+      "How do you deploy schema changes safely?"
+    ],
+    "instant_answer": "For database migrations, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For database migrations, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "flyway",
+      "liquibase",
+      "migrations"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_031",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do Java services handle secrets?",
+    "alternate_questions": [
+      "How do you avoid secrets in application.properties?",
+      "How do apps access Key Vault or secret managers?"
+    ],
+    "instant_answer": "For security secrets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For security secrets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "secrets",
+      "security",
+      "configuration"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_032",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you structure Java application logs?",
+    "alternate_questions": [
+      "What should Spring Boot logs include?",
+      "How do correlation IDs work?"
+    ],
+    "instant_answer": "For logging, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For logging, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "logging",
+      "slf4j",
+      "correlation id"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_033",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you trace requests across Java services?",
+    "alternate_questions": [
+      "How do distributed traces help?",
+      "How do you debug cross-service latency?"
+    ],
+    "instant_answer": "For tracing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For tracing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "tracing",
+      "observability",
+      "microservices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_034",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "RestTemplate vs WebClient?",
+    "alternate_questions": [
+      "When do you use WebClient?",
+      "How do Java services call external APIs?"
+    ],
+    "instant_answer": "For rest template webclient, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For rest template webclient, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "webclient",
+      "resttemplate",
+      "http client"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_035",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you configure timeouts in Java API clients?",
+    "alternate_questions": [
+      "What happens without timeouts?",
+      "How do you prevent thread exhaustion?"
+    ],
+    "instant_answer": "For timeouts, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For timeouts, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "timeouts",
+      "http client",
+      "resilience"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_036",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you handle JSON serialization in Java?",
+    "alternate_questions": [
+      "How do Jackson annotations help?",
+      "How do you avoid API serialization bugs?"
+    ],
+    "instant_answer": "For serialization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For serialization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "jackson",
+      "json",
+      "serialization"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_037",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you handle dates and time zones in Java?",
+    "alternate_questions": [
+      "Why use java.time?",
+      "How do you avoid timezone bugs?"
+    ],
+    "instant_answer": "For date time, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For date time, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "datetime",
+      "timezone",
+      "java.time"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_038",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you design batch jobs in Java?",
+    "alternate_questions": [
+      "How do Spring Batch jobs work?",
+      "How do you restart failed batch jobs?"
+    ],
+    "instant_answer": "For batch, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For batch, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "spring batch",
+      "batch jobs",
+      "restart"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_039",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you process large files in Java?",
+    "alternate_questions": [
+      "How do you avoid memory issues with files?",
+      "How do streams help file processing?"
+    ],
+    "instant_answer": "For file processing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For file processing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "files",
+      "streaming",
+      "memory"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_040",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you containerize a Java service?",
+    "alternate_questions": [
+      "How do JVM settings work in containers?",
+      "How do you keep Java Docker images efficient?"
+    ],
+    "instant_answer": "For containerization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For containerization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "docker",
+      "container",
+      "jvm"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_041",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do Java services support zero-downtime deployment?",
+    "alternate_questions": [
+      "How do you deploy without breaking clients?",
+      "How do you handle rolling deployments?"
+    ],
+    "instant_answer": "For blue green, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For blue green, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "deployment",
+      "zero downtime",
+      "compatibility"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_042",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do Java services work behind an API gateway?",
+    "alternate_questions": [
+      "What belongs in gateway vs service?",
+      "How do you handle auth and routing?"
+    ],
+    "instant_answer": "For api gateway, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For api gateway, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "api gateway",
+      "routing",
+      "auth"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_043",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "When would you use validation groups?",
+    "alternate_questions": [
+      "How do you validate create vs update differently?",
+      "How do Bean Validation groups work?"
+    ],
+    "instant_answer": "For validation groups, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For validation groups, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "validation groups",
+      "bean validation",
+      "spring"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_deep_044",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you use domain events in Java?",
+    "alternate_questions": [
+      "When do you publish events from a service?",
+      "How do domain events reduce coupling?"
+    ],
+    "instant_answer": "For domain events, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For domain events, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "java",
+      "domain events",
+      "events",
+      "ddd"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

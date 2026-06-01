@@ -1,5 +1,6 @@
 from app.answer_engine import find_best_matches
 from app.professions import ALLOWED_FILTERS, profession_options
+from app.library_loader import load_library
 
 
 def test_profession_filters_are_registered() -> None:
@@ -53,3 +54,16 @@ def test_sql_developer_filter_matches_sql_pack() -> None:
 def test_fullstack_developer_filter_matches_fullstack_pack() -> None:
     match = find_best_matches("How do you manage state in a React application?", limit=1, category_filter="developer_fullstack")[0]
     assert match.topic == "Full Stack Developer"
+
+
+def test_developer_specialization_pack_counts() -> None:
+    counts = {}
+    for item in load_library():
+        topic = item["topic"]
+        counts[topic] = counts.get(topic, 0) + 1
+
+    assert counts["Software Developer - General"] >= 50
+    assert counts["Python Developer"] >= 50
+    assert counts["Java Developer"] >= 50
+    assert counts["SQL Developer"] >= 50
+    assert counts["Full Stack Developer"] >= 50

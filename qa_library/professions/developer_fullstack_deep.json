@@ -1,0 +1,882 @@
+[
+  {
+    "id": "profession_developer_fullstack_deep_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you design reusable frontend components?",
+    "alternate_questions": [
+      "What makes a React component reusable?",
+      "How do you avoid over-abstracting UI components?"
+    ],
+    "instant_answer": "For component design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For component design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "react",
+      "components",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_002",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "Why use TypeScript in full-stack apps?",
+    "alternate_questions": [
+      "How does TypeScript reduce bugs?",
+      "How do frontend and backend types stay aligned?"
+    ],
+    "instant_answer": "For typescript, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For typescript, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "typescript",
+      "types",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_003",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you handle routing in a single-page app?",
+    "alternate_questions": [
+      "Client routing vs server routing?",
+      "How do protected routes work?"
+    ],
+    "instant_answer": "For routing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For routing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "routing",
+      "spa",
+      "react"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_004",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "SSR vs CSR?",
+    "alternate_questions": [
+      "When do you use server-side rendering?",
+      "What are tradeoffs of client-side rendering?"
+    ],
+    "instant_answer": "For server rendering, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For server rendering, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "ssr",
+      "csr",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_005",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you integrate frontend with backend APIs?",
+    "alternate_questions": [
+      "How do you handle loading and error states?",
+      "How do frontend apps call APIs reliably?"
+    ],
+    "instant_answer": "For api integration, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For api integration, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "api",
+      "frontend",
+      "backend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_006",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What are React error boundaries?",
+    "alternate_questions": [
+      "How do you handle frontend crashes?",
+      "How do you prevent one UI error from breaking a page?"
+    ],
+    "instant_answer": "For error boundaries, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For error boundaries, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "react",
+      "error boundary",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_007",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you build complex forms?",
+    "alternate_questions": [
+      "How do you manage form validation and submission?",
+      "How do you handle form errors from APIs?"
+    ],
+    "instant_answer": "For forms, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For forms, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "forms",
+      "validation",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_008",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you make web apps accessible?",
+    "alternate_questions": [
+      "What accessibility checks do you perform?",
+      "How do ARIA and keyboard navigation matter?"
+    ],
+    "instant_answer": "For accessibility, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For accessibility, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "accessibility",
+      "aria",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_009",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you build responsive layouts?",
+    "alternate_questions": [
+      "How do you support desktop and mobile?",
+      "What causes layout bugs?"
+    ],
+    "instant_answer": "For responsive design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For responsive design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "responsive design",
+      "css",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_010",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you manage CSS at scale?",
+    "alternate_questions": [
+      "CSS modules vs utility classes?",
+      "How do you prevent style conflicts?"
+    ],
+    "instant_answer": "For css architecture, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For css architecture, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "css",
+      "styles",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_011",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you test frontend code?",
+    "alternate_questions": [
+      "Unit vs component vs end-to-end tests?",
+      "How do you test React behavior?"
+    ],
+    "instant_answer": "For frontend testing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For frontend testing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "frontend testing",
+      "react",
+      "e2e"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_012",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What should end-to-end tests cover?",
+    "alternate_questions": [
+      "How do you avoid flaky UI tests?",
+      "What user journeys should be automated?"
+    ],
+    "instant_answer": "For e2e testing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For e2e testing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "e2e",
+      "playwright",
+      "testing"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_013",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you secure frontend to backend communication?",
+    "alternate_questions": [
+      "How do you protect tokens?",
+      "How do CORS and cookies affect security?"
+    ],
+    "instant_answer": "For api security, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For api security, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "security",
+      "cors",
+      "cookies"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_014",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What is CSRF and how do you prevent it?",
+    "alternate_questions": [
+      "When are CSRF tokens needed?",
+      "How do SameSite cookies help?"
+    ],
+    "instant_answer": "For csrf, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For csrf, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "csrf",
+      "security",
+      "cookies"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_015",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What is XSS and how do you prevent it?",
+    "alternate_questions": [
+      "How can frontend code expose XSS?",
+      "How do escaping and CSP help?"
+    ],
+    "instant_answer": "For xss, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For xss, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "xss",
+      "security",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_016",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "Explain CORS.",
+    "alternate_questions": [
+      "Why do browsers block cross-origin requests?",
+      "How do you configure CORS safely?"
+    ],
+    "instant_answer": "For cors, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For cors, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "cors",
+      "api",
+      "security"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_017",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you handle token refresh?",
+    "alternate_questions": [
+      "How do refresh tokens work?",
+      "How do you handle expired sessions?"
+    ],
+    "instant_answer": "For jwt refresh, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For jwt refresh, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "jwt",
+      "refresh token",
+      "auth"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_018",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you implement file uploads end to end?",
+    "alternate_questions": [
+      "How do frontend uploads connect to backend storage?",
+      "How do you validate uploaded files?"
+    ],
+    "instant_answer": "For file uploads, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For file uploads, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "file upload",
+      "storage",
+      "security"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_019",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you build realtime features?",
+    "alternate_questions": [
+      "WebSockets vs polling?",
+      "How do you handle live updates in full-stack apps?"
+    ],
+    "instant_answer": "For real time, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For real time, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "websocket",
+      "realtime",
+      "polling"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_020",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you design notification systems?",
+    "alternate_questions": [
+      "How do in-app and email notifications work?",
+      "How do you avoid duplicate notifications?"
+    ],
+    "instant_answer": "For notifications, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For notifications, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "notifications",
+      "events",
+      "backend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_021",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you implement search in a web app?",
+    "alternate_questions": [
+      "Database search vs search engine?",
+      "How do filters and pagination work with search?"
+    ],
+    "instant_answer": "For search, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For search, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "search",
+      "filters",
+      "pagination"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_022",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What are optimistic UI updates?",
+    "alternate_questions": [
+      "When should the UI update before the server responds?",
+      "How do you rollback optimistic changes?"
+    ],
+    "instant_answer": "For optimistic updates, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For optimistic updates, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "optimistic update",
+      "frontend",
+      "api"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_023",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you handle frontend cache invalidation?",
+    "alternate_questions": [
+      "How do you keep UI data fresh?",
+      "How do query caches work?"
+    ],
+    "instant_answer": "For cache invalidation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For cache invalidation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "cache",
+      "invalidation",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_024",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How should backend pagination support the frontend?",
+    "alternate_questions": [
+      "How do APIs return paged data?",
+      "Cursor vs offset for frontend lists?"
+    ],
+    "instant_answer": "For backend pagination, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For backend pagination, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "pagination",
+      "api",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_025",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you share schemas between frontend and backend?",
+    "alternate_questions": [
+      "How do OpenAPI or generated types help?",
+      "How do you avoid contract drift?"
+    ],
+    "instant_answer": "For schema sharing, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For schema sharing, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "openapi",
+      "schemas",
+      "typescript"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_026",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you manage frontend and backend configuration?",
+    "alternate_questions": [
+      "How do environment variables work in web apps?",
+      "What config should not be exposed to browsers?"
+    ],
+    "instant_answer": "For environment config, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For environment config, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "configuration",
+      "environment",
+      "secrets"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_027",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you deploy a full-stack application?",
+    "alternate_questions": [
+      "How do frontend and backend deploy together?",
+      "What should a full-stack CI/CD pipeline do?"
+    ],
+    "instant_answer": "For deployment, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For deployment, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "deployment",
+      "ci cd",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_028",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "When would you use a monorepo?",
+    "alternate_questions": [
+      "Monorepo vs multiple repos?",
+      "How do full-stack teams share code?"
+    ],
+    "instant_answer": "For monorepo, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For monorepo, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "monorepo",
+      "workspace",
+      "shared code"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_029",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How should backend errors appear in the UI?",
+    "alternate_questions": [
+      "How do you map API errors to form errors?",
+      "What makes error handling user-friendly?"
+    ],
+    "instant_answer": "For api errors, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For api errors, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "api errors",
+      "frontend",
+      "ux"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_030",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you design loading and empty states?",
+    "alternate_questions": [
+      "How do you prevent confusing UI states?",
+      "How do frontend apps handle slow APIs?"
+    ],
+    "instant_answer": "For loading states, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For loading states, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "loading states",
+      "ux",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_031",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How does database design affect the frontend?",
+    "alternate_questions": [
+      "How do backend data models shape UI behavior?",
+      "How do you avoid overfetching?"
+    ],
+    "instant_answer": "For database design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For database design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "database",
+      "api design",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_032",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "When would you use GraphQL?",
+    "alternate_questions": [
+      "GraphQL vs REST?",
+      "What are GraphQL tradeoffs?"
+    ],
+    "instant_answer": "For graphql, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For graphql, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "graphql",
+      "rest",
+      "api"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_033",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What makes a REST API easy for frontend teams?",
+    "alternate_questions": [
+      "How do you design resource endpoints?",
+      "What should API responses include?"
+    ],
+    "instant_answer": "For rest design, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For rest design, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "rest",
+      "api design",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_034",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do backend validation rules reach the frontend?",
+    "alternate_questions": [
+      "How do you show server validation errors?",
+      "How do shared validation schemas help?"
+    ],
+    "instant_answer": "For backend validation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For backend validation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "validation",
+      "api",
+      "forms"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_035",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you handle role-based UI behavior?",
+    "alternate_questions": [
+      "Should frontend hide unauthorized actions?",
+      "How do backend permissions and UI permissions work together?"
+    ],
+    "instant_answer": "For role based ui, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For role based ui, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "rbac",
+      "authorization",
+      "ui"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_036",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "What is a frontend performance budget?",
+    "alternate_questions": [
+      "How do you prevent bundle size growth?",
+      "How do you monitor web performance over time?"
+    ],
+    "instant_answer": "For performance budgets, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For performance budgets, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "performance budget",
+      "bundle",
+      "web vitals"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_037",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you optimize images in web apps?",
+    "alternate_questions": [
+      "How do image sizes affect performance?",
+      "What are lazy loading and responsive images?"
+    ],
+    "instant_answer": "For image optimization, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For image optimization, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "images",
+      "performance",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_038",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you render large lists efficiently?",
+    "alternate_questions": [
+      "What is virtualization?",
+      "How do you avoid slow tables in frontend apps?"
+    ],
+    "instant_answer": "For large lists, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For large lists, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "virtualization",
+      "large lists",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_039",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you debug stale state in React?",
+    "alternate_questions": [
+      "Why does UI show old data?",
+      "How do closures and async updates affect React state?"
+    ],
+    "instant_answer": "For state bugs, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For state bugs, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "react",
+      "state",
+      "debugging"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_040",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do race conditions happen in frontend apps?",
+    "alternate_questions": [
+      "How do you handle multiple API responses arriving out of order?",
+      "How do you cancel stale requests?"
+    ],
+    "instant_answer": "For race conditions, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For race conditions, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "race condition",
+      "api",
+      "frontend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_041",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you design offline-friendly web apps?",
+    "alternate_questions": [
+      "How do service workers help?",
+      "How do you sync data after reconnecting?"
+    ],
+    "instant_answer": "For offline support, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For offline support, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "offline",
+      "service worker",
+      "sync"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_042",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you add analytics without hurting users?",
+    "alternate_questions": [
+      "How do you track product events safely?",
+      "What privacy concerns exist with analytics?"
+    ],
+    "instant_answer": "For analytics, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For analytics, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "analytics",
+      "privacy",
+      "events"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_043",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do full-stack feature flags work?",
+    "alternate_questions": [
+      "How do you roll out UI and backend changes safely?",
+      "How do you prevent inconsistent flag behavior?"
+    ],
+    "instant_answer": "For feature flags, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For feature flags, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "feature flags",
+      "rollout",
+      "backend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_deep_044",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you debug a production full-stack issue?",
+    "alternate_questions": [
+      "How do you trace a bug from browser to backend?",
+      "What do you check when a user reports a broken page?"
+    ],
+    "instant_answer": "For debugging production, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
+    "detailed_answer": "For debugging production, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",
+    "keywords": [
+      "full stack",
+      "debugging",
+      "browser",
+      "logs"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]
