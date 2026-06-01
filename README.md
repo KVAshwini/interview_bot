@@ -7,7 +7,9 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - SQLite-backed local Q&A library
 - Scenario and technical seed packs
 - Enriched DevOps/SRE/cloud question bank with 1,100 practical production-style answers
-- Multi-profession starter library for developer, QA, data, BA, PM, product, security, cloud, and DBA interviews
+- Multi-profession library with 50+ Q&A items for each main role pack
+- Developer specializations for General, Python, Java, SQL, and Full Stack
+- Pack manifest and Pack Manager UI with item counts, topics, versions, and checksums
 - Fast lexical matching with no network calls
 - Local semantic concept scoring for better wording tolerance
 - Instant and detailed answer modes
@@ -19,17 +21,19 @@ Fast local interview-answer library for technical, scenario, and behavioral ques
 - Optional Faster-Whisper speech-to-text hooks
 - Unit tests for matching, speech style, and web validation
 - Low-confidence missed-question capture for library improvement
-- Private Windows overlay with transparency and screen-capture hiding support
+- Private Windows overlay with transparency, profession pack selection, and screen-capture hiding support
+- Windows EXE build path for the overlay
 
 ## Run
 
-```bash
+```powershell
 cd interview_bot
-python3 scripts/build_database.py
-python3 -m app.main "How do you handle a P1 production outage?"
-python3 -m app.main --mode detailed "AKS pod keeps restarting"
-python3 -m app.main --voice raw "How do you handle Kafka lag?"
-python3 -m app.main --category kubernetes --interview "pod keeps dying in AKS"
+python scripts\generate_pack_manifest.py
+python scripts\build_database.py
+python -m app.main "How do you handle a P1 production outage?"
+python -m app.main --mode detailed "AKS pod keeps restarting"
+python -m app.main --voice raw "How do you handle Kafka lag?"
+python -m app.main --category kubernetes --interview "pod keeps dying in AKS"
 ```
 
 The local database currently loads 1,822 Q&A items after running `scripts/build_database.py`.
@@ -54,30 +58,37 @@ qa_library/technical/devops_massive_interview_bank.json
 
 It contains 1,100 DevOps, SRE, cloud, Kubernetes, Linux, Docker, Terraform, CI/CD, monitoring, and scenario-based answers. The answers are stored as local JSON and loaded into SQLite so runtime lookup does not read the source Markdown file.
 
-Additional profession-specific starter answers live at:
+Profession packs live under:
 
 ```text
-qa_library/professions/starter_professions.json
+qa_library/professions/
 ```
 
-Expanded QA Engineer answers live at:
+Main role targets currently covered:
 
-```text
-qa_library/professions/qa_engineer.json
-```
+- QA Engineer
+- Data Engineer
+- Data Analyst
+- Business Analyst
+- Project Manager
+- Product Manager
+- Cybersecurity Analyst
+- Cloud Engineer
+- Database Administrator
+- Software Developer - General
+- Python Developer
+- Java Developer
+- SQL Developer
+- Full Stack Developer
 
-The profession registry is in:
+Each listed role has at least 50 Q&A items. The profession registry is in `app/professions.py`.
 
-```text
-app/professions.py
-```
-
-To add another profession later, add a `Profession` entry in `app/professions.py`, add Q&A items under `qa_library/professions/`, then run `python3 scripts/build_database.py`.
+To add another profession later, add a `Profession` entry in `app/professions.py`, add Q&A items under `qa_library/professions/`, then run `python scripts\build_database.py`.
 
 ## Web UI
 
-```bash
-python3 -m app.web --port 8765
+```powershell
+python -m app.web --port 8765
 ```
 
 Open `http://127.0.0.1:8765`.
@@ -105,6 +116,7 @@ The UI shows:
 - Keywords to mention
 - Focus-area filters
 - Profession filters
+- Pack Manager for metadata and checksums
 - Interview mode for the single best answer
 - Library health status
 - Missed-question review and save flow
@@ -122,14 +134,14 @@ Low-confidence answers are written to `outputs/missed_questions/*.jsonl`. In the
 qa_library/custom/reviewed_questions.json
 ```
 
-They are upserted into the running SQLite database immediately, and will also persist after the next `python3 scripts/build_database.py`.
+They are upserted into the running SQLite database immediately, and will also persist after the next `python scripts\build_database.py`.
 
 ## Private Windows Overlay
 
 For interviews where you share your screen in Zoom, Webex, or Teams, use the Windows overlay instead of the browser UI:
 
-```bash
-python3 -m app.overlay
+```powershell
+python -m app.overlay
 ```
 
 On Windows you can also double-click:
@@ -142,11 +154,24 @@ The overlay has:
 
 - `Transparency` button to switch between normal and semi-transparent opacity.
 - `Hide from screen capture` enabled by default on Windows using `SetWindowDisplayAffinity`.
+- Pack selector for DevOps, scenarios, behavioral, and profession-specific packs.
 - Always-on-top behavior so it stays accessible during interviews.
 
 Important: the browser UI cannot hide itself from screen sharing. The screen-capture hiding behavior only applies to the native Windows overlay, and it depends on the meeting app using normal Windows capture APIs. Test it once with your exact Zoom/Webex/Teams sharing mode before relying on it.
 
 See [Private Overlay App](docs/OVERLAY_APP.md) for the test checklist and EXE packaging command.
+
+The latest verified EXE build output is:
+
+```text
+dist\InterviewHelpBotOverlay.exe
+```
+
+Build it with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\build_overlay_exe.ps1
+```
 
 ## Speech Style Layer
 
@@ -175,36 +200,36 @@ Then mostly I check recent deployments or config changes, because many productio
 
 ## Add a cached answer
 
-```bash
-python3 scripts/add_question.py \
-  --pack scenarios/custom.json \
-  --id scenario_custom_001 \
-  --category scenario \
-  --topic "Production Support" \
-  --question "How do you handle multiple incidents at once?" \
-  --answer "I prioritize by business impact and severity, stabilize the highest-impact issue first, delegate parallel checks, and keep communication structured." \
+```powershell
+python scripts\add_question.py `
+  --pack scenarios/custom.json `
+  --id scenario_custom_001 `
+  --category scenario `
+  --topic "Production Support" `
+  --question "How do you handle multiple incidents at once?" `
+  --answer "I prioritize by business impact and severity, stabilize the highest-impact issue first, delegate parallel checks, and keep communication structured." `
   --keywords "incident,priority,SLA,stakeholders"
 
-python3 scripts/build_database.py
+python scripts\build_database.py
 ```
 
 ## Add personal memory
 
 Add resume and project notes as Markdown, text, or JSON:
 
-```bash
-python3 scripts/import_memory.py /path/to/resume_summary.md
+```powershell
+python scripts\import_memory.py C:\path\to\resume_summary.md
 ```
 
 ## Latency check
 
-```bash
-python3 scripts/benchmark.py
+```powershell
+python scripts\benchmark.py
 ```
 
 ## Health Check
 
-```bash
+```powershell
 curl http://127.0.0.1:8765/api/health
 ```
 
@@ -214,19 +239,19 @@ The health response includes database path, loaded item count, categories, and t
 
 Low-confidence questions are saved automatically when answers are logged.
 
-```bash
-python3 scripts/review_missed.py
+```powershell
+python scripts\review_missed.py
 ```
 
 Use these records to add new cached answers with `scripts/add_question.py`.
 
 ## Tests
 
-```bash
-python3 -m pytest
-python3 -m compileall app scripts tests
-python3 -m json.tool qa_library/technical/devops_massive_interview_bank.json
-python3 scripts/audit_pack_quality.py
+```powershell
+python -m pytest
+python -m compileall app scripts tests
+python -m json.tool qa_library\technical\devops_massive_interview_bank.json
+python scripts\audit_pack_quality.py
 ```
 
 ## Optional speech-to-text
@@ -263,6 +288,6 @@ On macOS, if no input device is visible, grant microphone permission to the term
 
 ## Next upgrades
 
-- Add true embedding search with a local model
-- Improve the browser voice flow with streaming transcription
-- Package the Windows overlay as a one-click launcher or executable
+- Add local embedding search
+- Add streaming system-audio transcription
+- Add optional downloadable pack install/update workflow

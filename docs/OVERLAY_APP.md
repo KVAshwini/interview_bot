@@ -45,6 +45,16 @@ Output:
 dist\InterviewHelpBotOverlay.exe
 ```
 
+The build script also regenerates `qa_library/pack_manifest.json`, rebuilds `data/interview_library.db`, and bundles the local SQLite database into the executable.
+
+Current verified build:
+
+```text
+dist\InterviewHelpBotOverlay.exe
+```
+
+Approximate size on the latest local build: 13 MB.
+
 ## App Readiness Checklist
 
 - Rebuild DB with `python scripts\build_database.py`.
@@ -55,3 +65,10 @@ dist\InterviewHelpBotOverlay.exe
 - Select a profession pack and confirm answers stay within that role.
 - Confirm `Hide from screen capture` says hidden.
 - Verify meeting participants cannot see it in Zoom/Webex/Teams.
+
+## Current Limits
+
+- Windows capture hiding is best-effort and depends on the meeting app capture mode.
+- The overlay does not yet listen to Zoom/Webex/Teams system audio.
+- Speech-to-text is available through separate scripts, not streaming inside the overlay yet.
+- macOS packaging is not implemented yet.
