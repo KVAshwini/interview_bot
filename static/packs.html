@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interview Help Bot - Packs</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body data-ui="packs">
+  <header>
+    <div class="wrap top">
+      <h1>Profession Pack Manager</h1>
+      <div class="top-actions">
+        <a class="nav-link" href="/">DevOps UI</a>
+        <a class="nav-link" href="/professions">Professions UI</a>
+        <button class="secondary" id="opacity-toggle" type="button" aria-pressed="false">Transparent</button>
+        <div class="status">Local packs • versioned metadata</div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap pack-layout">
+    <aside>
+      <label for="pack-filter">Filter packs</label>
+      <input id="pack-filter" class="text-input" type="search" placeholder="Example: python, qa, cloud">
+      <div class="health" id="health">Checking library...</div>
+      <div class="pack-summary" id="pack-summary"></div>
+    </aside>
+    <section>
+      <div id="result" class="empty">Loading pack metadata...</div>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -33,18 +33,22 @@ const voiceInput = document.querySelector("#voice-input");
 const healthNode = document.querySelector("#health");
 const missedNode = document.querySelector("#missed");
 const refreshMissed = document.querySelector("#refresh-missed");
+const packFilter = document.querySelector("#pack-filter");
+const packSummary = document.querySelector("#pack-summary");
 
-examples.forEach((text) => {
-  const chip = document.createElement("button");
-  chip.className = "chip";
-  chip.type = "button";
-  chip.textContent = text;
-  chip.addEventListener("click", () => {
-    q.value = text;
-    ask();
+if (examplesNode) {
+  examples.forEach((text) => {
+    const chip = document.createElement("button");
+    chip.className = "chip";
+    chip.type = "button";
+    chip.textContent = text;
+    chip.addEventListener("click", () => {
+      q.value = text;
+      ask();
+    });
+    examplesNode.appendChild(chip);
   });
-  examplesNode.appendChild(chip);
-});
+}
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (ch) => ({
@@ -145,6 +149,7 @@ async function loadHealth() {
 }
 
 async function loadMissed() {
+  if (!missedNode) return;
   try {
     const response = await fetch("/api/missed");
     const payload = await response.json();
@@ -201,6 +206,7 @@ async function saveReviewedAnswer(question, answer) {
 }
 
 function setupVoiceInput() {
+  if (!voiceInput) return;
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!SpeechRecognition) {
     voiceInput.disabled = true;
@@ -224,21 +230,92 @@ function setupVoiceInput() {
   voiceInput.addEventListener("click", () => recognition.start());
 }
 
-document.querySelector("#ask").addEventListener("click", ask);
-document.querySelector("#clear").addEventListener("click", () => {
-  q.value = "";
+async function loadPacks() {
+  if (!packFilter) return;
   result.className = "empty";
-  result.textContent = "Ask a question to pull the closest local answer.";
-});
-opacityToggle.addEventListener("click", () => {
-  const enabled = document.body.classList.toggle("transparent-mode");
-  opacityToggle.setAttribute("aria-pressed", String(enabled));
-  opacityToggle.textContent = enabled ? "Solid" : "Transparent";
-});
-refreshMissed.addEventListener("click", loadMissed);
-q.addEventListener("keydown", (event) => {
-  if ((event.metaKey || event.ctrlKey) && event.key === "Enter") ask();
-});
+  result.textContent = "Loading pack metadata...";
+  try {
+    const response = await fetch("/api/packs");
+    const payload = await response.json();
+    const render = () => renderPacks(payload, packFilter.value.trim().toLowerCase());
+    packFilter.addEventListener("input", render);
+    render();
+  } catch (error) {
+    result.className = "empty error";
+    result.textContent = "Could not load pack metadata.";
+  }
+}
+
+function renderPacks(payload, filterText) {
+  const packs = payload.packs.filter((pack) => {
+    const haystack = [
+      pack.name,
+      pack.id,
+      pack.path,
+      Object.keys(pack.topics).join(" "),
+      Object.keys(pack.categories).join(" ")
+    ].join(" ").toLowerCase();
+    return !filterText || haystack.includes(filterText);
+  });
+  packSummary.innerHTML = `
+    <div><strong>${payload.pack_count}</strong> packs indexed</div>
+    <div><strong>${payload.total_items}</strong> Q&A items</div>
+    <div><strong>${packs.length}</strong> visible after filter</div>
+  `;
+  result.className = "result";
+  result.innerHTML = `
+    <table class="pack-table">
+      <thead>
+        <tr>
+          <th>Pack</th>
+          <th>Items</th>
+          <th>Topics</th>
+          <th>Version</th>
+          <th>Checksum</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${packs.map((pack) => `
+          <tr>
+            <td>
+              <strong>${escapeHtml(pack.name)}</strong>
+              <div class="small-text">${escapeHtml(pack.path)}</div>
+            </td>
+            <td>${pack.item_count}</td>
+            <td>${escapeHtml(Object.keys(pack.topics).join(", "))}</td>
+            <td>${escapeHtml(pack.version)}</td>
+            <td><code>${escapeHtml(pack.sha256.slice(0, 12))}</code></td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+const askButton = document.querySelector("#ask");
+if (askButton) askButton.addEventListener("click", ask);
+const clearButton = document.querySelector("#clear");
+if (clearButton) {
+  clearButton.addEventListener("click", () => {
+    q.value = "";
+    result.className = "empty";
+    result.textContent = "Ask a question to pull the closest local answer.";
+  });
+}
+if (opacityToggle) {
+  opacityToggle.addEventListener("click", () => {
+    const enabled = document.body.classList.toggle("transparent-mode");
+    opacityToggle.setAttribute("aria-pressed", String(enabled));
+    opacityToggle.textContent = enabled ? "Solid" : "Transparent";
+  });
+}
+if (refreshMissed) refreshMissed.addEventListener("click", loadMissed);
+if (q) {
+  q.addEventListener("keydown", (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key === "Enter") ask();
+  });
+}
 setupVoiceInput();
 loadHealth();
 loadMissed();
+loadPacks();

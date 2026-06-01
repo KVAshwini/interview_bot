@@ -32,7 +32,17 @@ python3 -m app.main --voice raw "How do you handle Kafka lag?"
 python3 -m app.main --category kubernetes --interview "pod keeps dying in AKS"
 ```
 
-The local database currently loads 1,116 Q&A items after running `scripts/build_database.py`.
+The local database currently loads 1,822 Q&A items after running `scripts/build_database.py`.
+
+## Tester Setup
+
+On Windows, a tester can run one command after cloning or pulling the repo:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\setup_tester.ps1
+```
+
+This installs app requirements, generates pack metadata, rebuilds the local SQLite database, starts the local web server, and opens the Professions UI.
 
 ## Question Library
 
@@ -78,6 +88,13 @@ The multi-profession branch UI is available separately at:
 
 ```text
 http://127.0.0.1:8765/professions
+```
+
+Pack metadata and checksums are available at:
+
+```text
+http://127.0.0.1:8765/packs
+http://127.0.0.1:8765/api/packs
 ```
 
 The UI shows:

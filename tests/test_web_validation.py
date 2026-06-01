@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from app.web import RequestError, parse_answer_request
+from app.web import RequestError, parse_answer_request, STATIC_DIR
 
 
 class WebValidationTests(unittest.TestCase):
@@ -33,6 +33,9 @@ class WebValidationTests(unittest.TestCase):
     def test_profession_filter_accepted(self) -> None:
         request = parse_answer_request(json.dumps({"question": "debug API", "category_filter": "developer"}))
         self.assertEqual(request["category_filter"], "developer")
+
+    def test_pack_manager_static_page_exists(self) -> None:
+        self.assertTrue((STATIC_DIR / "packs.html").exists())
 
 
 if __name__ == "__main__":
