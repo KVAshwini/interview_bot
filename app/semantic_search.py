@@ -28,6 +28,22 @@ CONCEPTS = {
         "monitor", "monitoring", "alert", "alerts", "prometheus", "grafana",
         "logs", "logging", "observability", "slo", "latency", "error rate",
     },
+    "async_blocking": {
+        "async", "asyncio", "event loop", "blocking", "blocked", "stuck",
+        "non-blocking", "concurrent io", "await", "websocket",
+    },
+    "memory_performance": {
+        "memory", "heap", "oom", "outofmemory", "out of memory", "gc",
+        "garbage collection", "leak", "retained", "allocation",
+    },
+    "query_performance": {
+        "query", "scan", "scans", "index", "indexes", "execution plan",
+        "slow query", "table scan", "covering index", "statistics",
+    },
+    "frontend_state": {
+        "stale", "old data", "state", "cache", "browser", "react",
+        "ui", "frontend", "refresh", "invalidation",
+    },
     "incident": {
         "incident", "outage", "p1", "production down", "sev1", "war room",
         "impact", "mitigation", "rca", "postmortem",
@@ -37,6 +53,22 @@ CONCEPTS = {
     "developer": {
         "developer", "software engineer", "backend", "frontend", "full stack", "api",
         "code", "coding", "debugging", "system design",
+    },
+    "developer_python": {
+        "python", "python developer", "fastapi", "django", "flask", "pytest",
+        "asyncio", "pydantic", "sqlalchemy", "pandas", "celery", "gil",
+    },
+    "developer_java": {
+        "java", "java developer", "spring", "spring boot", "jvm", "hibernate",
+        "jpa", "maven", "gradle", "junit", "mockito", "kafka",
+    },
+    "developer_sql": {
+        "sql", "sql developer", "query", "stored procedure", "index", "indexes",
+        "execution plan", "join", "window function", "transaction", "deadlock",
+    },
+    "developer_fullstack": {
+        "full stack", "full stack developer", "react", "typescript", "javascript",
+        "frontend", "backend", "api contract", "auth", "jwt", "css", "web app",
     },
     "qa": {
         "qa", "qa engineer", "quality assurance", "testing", "test automation",
@@ -65,6 +97,10 @@ CATEGORY_HINTS = {
     "scenario": {"incident", "crashloop", "kafka", "terraform", "monitoring"},
     "behavioral": {"incident"},
     "developer": {"developer"},
+    "developer_python": {"developer", "developer_python", "async_blocking", "memory_performance"},
+    "developer_java": {"developer", "developer_java", "memory_performance"},
+    "developer_sql": {"developer", "developer_sql", "query_performance"},
+    "developer_fullstack": {"developer", "developer_fullstack", "frontend_state"},
     "qa": {"qa"},
     "data_engineer": {"data_engineer"},
     "data_analyst": {"data_analyst"},

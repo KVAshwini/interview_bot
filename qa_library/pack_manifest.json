@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "generated_by": "scripts/generate_pack_manifest.py",
+  "pack_count": 34,
+  "total_items": 1822,
+  "packs": [
+    {
+      "id": "behavioral.core",
+      "name": "Core",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/behavioral/core.json",
+      "item_count": 1,
+      "topics": {
+        "Conflict Resolution": 1
+      },
+      "categories": {
+        "behavioral": 1
+      },
+      "sha256": "6e6055bdfd3c05d9e14550e6475e63de265d6fd068bdd401ac134e84a2d934b0",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "behavioral.hr",
+      "name": "Hr",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/behavioral/hr.json",
+      "item_count": 2,
+      "topics": {
+        "Tell Me About Yourself": 1,
+        "Why This Company": 1
+      },
+      "categories": {
+        "hr": 2
+      },
+      "sha256": "6f192221bf30e90480501dae473d8cd6001260ee8b9e6ebb7a4f9a75c3bf6331",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.business_analyst_deep",
+      "name": "Business Analyst Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/business_analyst_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Business Analyst": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "8760ef7fbfb89bae0e0db003cc2092a2287448be95f607dfaebb62d16fab73d2",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.cloud_engineer_deep",
+      "name": "Cloud Engineer Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/cloud_engineer_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Cloud Engineer": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "4e153e49bd7ca6083aae7157b8f3a416e08b74f00f11f420ade897f104ce6593",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.cybersecurity_deep",
+      "name": "Cybersecurity Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/cybersecurity_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Cybersecurity Analyst": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "6d81f19af4acfc7790058ee0a12e9a5eac4e093be4afb91236a9928e2f10d948",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.data_analyst_deep",
+      "name": "Data Analyst Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/data_analyst_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Data Analyst": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "c773e893a6a796c3f2f338c5c49ef2e4498d4800db38cd6516730317c2db13d5",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.data_engineer_deep",
+      "name": "Data Engineer Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/data_engineer_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Data Engineer": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "0f12ba7e150f096d264e1c7595cd096bc731bdebc3a8a5b6a7ece5ed194b9aaf",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.database_admin_deep",
+      "name": "Database Admin Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/database_admin_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Database Administrator": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "5b9b8cebea877cbedb6760f1fa9fa0acf60d6626063467bbba6ee1b9a866659c",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_fullstack",
+      "name": "Developer Fullstack",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_fullstack.json",
+      "item_count": 6,
+      "topics": {
+        "Full Stack Developer": 6
+      },
+      "categories": {
+        "profession": 6
+      },
+      "sha256": "e7937388c3db66779a5f6010cbfdecdfec262476d954846b95d5b66d2e53ff1c",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_fullstack_deep",
+      "name": "Developer Fullstack Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_fullstack_deep.json",
+      "item_count": 44,
+      "topics": {
+        "Full Stack Developer": 44
+      },
+      "categories": {
+        "profession": 44
+      },
+      "sha256": "b7ac236d2e725e247cc039c6bfd224a2bde45576fc7932918fe4521e92fafd0c",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_general",
+      "name": "Developer General",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_general.json",
+      "item_count": 4,
+      "topics": {
+        "Software Developer - General": 4
+      },
+      "categories": {
+        "profession": 4
+      },
+      "sha256": "87a431ae4ecbb75c45c22f3f1c9e6fb6bef0ab62c98be6309d40710e84411a76",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_general_deep",
+      "name": "Developer General Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_general_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Software Developer - General": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "db0850673ebb984826a0094862361e03a1993b50ea4a5ab5641b5fa7e40903c2",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_java",
+      "name": "Developer Java",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_java.json",
+      "item_count": 6,
+      "topics": {
+        "Java Developer": 6
+      },
+      "categories": {
+        "profession": 6
+      },
+      "sha256": "3dd5e65c97e8457e9dd02e0970ce12594b0ce2344f46dd931e286e24a119a9dd",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_java_deep",
+      "name": "Developer Java Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_java_deep.json",
+      "item_count": 44,
+      "topics": {
+        "Java Developer": 44
+      },
+      "categories": {
+        "profession": 44
+      },
+      "sha256": "e99be912fe2b9e403517fc32947ac8f7e4daa54daccfcfea6ca4312695a0eb2a",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_python",
+      "name": "Developer Python",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_python.json",
+      "item_count": 6,
+      "topics": {
+        "Python Developer": 6
+      },
+      "categories": {
+        "profession": 6
+      },
+      "sha256": "665988afffd64efafd9b25de812c724d183ddd1719e1995a201de645a7ae113b",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_python_deep",
+      "name": "Developer Python Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_python_deep.json",
+      "item_count": 44,
+      "topics": {
+        "Python Developer": 44
+      },
+      "categories": {
+        "profession": 44
+      },
+      "sha256": "ffb893374e1262f9b81841f6f826977ef9bf946029772c2256895c6dda43c57e",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_sql",
+      "name": "Developer Sql",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_sql.json",
+      "item_count": 6,
+      "topics": {
+        "SQL Developer": 6
+      },
+      "categories": {
+        "profession": 6
+      },
+      "sha256": "4b97a7bd96569de7b1ba5abaad739a0be3a52be247dd7014b94caf5efd8e73ad",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.developer_sql_deep",
+      "name": "Developer Sql Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/developer_sql_deep.json",
+      "item_count": 44,
+      "topics": {
+        "SQL Developer": 44
+      },
+      "categories": {
+        "profession": 44
+      },
+      "sha256": "23e14c1ed96528f06087eef51e4023a4d5a2a2da454c8c7720a5329fa061d455",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.expanded_professions",
+      "name": "Expanded Professions",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/expanded_professions.json",
+      "item_count": 18,
+      "topics": {
+        "Business Analyst": 2,
+        "Cloud Engineer": 2,
+        "Cybersecurity Analyst": 2,
+        "Data Analyst": 2,
+        "Data Engineer": 2,
+        "Database Administrator": 2,
+        "Product Manager": 2,
+        "Project Manager": 2,
+        "Software Developer": 2
+      },
+      "categories": {
+        "profession": 18
+      },
+      "sha256": "e31e53b18a7aade963b71826da530f4057b01fd94d0c89f9f8be162b3e66ee7e",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.product_manager_deep",
+      "name": "Product Manager Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/product_manager_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Product Manager": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "3ba6a706d9ab14baa22c4309372dc46cb39f106882675a0dbbb574fe024255b7",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.project_manager_deep",
+      "name": "Project Manager Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/project_manager_deep.json",
+      "item_count": 46,
+      "topics": {
+        "Project Manager": 46
+      },
+      "categories": {
+        "profession": 46
+      },
+      "sha256": "00af6b62abaebffa5182baade806aa25546a9ee57b5b0a4b7eec5db76dfd5de3",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.qa_engineer",
+      "name": "Qa Engineer",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/qa_engineer.json",
+      "item_count": 16,
+      "topics": {
+        "QA Engineer": 16
+      },
+      "categories": {
+        "profession": 16
+      },
+      "sha256": "43deb54d7bd04d7c05085e7d67a46006fac6e54202d5a4797c1e7219cf7642eb",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.qa_engineer_advanced",
+      "name": "Qa Engineer Advanced",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/qa_engineer_advanced.json",
+      "item_count": 10,
+      "topics": {
+        "QA Engineer": 10
+      },
+      "categories": {
+        "profession": 10
+      },
+      "sha256": "34c225f43a37ed078c334e77bdfb4216274a46a7a3e4d5f0bb18f7aeaa3fd7de",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.qa_engineer_deep",
+      "name": "Qa Engineer Deep",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/qa_engineer_deep.json",
+      "item_count": 24,
+      "topics": {
+        "QA Engineer": 24
+      },
+      "categories": {
+        "profession": 24
+      },
+      "sha256": "8ac9c54b801ea23183a4e7fe3311ead1b8f4359c0b968011e577486255b53502",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "professions.starter_professions",
+      "name": "Starter Professions",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/professions/starter_professions.json",
+      "item_count": 20,
+      "topics": {
+        "Business Analyst": 2,
+        "Cloud Engineer": 2,
+        "Cybersecurity Analyst": 2,
+        "Data Analyst": 2,
+        "Data Engineer": 2,
+        "Database Administrator": 2,
+        "Product Manager": 2,
+        "Project Manager": 2,
+        "QA / Test Engineer": 2,
+        "Software Developer": 2
+      },
+      "categories": {
+        "profession": 20
+      },
+      "sha256": "d51282aa08c769b080e24c4c6356bca378071dfb14c88747d28a1ef81f02a19d",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "scenarios.aks_troubleshooting",
+      "name": "Aks Troubleshooting",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/scenarios/aks_troubleshooting.json",
+      "item_count": 2,
+      "topics": {
+        "AKS Networking": 1,
+        "AKS Pod Restart": 1
+      },
+      "categories": {
+        "scenario": 2
+      },
+      "sha256": "9f5502a0a021d3080f3cd341e0dc78e90486ec0801d4a3947c98acc2f1f8ac36",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "scenarios.kafka_failures",
+      "name": "Kafka Failures",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/scenarios/kafka_failures.json",
+      "item_count": 1,
+      "topics": {
+        "Kafka Consumer Lag": 1
+      },
+      "categories": {
+        "scenario": 1
+      },
+      "sha256": "1c07707f23c05a9fbff486fedfc79d212397888eda4054d45c806c3d3043f612",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "scenarios.production_incidents",
+      "name": "Production Incidents",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/scenarios/production_incidents.json",
+      "item_count": 2,
+      "topics": {
+        "Application Performance": 1,
+        "Production Incident": 1
+      },
+      "categories": {
+        "scenario": 2
+      },
+      "sha256": "275a92bff8a3a4ca31b3ebd5dce3b0ab8a417bbad61852badc79fa32ed1ca5bc",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "scenarios.security_incidents",
+      "name": "Security Incidents",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/scenarios/security_incidents.json",
+      "item_count": 1,
+      "topics": {
+        "TLS Certificate Issue": 1
+      },
+      "categories": {
+        "scenario": 1
+      },
+      "sha256": "7e5f9d93e1b1299033ea91fcf3982c492080c6572ad05c318232abe0ff575856",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "scenarios.support_operations",
+      "name": "Support Operations",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/scenarios/support_operations.json",
+      "item_count": 3,
+      "topics": {
+        "API Timeout": 1,
+        "Autosys Job Failure": 1,
+        "Database Connection Issue": 1
+      },
+      "categories": {
+        "scenario": 3
+      },
+      "sha256": "fe48866d0f126ac653b4149f841edae49e9b919bb3b3e7f2f0b110e20e11fab3",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "technical.azure",
+      "name": "Azure",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/technical/azure.json",
+      "item_count": 1,
+      "topics": {
+        "Azure Key Vault": 1
+      },
+      "categories": {
+        "technical": 1
+      },
+      "sha256": "789e06e1467521dc1892786568453cbca8ff6e601d27864c0ace0fb8af836fb5",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "technical.devops",
+      "name": "Devops",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/technical/devops.json",
+      "item_count": 1,
+      "topics": {
+        "Deployment Rollback": 1
+      },
+      "categories": {
+        "technical": 1
+      },
+      "sha256": "544baf4a41922c648ed893c2bf97ee9dcaeeef7d13fbbc197d2e1055eac9d81b",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "technical.devops_massive_interview_bank",
+      "name": "Devops Massive Interview Bank",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/technical/devops_massive_interview_bank.json",
+      "item_count": 1100,
+      "topics": {
+        "Additional High-Value Scenario Questions": 100,
+        "Azure DevOps & Cloud": 100,
+        "CI/CD": 100,
+        "DevOps Fundamentals": 100,
+        "Docker": 100,
+        "Git": 100,
+        "Kubernetes": 100,
+        "Linux": 100,
+        "Monitoring & Logging": 100,
+        "Scenario Based Questions": 100,
+        "Terraform": 100
+      },
+      "categories": {
+        "scenarios": 410,
+        "technical": 690
+      },
+      "sha256": "9c0f835287738a11f0a7d693e11f420840e6041319ce73678f55f9afbc9af545",
+      "content_only": true,
+      "installable": true
+    },
+    {
+      "id": "technical.terraform_monitoring",
+      "name": "Terraform Monitoring",
+      "version": "1.0.0",
+      "schema_version": 1,
+      "path": "qa_library/technical/terraform_monitoring.json",
+      "item_count": 2,
+      "topics": {
+        "Monitoring And Alerting": 1,
+        "Terraform Drift": 1
+      },
+      "categories": {
+        "technical": 2
+      },
+      "sha256": "240aa3b6a0ec000d9e5f80f5cc3c3a70e8bd37fd0e55486855fd9cc37bd1efe2",
+      "content_only": true,
+      "installable": true
+    }
+  ]
+}

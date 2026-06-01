@@ -446,7 +446,8 @@
     "question": "How do you handle frontend cache invalidation?",
     "alternate_questions": [
       "How do you keep UI data fresh?",
-      "How do query caches work?"
+      "How do query caches work?",
+      "The browser shows old data after the backend update succeeds. What do you check?"
     ],
     "instant_answer": "For cache invalidation, I start by clarifying the expected behavior, inputs, dependencies, and production impact. Then I inspect the implementation path, data flow, logs or traces, edge cases, and recent changes. I verify the fix with focused tests and make the prevention clear through validation, monitoring, or regression coverage.",
     "detailed_answer": "For cache invalidation, I approach it systematically instead of guessing. First I define the expected behavior, affected users, inputs, outputs, constraints, and failure mode. Then I trace the request or data path through the relevant layers and check assumptions around state, concurrency, validation, permissions, error handling, resource usage, and integration boundaries. If it is a production issue, I stabilize impact first, then identify root cause. The final step is to add the right tests, observability, documentation, or guardrails so the same issue is easier to detect and less likely to return.",

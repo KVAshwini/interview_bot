@@ -56,6 +56,28 @@ def test_fullstack_developer_filter_matches_fullstack_pack() -> None:
     assert match.topic == "Full Stack Developer"
 
 
+def test_python_filter_handles_paraphrased_question() -> None:
+    match = find_best_matches("My async API is getting stuck because one call blocks the loop", limit=1, category_filter="developer_python")[0]
+    assert match.topic == "Python Developer"
+
+
+def test_java_filter_handles_paraphrased_question() -> None:
+    match = find_best_matches("Our Spring service is running out of heap after deployment", limit=1, category_filter="developer_java")[0]
+    assert match.topic == "Java Developer"
+    assert "memory" in match.question.lower()
+
+
+def test_sql_filter_handles_paraphrased_question() -> None:
+    match = find_best_matches("The report query scans a huge table and ignores the index", limit=1, category_filter="developer_sql")[0]
+    assert match.topic == "SQL Developer"
+
+
+def test_fullstack_filter_handles_paraphrased_question() -> None:
+    match = find_best_matches("The browser page shows old data after the backend update succeeds", limit=1, category_filter="developer_fullstack")[0]
+    assert match.topic == "Full Stack Developer"
+    assert "cache" in match.question.lower()
+
+
 def test_developer_specialization_pack_counts() -> None:
     counts = {}
     for item in load_library():

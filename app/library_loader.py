@@ -6,7 +6,7 @@ from app.config import QA_LIBRARY_DIR
 
 
 def iter_library_files(base_dir: Path = QA_LIBRARY_DIR) -> list[Path]:
-    return sorted(base_dir.rglob("*.json"))
+    return sorted(path for path in base_dir.rglob("*.json") if path.name != "pack_manifest.json")
 
 
 def load_items(path: Path) -> list[dict[str, Any]]:

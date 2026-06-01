@@ -16,7 +16,7 @@
     "category": "profession",
     "topic": "Java Developer",
     "question": "How do you troubleshoot high memory usage in a Java application?",
-    "alternate_questions": ["Java app has OutOfMemoryError. What do you check?", "How do you debug JVM memory problems?"],
+    "alternate_questions": ["Java app has OutOfMemoryError. What do you check?", "How do you debug JVM memory problems?", "A Spring service is running out of heap after deployment. What do you check?"],
     "instant_answer": "I check heap usage, garbage collection, object allocation, thread count, caches, recent changes, and whether memory grows continuously. I capture heap dumps or GC logs when safe, identify large retained objects, and fix root causes such as unbounded collections, leaks, oversized payloads, or cache misconfiguration.",
     "detailed_answer": "I first identify whether the issue is heap, metaspace, native memory, or container limit related. Then I review JVM metrics, GC behavior, allocation rate, thread count, and recent deployments. For deeper analysis, I use heap dumps, GC logs, and profilers to find retained objects and allocation hotspots. Common causes include unbounded caches, static references, large payloads, connection leaks, excessive buffering, or bad batch sizes. I tune JVM settings only after understanding the application behavior.",
     "keywords": ["java developer", "java", "jvm", "heap", "garbage collection", "memory leak", "oom"],

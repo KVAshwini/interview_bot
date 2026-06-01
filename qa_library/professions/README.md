@@ -44,6 +44,14 @@ The loader imports every `.json` file under `qa_library/`, so new profession pac
 python scripts\build_database.py
 ```
 
+Pack metadata is generated with:
+
+```powershell
+python scripts\generate_pack_manifest.py
+```
+
+The generated `pack_manifest.json` records pack path, version, item count, topics, categories, and SHA-256 checksum. It is content-only metadata for future optional pack installation and update checks.
+
 Developer specialization targets:
 
 - Software Developer - General: 50 Q&A items.
