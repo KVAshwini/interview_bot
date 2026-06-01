@@ -1,0 +1,122 @@
+[
+  {
+    "id": "profession_qa_sdet_framework_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you design a test automation framework?",
+    "alternate_questions": ["What should an automation framework include?", "How do you build a maintainable SDET framework?"],
+    "instant_answer": "I design the framework around maintainability, reliability, and CI usage. It should have clear structure, reusable helpers, test data handling, environment configuration, reporting, logging, retry only where justified, and readable tests. I avoid hiding too much logic behind abstractions because tests still need to show intent clearly.",
+    "detailed_answer": "A good automation framework should make tests easy to write, read, debug, and run in CI. I include project structure, page or service abstractions where useful, API clients, fixtures, test data management, environment config, secrets handling, reporting, screenshots or logs on failure, tagging, and parallel execution. I also define coding standards and review tests like production code. The main goal is stable feedback, not just a large number of automated scripts.",
+    "keywords": ["qa engineer", "sdet", "automation framework", "selenium", "playwright", "pytest", "ci"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_flaky_tests_advanced_002",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you handle flaky automated tests?",
+    "alternate_questions": ["What causes flaky tests?", "How do you stabilize automation?"],
+    "instant_answer": "I investigate whether flakiness comes from timing, test data, environment instability, order dependency, async behavior, weak locators, or external dependencies. I do not ignore flaky tests because they destroy trust in automation. I either fix, quarantine with ownership, or remove tests that no longer provide value.",
+    "detailed_answer": "I handle flaky tests by first reproducing patterns across runs, browsers, environments, and data sets. Common causes are sleeps instead of waits, shared state, test order dependency, unstable selectors, async jobs, network calls, and environment issues. I replace hard waits with condition-based waits, isolate test data, mock external dependencies where appropriate, and improve logging. If a test cannot be fixed immediately, I quarantine it with an owner and deadline instead of letting it pollute CI results.",
+    "keywords": ["qa engineer", "flaky tests", "automation", "ci", "selectors", "waits", "test stability"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_playwright_selenium_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you choose between Selenium and Playwright?",
+    "alternate_questions": ["Selenium vs Playwright, which would you use?", "What UI automation tool do you prefer?"],
+    "instant_answer": "I choose based on application needs, team skill, browser support, CI reliability, ecosystem, and maintainability. Playwright is strong for modern web apps because of auto-waiting, tracing, and fast browser control. Selenium is still useful where existing suites, broad ecosystem, or specific grid/browser support matters.",
+    "detailed_answer": "I do not choose tools only by popularity. I compare reliability in CI, supported browsers, application technology, reporting, debugging tools, parallel execution, team experience, and existing investment. Playwright is often a strong choice for modern UI testing because auto-waiting, tracing, network control, and isolated browser contexts reduce flakiness. Selenium remains valuable when a company already has mature infrastructure or needs broad compatibility with an existing Selenium Grid.",
+    "keywords": ["qa engineer", "selenium", "playwright", "ui automation", "browser testing", "ci"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_qa_api_contract_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What is contract testing and why is it useful?",
+    "alternate_questions": ["How do you test service contracts?", "How do you prevent API integration breaks?"],
+    "instant_answer": "Contract testing verifies that a provider and consumer agree on request and response expectations. It is useful because it catches integration breaks earlier than full end-to-end testing. I use it when services are owned by different teams or change independently, especially for critical APIs.",
+    "detailed_answer": "Contract testing focuses on the agreement between systems: required fields, types, status codes, error responses, headers, and behavior expected by consumers. It is useful because integration failures often happen when a provider changes something that a consumer depends on. Instead of waiting for a full environment to fail, contract tests can run in CI and give faster feedback. I still keep some end-to-end tests, but contract tests reduce dependency on large unstable environments.",
+    "keywords": ["qa engineer", "contract testing", "api testing", "consumer driven contracts", "integration", "pact"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_test_data_strategy_002",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you manage test data?",
+    "alternate_questions": ["What is your test data strategy?", "How do you avoid test data issues?"],
+    "instant_answer": "I use controlled, repeatable, and privacy-safe test data. Depending on the test, I create data through APIs, fixtures, database setup, or seeded environments. I avoid relying on random shared data that can change unexpectedly, and I make cleanup or isolation part of the test design.",
+    "detailed_answer": "Test data should be predictable, realistic enough, and safe. I identify what data each test needs, how it is created, who owns it, and how it is cleaned up. For automation, I prefer creating data through APIs or fixtures so tests are independent. I avoid production personal data unless it is properly masked and approved. I also plan for edge cases such as expired users, permissions, invalid states, boundary values, and large records.",
+    "keywords": ["qa engineer", "test data", "fixtures", "masking", "automation", "privacy", "data setup"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_qa_performance_testing_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you approach performance testing?",
+    "alternate_questions": ["What do you test in performance testing?", "How do you plan load testing?"],
+    "instant_answer": "I define performance goals first: expected users, request rate, response time, throughput, error rate, and resource limits. Then I design realistic workloads, prepare data, monitor application and infrastructure metrics, and compare results against baselines. Performance testing is only useful if it reflects real usage and produces actionable bottleneck information.",
+    "detailed_answer": "I start by clarifying goals: load, stress, soak, spike, or capacity testing. Then I define realistic scenarios, user mix, ramp-up, test data, environment parity, success criteria, and monitoring. During execution I track response times, throughput, error rates, CPU, memory, database waits, queues, and downstream dependencies. After the test, I analyze bottlenecks and retest after changes. I also make sure performance tests do not accidentally impact shared or production systems.",
+    "keywords": ["qa engineer", "performance testing", "load testing", "stress testing", "jmeter", "k6", "throughput"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_security_testing_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What security testing can QA perform?",
+    "alternate_questions": ["How does QA support security?", "What security checks do you include in testing?"],
+    "instant_answer": "QA can validate authentication, authorization, session handling, input validation, error messages, sensitive data exposure, file upload rules, and access control between roles. I do not replace security specialists, but I help catch common issues early and make sure security requirements are tested like functional requirements.",
+    "detailed_answer": "QA supports security by testing common risk areas in normal delivery. I check login behavior, password and MFA flows, role-based access, direct URL access, IDOR-style permission gaps, input validation, file uploads, session timeout, secure error handling, and whether sensitive data appears in logs or responses. I also coordinate with security tools and specialists for deeper scanning or penetration testing. The key is to make security testable and visible in acceptance criteria.",
+    "keywords": ["qa engineer", "security testing", "authorization", "authentication", "input validation", "rbac", "idor"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_mobile_testing_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you test a mobile application?",
+    "alternate_questions": ["What is different about mobile testing?", "How do you plan mobile QA?"],
+    "instant_answer": "I test core flows across supported devices, OS versions, screen sizes, network conditions, permissions, interruptions, offline behavior, push notifications, performance, and app upgrades. Mobile testing needs more device and environment awareness than normal web testing because hardware, OS, and network conditions affect behavior.",
+    "detailed_answer": "For mobile testing, I start with supported platforms, device matrix, OS versions, and business-critical flows. I test installation, upgrade, login, permissions, offline behavior, network changes, push notifications, deep links, camera or location usage, background/foreground behavior, accessibility, performance, and crash reporting. I use real devices for high-risk flows and emulators for broader coverage. I also validate app store readiness and analytics when required.",
+    "keywords": ["qa engineer", "mobile testing", "ios", "android", "device matrix", "offline", "push notifications"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_qa_cicd_quality_gates_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you use quality gates in CI/CD?",
+    "alternate_questions": ["What tests should block a build?", "How does QA fit into CI/CD?"],
+    "instant_answer": "I use quality gates for fast, reliable checks that protect the build: unit tests, API checks, smoke tests, linting, security scans, and critical regression. I avoid blocking CI with slow or flaky tests. Longer tests can run later, but release decisions should still consider their results and known risks.",
+    "detailed_answer": "Quality gates should give fast confidence without making delivery painful. I include checks that are reliable and valuable: unit tests, build validation, API contract tests, smoke tests, static analysis, dependency/security scans, and critical automation. Slow performance tests, full regression, or unstable end-to-end tests may run in scheduled or pre-release pipelines. I also define ownership for failures so broken gates are fixed quickly instead of bypassed.",
+    "keywords": ["qa engineer", "ci cd", "quality gates", "smoke tests", "regression", "pipeline", "automation"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_defect_report_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What makes a good defect report?",
+    "alternate_questions": ["How do you write a bug report?", "What details should a defect include?"],
+    "instant_answer": "A good defect report is clear, reproducible, factual, and useful for fixing the issue. I include title, environment, build, steps to reproduce, expected result, actual result, severity, priority, evidence, logs, screenshots, and impact. I avoid vague language and include only confirmed information.",
+    "detailed_answer": "A good defect report helps the developer reproduce and understand business impact quickly. I include a concise title, affected environment, version/build, user role, test data, exact steps, expected behavior, actual behavior, frequency, severity, priority, screenshots, logs, network traces, and related requirement or story. I also mention workaround if known. If I cannot reproduce consistently, I say that clearly and include all observed patterns.",
+    "keywords": ["qa engineer", "defect report", "bug report", "reproduction steps", "severity", "priority", "evidence"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  }
+]
