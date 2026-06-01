@@ -1,0 +1,922 @@
+[
+  {
+    "id": "profession_data_analyst_deep_001",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you gather analytics requirements?",
+    "alternate_questions": [
+      "How do you understand what stakeholders need?",
+      "How do you define a reporting request?"
+    ],
+    "instant_answer": "For requirements, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For requirements, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "requirements",
+      "stakeholders",
+      "reporting"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_002",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you prevent multiple definitions of the same metric?",
+    "alternate_questions": [
+      "How do you create a single source of truth?",
+      "How do you handle KPI disagreement?"
+    ],
+    "instant_answer": "For metric governance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For metric governance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "metrics",
+      "governance",
+      "kpi"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_003",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you design an executive dashboard?",
+    "alternate_questions": [
+      "What makes a dashboard useful?",
+      "How do you choose dashboard visuals?"
+    ],
+    "instant_answer": "For dashboard design, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For dashboard design, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "dashboard",
+      "visualization",
+      "executive"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_004",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you avoid double counting in SQL analysis?",
+    "alternate_questions": [
+      "Why do joins inflate numbers?",
+      "How do you validate join grain?"
+    ],
+    "instant_answer": "For sql joins, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For sql joins, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "sql",
+      "joins",
+      "double counting"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_005",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you perform cohort analysis?",
+    "alternate_questions": [
+      "What is cohort retention?",
+      "How do you analyze users over time?"
+    ],
+    "instant_answer": "For cohort analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cohort analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "cohort",
+      "retention",
+      "analysis"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_006",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you analyze a conversion funnel?",
+    "alternate_questions": [
+      "How do you find funnel drop-off?",
+      "What does funnel analysis show?"
+    ],
+    "instant_answer": "For funnel analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For funnel analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "funnel",
+      "conversion",
+      "drop off"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_007",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you analyze an A/B test?",
+    "alternate_questions": [
+      "How do you know if an experiment is significant?",
+      "What can go wrong with A/B tests?"
+    ],
+    "instant_answer": "For ab testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For ab testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "ab test",
+      "experiment",
+      "significance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_008",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you handle outliers?",
+    "alternate_questions": [
+      "Do you remove outliers?",
+      "How do outliers affect analysis?"
+    ],
+    "instant_answer": "For outliers, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For outliers, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "outliers",
+      "statistics",
+      "analysis"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_009",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you handle missing data?",
+    "alternate_questions": [
+      "What do nulls mean in analysis?",
+      "How do you explain missing values?"
+    ],
+    "instant_answer": "For missing data, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For missing data, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "missing data",
+      "nulls",
+      "quality"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_010",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you validate a dashboard before publishing?",
+    "alternate_questions": [
+      "How do you know report numbers are correct?",
+      "What checks do you run before sharing analysis?"
+    ],
+    "instant_answer": "For data validation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data validation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "validation",
+      "dashboard",
+      "qa"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_011",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you present data insights?",
+    "alternate_questions": [
+      "How do you tell a story with data?",
+      "How do you make analysis actionable?"
+    ],
+    "instant_answer": "For storytelling, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For storytelling, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "storytelling",
+      "insights",
+      "presentation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_012",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "A KPI dropped suddenly. How do you investigate?",
+    "alternate_questions": [
+      "Metric changed unexpectedly. What do you check?",
+      "How do you find why a dashboard number moved?"
+    ],
+    "instant_answer": "For root cause analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For root cause analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "root cause",
+      "kpi",
+      "trend"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_013",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you segment customers or users?",
+    "alternate_questions": [
+      "How do you compare groups in analysis?",
+      "What makes a useful segment?"
+    ],
+    "instant_answer": "For segmentation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For segmentation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "segmentation",
+      "customers",
+      "analysis"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_014",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you approach forecasting?",
+    "alternate_questions": [
+      "How do you forecast demand or revenue?",
+      "What assumptions matter in forecasts?"
+    ],
+    "instant_answer": "For forecasting, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For forecasting, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "forecasting",
+      "trend",
+      "seasonality"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_015",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you account for seasonality?",
+    "alternate_questions": [
+      "How do seasonal patterns affect metrics?",
+      "How do you compare periods fairly?"
+    ],
+    "instant_answer": "For seasonality, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For seasonality, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "seasonality",
+      "time series",
+      "comparison"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_016",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you handle stale dashboard data?",
+    "alternate_questions": [
+      "Dashboard did not refresh. What do you do?",
+      "How do you communicate data freshness?"
+    ],
+    "instant_answer": "For data refresh, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data refresh, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "freshness",
+      "dashboard",
+      "refresh"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_017",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you support self-service analytics?",
+    "alternate_questions": [
+      "How do you help business users use data?",
+      "What makes a dataset self-service friendly?"
+    ],
+    "instant_answer": "For self service, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For self service, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "self service",
+      "analytics",
+      "documentation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_018",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you choose the right chart?",
+    "alternate_questions": [
+      "Bar chart vs line chart?",
+      "How do you avoid misleading visuals?"
+    ],
+    "instant_answer": "For visualization choice, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For visualization choice, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "visualization",
+      "charts",
+      "dashboard"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_019",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you clean messy data?",
+    "alternate_questions": [
+      "What data cleaning steps do you take?",
+      "How do you handle inconsistent source data?"
+    ],
+    "instant_answer": "For data cleaning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data cleaning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "data cleaning",
+      "quality",
+      "standardization"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_020",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "When do you use Excel, SQL, or BI tools?",
+    "alternate_questions": [
+      "How do you choose analysis tools?",
+      "What belongs in SQL vs dashboard layer?"
+    ],
+    "instant_answer": "For excel vs sql, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For excel vs sql, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "excel",
+      "sql",
+      "bi"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_021",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you handle stakeholders disagreeing with your numbers?",
+    "alternate_questions": [
+      "What if business users say your report is wrong?",
+      "How do you resolve data disputes?"
+    ],
+    "instant_answer": "For stakeholder conflict, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For stakeholder conflict, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "stakeholders",
+      "metric dispute",
+      "validation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_022",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you handle sensitive data in analysis?",
+    "alternate_questions": [
+      "How do analysts protect PII?",
+      "What data should not be exposed in dashboards?"
+    ],
+    "instant_answer": "For privacy, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For privacy, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "privacy",
+      "pii",
+      "security"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_023",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "When would you use sampling?",
+    "alternate_questions": [
+      "How can sampling bias analysis?",
+      "What are risks of sampled data?"
+    ],
+    "instant_answer": "For sampling, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For sampling, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "sampling",
+      "bias",
+      "statistics"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_024",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you explain correlation vs causation?",
+    "alternate_questions": [
+      "Why does correlation not prove causation?",
+      "How do you avoid false conclusions?"
+    ],
+    "instant_answer": "For correlation causation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For correlation causation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "correlation",
+      "causation",
+      "statistics"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_025",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you understand a new data model?",
+    "alternate_questions": [
+      "How do you learn unfamiliar tables?",
+      "How do you find the right data source?"
+    ],
+    "instant_answer": "For data model, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data model, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "data model",
+      "tables",
+      "lineage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_026",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you use SQL window functions in analysis?",
+    "alternate_questions": [
+      "When do you use row_number or lag?",
+      "How do window functions help reporting?"
+    ],
+    "instant_answer": "For sql windows, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For sql windows, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "sql",
+      "window functions",
+      "analysis"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_027",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do time zones affect reporting?",
+    "alternate_questions": [
+      "Why do dashboard dates differ?",
+      "How do you handle UTC vs local dates?"
+    ],
+    "instant_answer": "For time zones, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For time zones, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "timezone",
+      "dates",
+      "reporting"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_028",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "Why does data grain matter?",
+    "alternate_questions": [
+      "What is the grain of a table?",
+      "How does grain affect analysis?"
+    ],
+    "instant_answer": "For granularity, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For granularity, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "grain",
+      "granularity",
+      "sql"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_029",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you optimize slow dashboards?",
+    "alternate_questions": [
+      "Dashboard loads slowly. What do you check?",
+      "How do extracts or aggregates improve BI performance?"
+    ],
+    "instant_answer": "For performance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For performance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "dashboard performance",
+      "bi",
+      "optimization"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_030",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you document metrics and dashboards?",
+    "alternate_questions": [
+      "What belongs in a data dictionary?",
+      "How do users know what a report means?"
+    ],
+    "instant_answer": "For documentation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For documentation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "documentation",
+      "data dictionary",
+      "metrics"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_031",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you handle urgent ad hoc analysis?",
+    "alternate_questions": [
+      "How do you balance speed and accuracy?",
+      "What do you communicate with quick analysis?"
+    ],
+    "instant_answer": "For ad hoc analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For ad hoc analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "ad hoc",
+      "accuracy",
+      "stakeholders"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_032",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "You find data quality issues during analysis. What do you do?",
+    "alternate_questions": [
+      "How do you report bad data?",
+      "What if source data is unreliable?"
+    ],
+    "instant_answer": "For quality issue, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For quality issue, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "data quality",
+      "issue",
+      "source"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_033",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you break down a high-level KPI?",
+    "alternate_questions": [
+      "How do you find metric drivers?",
+      "How do KPI trees help analysis?"
+    ],
+    "instant_answer": "For kpi tree, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For kpi tree, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "kpi tree",
+      "drivers",
+      "metrics"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_034",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you analyze retention?",
+    "alternate_questions": [
+      "How do you calculate churn?",
+      "What retention metrics do you use?"
+    ],
+    "instant_answer": "For retention, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For retention, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "retention",
+      "churn",
+      "cohort"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_035",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you analyze revenue changes?",
+    "alternate_questions": [
+      "Revenue dropped. What do you check?",
+      "How do price, volume, and mix affect revenue?"
+    ],
+    "instant_answer": "For revenue analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For revenue analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "revenue",
+      "variance",
+      "business"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_036",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you design operational reports?",
+    "alternate_questions": [
+      "What makes an operational dashboard different?",
+      "How do teams use daily reports?"
+    ],
+    "instant_answer": "For operational reporting, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For operational reporting, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "operations",
+      "reporting",
+      "dashboard"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_037",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you validate data extracts?",
+    "alternate_questions": [
+      "How do you ensure CSV exports are correct?",
+      "What checks do you perform before sending data?"
+    ],
+    "instant_answer": "For data extracts, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data extracts, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "extracts",
+      "validation",
+      "csv"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_038",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you identify bias in analysis?",
+    "alternate_questions": [
+      "How can data selection bias results?",
+      "How do you avoid misleading analysis?"
+    ],
+    "instant_answer": "For bias, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For bias, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "bias",
+      "analysis",
+      "sampling"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_039",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you communicate uncertainty?",
+    "alternate_questions": [
+      "How do you explain confidence intervals?",
+      "How do you show limitations in analysis?"
+    ],
+    "instant_answer": "For confidence, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For confidence, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "uncertainty",
+      "confidence",
+      "statistics"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_040",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "What do you do when reporting requirements change?",
+    "alternate_questions": [
+      "How do you handle dashboard scope changes?",
+      "How do you update metrics safely?"
+    ],
+    "instant_answer": "For requirements change, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For requirements change, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "requirements",
+      "change",
+      "dashboard"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_041",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you prevent dashboard sprawl?",
+    "alternate_questions": [
+      "How do you manage many reports?",
+      "How do you retire unused dashboards?"
+    ],
+    "instant_answer": "For bi governance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For bi governance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "bi governance",
+      "dashboards",
+      "ownership"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_042",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you debug a wrong SQL result?",
+    "alternate_questions": [
+      "SQL query returns unexpected numbers. What do you check?",
+      "How do you test SQL step by step?"
+    ],
+    "instant_answer": "For sql debugging, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For sql debugging, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "sql debugging",
+      "validation",
+      "joins"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_043",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "What reporting tasks would you automate?",
+    "alternate_questions": [
+      "How do you reduce manual reporting?",
+      "When should a report become automated?"
+    ],
+    "instant_answer": "For automation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For automation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "automation",
+      "reporting",
+      "efficiency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_044",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you connect analysis to business impact?",
+    "alternate_questions": [
+      "How do you make recommendations from data?",
+      "How do you avoid just reporting numbers?"
+    ],
+    "instant_answer": "For business impact, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For business impact, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "business impact",
+      "recommendations",
+      "insights"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_045",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you measure dashboard adoption?",
+    "alternate_questions": [
+      "How do you know if a dashboard is being used?",
+      "What do you do with low dashboard usage?"
+    ],
+    "instant_answer": "For dashboard adoption, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For dashboard adoption, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "dashboard adoption",
+      "usage",
+      "stakeholders"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_analyst_deep_046",
+    "category": "profession",
+    "topic": "Data Analyst",
+    "question": "How do you avoid misleading stakeholders with data?",
+    "alternate_questions": [
+      "How do you present limitations clearly?",
+      "How do you prevent incorrect interpretation of charts?"
+    ],
+    "instant_answer": "For data storytelling risk, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data storytelling risk, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are business definitions, SQL correctness, metric trust, stakeholder decisions, dashboard quality, and data validation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data analyst",
+      "storytelling",
+      "risk",
+      "communication"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

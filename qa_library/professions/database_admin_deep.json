@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "profession_database_admin_deep_001",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle backup strategy as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to backup strategy?",
+      "Walk me through a real scenario involving backup strategy.",
+      "What risks or tradeoffs do you watch for with backup strategy?"
+    ],
+    "instant_answer": "For backup strategy, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For backup strategy, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "backup strategy",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_002",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle restore validation as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to restore validation?",
+      "Walk me through a real scenario involving restore validation.",
+      "What risks or tradeoffs do you watch for with restore validation?"
+    ],
+    "instant_answer": "For restore validation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For restore validation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "restore validation",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_003",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle point in time recovery as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to point in time recovery?",
+      "Walk me through a real scenario involving point in time recovery.",
+      "What risks or tradeoffs do you watch for with point in time recovery?"
+    ],
+    "instant_answer": "For point in time recovery, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For point in time recovery, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "point in time recovery",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_004",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle RTO and RPO as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to RTO and RPO?",
+      "Walk me through a real scenario involving RTO and RPO.",
+      "What risks or tradeoffs do you watch for with RTO and RPO?"
+    ],
+    "instant_answer": "For RTO and RPO, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For RTO and RPO, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "RTO and RPO",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_005",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle high availability as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to high availability?",
+      "Walk me through a real scenario involving high availability.",
+      "What risks or tradeoffs do you watch for with high availability?"
+    ],
+    "instant_answer": "For high availability, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For high availability, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "high availability",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_006",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle replication lag as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to replication lag?",
+      "Walk me through a real scenario involving replication lag.",
+      "What risks or tradeoffs do you watch for with replication lag?"
+    ],
+    "instant_answer": "For replication lag, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For replication lag, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "replication lag",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_007",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle failover testing as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to failover testing?",
+      "Walk me through a real scenario involving failover testing.",
+      "What risks or tradeoffs do you watch for with failover testing?"
+    ],
+    "instant_answer": "For failover testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For failover testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "failover testing",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_008",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle disaster recovery drills as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to disaster recovery drills?",
+      "Walk me through a real scenario involving disaster recovery drills.",
+      "What risks or tradeoffs do you watch for with disaster recovery drills?"
+    ],
+    "instant_answer": "For disaster recovery drills, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For disaster recovery drills, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "disaster recovery drills",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_009",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle query plan analysis as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to query plan analysis?",
+      "Walk me through a real scenario involving query plan analysis.",
+      "What risks or tradeoffs do you watch for with query plan analysis?"
+    ],
+    "instant_answer": "For query plan analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For query plan analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "query plan analysis",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_010",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle index tuning as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to index tuning?",
+      "Walk me through a real scenario involving index tuning.",
+      "What risks or tradeoffs do you watch for with index tuning?"
+    ],
+    "instant_answer": "For index tuning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For index tuning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "index tuning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_011",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle statistics maintenance as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to statistics maintenance?",
+      "Walk me through a real scenario involving statistics maintenance.",
+      "What risks or tradeoffs do you watch for with statistics maintenance?"
+    ],
+    "instant_answer": "For statistics maintenance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For statistics maintenance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "statistics maintenance",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_012",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle blocking sessions as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to blocking sessions?",
+      "Walk me through a real scenario involving blocking sessions.",
+      "What risks or tradeoffs do you watch for with blocking sessions?"
+    ],
+    "instant_answer": "For blocking sessions, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For blocking sessions, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "blocking sessions",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_013",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle deadlocks as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to deadlocks?",
+      "Walk me through a real scenario involving deadlocks.",
+      "What risks or tradeoffs do you watch for with deadlocks?"
+    ],
+    "instant_answer": "For deadlocks, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For deadlocks, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "deadlocks",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_014",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle isolation levels as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to isolation levels?",
+      "Walk me through a real scenario involving isolation levels.",
+      "What risks or tradeoffs do you watch for with isolation levels?"
+    ],
+    "instant_answer": "For isolation levels, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For isolation levels, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "isolation levels",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_015",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle transaction log growth as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to transaction log growth?",
+      "Walk me through a real scenario involving transaction log growth.",
+      "What risks or tradeoffs do you watch for with transaction log growth?"
+    ],
+    "instant_answer": "For transaction log growth, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For transaction log growth, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "transaction log growth",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_016",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle database capacity planning as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to database capacity planning?",
+      "Walk me through a real scenario involving database capacity planning.",
+      "What risks or tradeoffs do you watch for with database capacity planning?"
+    ],
+    "instant_answer": "For database capacity planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For database capacity planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "database capacity planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_017",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle storage performance as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to storage performance?",
+      "Walk me through a real scenario involving storage performance.",
+      "What risks or tradeoffs do you watch for with storage performance?"
+    ],
+    "instant_answer": "For storage performance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For storage performance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "storage performance",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_018",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle tempdb issues as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to tempdb issues?",
+      "Walk me through a real scenario involving tempdb issues.",
+      "What risks or tradeoffs do you watch for with tempdb issues?"
+    ],
+    "instant_answer": "For tempdb issues, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For tempdb issues, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "tempdb issues",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_019",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle connection pool exhaustion as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to connection pool exhaustion?",
+      "Walk me through a real scenario involving connection pool exhaustion.",
+      "What risks or tradeoffs do you watch for with connection pool exhaustion?"
+    ],
+    "instant_answer": "For connection pool exhaustion, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For connection pool exhaustion, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "connection pool exhaustion",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_020",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle slow stored procedures as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to slow stored procedures?",
+      "Walk me through a real scenario involving slow stored procedures.",
+      "What risks or tradeoffs do you watch for with slow stored procedures?"
+    ],
+    "instant_answer": "For slow stored procedures, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For slow stored procedures, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "slow stored procedures",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_021",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle parameter sniffing as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to parameter sniffing?",
+      "Walk me through a real scenario involving parameter sniffing.",
+      "What risks or tradeoffs do you watch for with parameter sniffing?"
+    ],
+    "instant_answer": "For parameter sniffing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For parameter sniffing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "parameter sniffing",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_022",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle partitioning as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to partitioning?",
+      "Walk me through a real scenario involving partitioning.",
+      "What risks or tradeoffs do you watch for with partitioning?"
+    ],
+    "instant_answer": "For partitioning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For partitioning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "partitioning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_023",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle archiving strategy as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to archiving strategy?",
+      "Walk me through a real scenario involving archiving strategy.",
+      "What risks or tradeoffs do you watch for with archiving strategy?"
+    ],
+    "instant_answer": "For archiving strategy, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For archiving strategy, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "archiving strategy",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_024",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle database security as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to database security?",
+      "Walk me through a real scenario involving database security.",
+      "What risks or tradeoffs do you watch for with database security?"
+    ],
+    "instant_answer": "For database security, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For database security, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "database security",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_025",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle least privilege access as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to least privilege access?",
+      "Walk me through a real scenario involving least privilege access.",
+      "What risks or tradeoffs do you watch for with least privilege access?"
+    ],
+    "instant_answer": "For least privilege access, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For least privilege access, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "least privilege access",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_026",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle audit logging as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to audit logging?",
+      "Walk me through a real scenario involving audit logging.",
+      "What risks or tradeoffs do you watch for with audit logging?"
+    ],
+    "instant_answer": "For audit logging, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For audit logging, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "audit logging",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_027",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle encryption at rest as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to encryption at rest?",
+      "Walk me through a real scenario involving encryption at rest.",
+      "What risks or tradeoffs do you watch for with encryption at rest?"
+    ],
+    "instant_answer": "For encryption at rest, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For encryption at rest, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "encryption at rest",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_028",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle encryption in transit as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to encryption in transit?",
+      "Walk me through a real scenario involving encryption in transit.",
+      "What risks or tradeoffs do you watch for with encryption in transit?"
+    ],
+    "instant_answer": "For encryption in transit, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For encryption in transit, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "encryption in transit",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_029",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle patching database servers as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to patching database servers?",
+      "Walk me through a real scenario involving patching database servers.",
+      "What risks or tradeoffs do you watch for with patching database servers?"
+    ],
+    "instant_answer": "For patching database servers, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For patching database servers, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "patching database servers",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_030",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle version upgrades as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to version upgrades?",
+      "Walk me through a real scenario involving version upgrades.",
+      "What risks or tradeoffs do you watch for with version upgrades?"
+    ],
+    "instant_answer": "For version upgrades, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For version upgrades, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "version upgrades",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_031",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle schema change review as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to schema change review?",
+      "Walk me through a real scenario involving schema change review.",
+      "What risks or tradeoffs do you watch for with schema change review?"
+    ],
+    "instant_answer": "For schema change review, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For schema change review, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "schema change review",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_032",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle migration rollback as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to migration rollback?",
+      "Walk me through a real scenario involving migration rollback.",
+      "What risks or tradeoffs do you watch for with migration rollback?"
+    ],
+    "instant_answer": "For migration rollback, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For migration rollback, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "migration rollback",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_033",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle data corruption response as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to data corruption response?",
+      "Walk me through a real scenario involving data corruption response.",
+      "What risks or tradeoffs do you watch for with data corruption response?"
+    ],
+    "instant_answer": "For data corruption response, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data corruption response, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "data corruption response",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_034",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle integrity checks as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to integrity checks?",
+      "Walk me through a real scenario involving integrity checks.",
+      "What risks or tradeoffs do you watch for with integrity checks?"
+    ],
+    "instant_answer": "For integrity checks, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For integrity checks, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "integrity checks",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_035",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle maintenance windows as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to maintenance windows?",
+      "Walk me through a real scenario involving maintenance windows.",
+      "What risks or tradeoffs do you watch for with maintenance windows?"
+    ],
+    "instant_answer": "For maintenance windows, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For maintenance windows, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "maintenance windows",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_036",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle monitoring and alerts as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to monitoring and alerts?",
+      "Walk me through a real scenario involving monitoring and alerts.",
+      "What risks or tradeoffs do you watch for with monitoring and alerts?"
+    ],
+    "instant_answer": "For monitoring and alerts, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For monitoring and alerts, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "monitoring and alerts",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_037",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle database baselines as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to database baselines?",
+      "Walk me through a real scenario involving database baselines.",
+      "What risks or tradeoffs do you watch for with database baselines?"
+    ],
+    "instant_answer": "For database baselines, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For database baselines, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "database baselines",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_038",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle performance regression as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to performance regression?",
+      "Walk me through a real scenario involving performance regression.",
+      "What risks or tradeoffs do you watch for with performance regression?"
+    ],
+    "instant_answer": "For performance regression, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For performance regression, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "performance regression",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_039",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle cloud managed databases as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to cloud managed databases?",
+      "Walk me through a real scenario involving cloud managed databases.",
+      "What risks or tradeoffs do you watch for with cloud managed databases?"
+    ],
+    "instant_answer": "For cloud managed databases, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cloud managed databases, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "cloud managed databases",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_040",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle read replicas as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to read replicas?",
+      "Walk me through a real scenario involving read replicas.",
+      "What risks or tradeoffs do you watch for with read replicas?"
+    ],
+    "instant_answer": "For read replicas, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For read replicas, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "read replicas",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_041",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle write scaling as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to write scaling?",
+      "Walk me through a real scenario involving write scaling.",
+      "What risks or tradeoffs do you watch for with write scaling?"
+    ],
+    "instant_answer": "For write scaling, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For write scaling, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "write scaling",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_042",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle database cost optimization as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to database cost optimization?",
+      "Walk me through a real scenario involving database cost optimization.",
+      "What risks or tradeoffs do you watch for with database cost optimization?"
+    ],
+    "instant_answer": "For database cost optimization, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For database cost optimization, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "database cost optimization",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_043",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle automation scripts as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to automation scripts?",
+      "Walk me through a real scenario involving automation scripts.",
+      "What risks or tradeoffs do you watch for with automation scripts?"
+    ],
+    "instant_answer": "For automation scripts, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For automation scripts, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "automation scripts",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_044",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle runbook documentation as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to runbook documentation?",
+      "Walk me through a real scenario involving runbook documentation.",
+      "What risks or tradeoffs do you watch for with runbook documentation?"
+    ],
+    "instant_answer": "For runbook documentation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For runbook documentation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "runbook documentation",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_045",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle incident postmortems as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to incident postmortems?",
+      "Walk me through a real scenario involving incident postmortems.",
+      "What risks or tradeoffs do you watch for with incident postmortems?"
+    ],
+    "instant_answer": "For incident postmortems, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For incident postmortems, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "incident postmortems",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_database_admin_deep_046",
+    "category": "profession",
+    "topic": "Database Administrator",
+    "question": "How do you handle developer query review as a Database Administrator?",
+    "alternate_questions": [
+      "What is your approach to developer query review?",
+      "Walk me through a real scenario involving developer query review.",
+      "What risks or tradeoffs do you watch for with developer query review?"
+    ],
+    "instant_answer": "For developer query review, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around availability, backup and restore, query performance, locking, capacity, recovery, and data integrity. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For developer query review, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are availability, backup and restore, query performance, locking, capacity, recovery, and data integrity, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "database administrator",
+      "developer query review",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

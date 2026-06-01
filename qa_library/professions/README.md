@@ -17,7 +17,16 @@ Current pack files:
 - `developer_fullstack_deep.json`: expanded deep technical full-stack developer coverage.
 - `qa_engineer.json`: QA Engineer fundamentals.
 - `qa_engineer_advanced.json`: deeper QA/SDET, automation, API, performance, security, and CI/CD questions.
+- `qa_engineer_deep.json`: supplemental QA scenarios to reach the 50-item target.
 - `expanded_professions.json`: expanded coverage for developer, data, analyst, business, project, product, cybersecurity, cloud, and DBA roles.
+- `data_engineer_deep.json`: supplemental Data Engineer scenarios to reach the 50-item target.
+- `data_analyst_deep.json`: supplemental Data Analyst scenarios to reach the 50-item target.
+- `business_analyst_deep.json`: supplemental Business Analyst scenarios to reach the 50-item target.
+- `project_manager_deep.json`: supplemental Project Manager scenarios to reach the 50-item target.
+- `product_manager_deep.json`: supplemental Product Manager scenarios to reach the 50-item target.
+- `cybersecurity_deep.json`: supplemental Cybersecurity Analyst scenarios to reach the 50-item target.
+- `cloud_engineer_deep.json`: supplemental Cloud Engineer scenarios to reach the 50-item target.
+- `database_admin_deep.json`: supplemental DBA scenarios to reach the 50-item target.
 
 Each item includes:
 
@@ -42,3 +51,15 @@ Developer specialization targets:
 - Java Developer: 50 Q&A items.
 - SQL Developer: 50 Q&A items.
 - Full Stack Developer: 50 Q&A items.
+
+Main profession targets:
+
+- QA Engineer: 50 Q&A items.
+- Data Engineer: 50 Q&A items.
+- Data Analyst: 50 Q&A items.
+- Business Analyst: 50 Q&A items.
+- Project Manager: 50 Q&A items.
+- Product Manager: 50 Q&A items.
+- Cybersecurity Analyst: 50 Q&A items.
+- Cloud Engineer: 50 Q&A items.
+- Database Administrator: 50 Q&A items.

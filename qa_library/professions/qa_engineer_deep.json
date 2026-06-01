@@ -1,0 +1,482 @@
+[
+  {
+    "id": "profession_qa_engineer_deep_001",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you apply risk-based testing?",
+    "alternate_questions": [
+      "How do you decide what to test first?",
+      "How do you test when time is limited?"
+    ],
+    "instant_answer": "For risk-based testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For risk-based testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "risk based testing",
+      "priority",
+      "coverage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_002",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you decide which tests to automate?",
+    "alternate_questions": [
+      "What should not be automated?",
+      "How do you choose automation candidates?"
+    ],
+    "instant_answer": "For automation strategy, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For automation strategy, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "automation strategy",
+      "regression",
+      "coverage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_003",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What does shift-left testing mean?",
+    "alternate_questions": [
+      "How can QA get involved earlier?",
+      "How do you prevent defects before coding finishes?"
+    ],
+    "instant_answer": "For shift-left QA, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For shift-left QA, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "shift left",
+      "requirements",
+      "prevention"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_004",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you review acceptance criteria?",
+    "alternate_questions": [
+      "What makes acceptance criteria testable?",
+      "How do you find gaps in user stories?"
+    ],
+    "instant_answer": "For acceptance criteria, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For acceptance criteria, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "acceptance criteria",
+      "requirements",
+      "user story"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_005",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you design negative test cases?",
+    "alternate_questions": [
+      "How do you test invalid input?",
+      "Why is negative testing important?"
+    ],
+    "instant_answer": "For negative testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For negative testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "negative testing",
+      "validation",
+      "edge cases"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_006",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "Explain boundary value testing.",
+    "alternate_questions": [
+      "How do you test limits?",
+      "What boundary cases do you include?"
+    ],
+    "instant_answer": "For boundary testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For boundary testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "boundary testing",
+      "limits",
+      "test design"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_007",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What is equivalence partitioning?",
+    "alternate_questions": [
+      "How do you reduce test cases without losing coverage?",
+      "How do you group similar inputs?"
+    ],
+    "instant_answer": "For equivalence partitioning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For equivalence partitioning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "equivalence partitioning",
+      "test design",
+      "coverage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_008",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you maintain requirements traceability?",
+    "alternate_questions": [
+      "How do you map tests to requirements?",
+      "How do you prove coverage?"
+    ],
+    "instant_answer": "For traceability, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For traceability, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "traceability",
+      "requirements",
+      "coverage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_009",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you handle unstable test environments?",
+    "alternate_questions": [
+      "Environment is down during testing. What do you do?",
+      "How do you reduce environment-related test failures?"
+    ],
+    "instant_answer": "For test environment, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For test environment, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "test environment",
+      "stability",
+      "triage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_010",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you test API authentication and authorization?",
+    "alternate_questions": [
+      "How do you test secured APIs?",
+      "What permission cases do you test in APIs?"
+    ],
+    "instant_answer": "For api auth testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For api auth testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "api testing",
+      "authentication",
+      "authorization"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_011",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How does QA use contract testing?",
+    "alternate_questions": [
+      "How do you prevent API integration breaks?",
+      "What is consumer-driven contract testing?"
+    ],
+    "instant_answer": "For contract testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For contract testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "contract testing",
+      "api",
+      "integration"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_012",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you validate database changes as QA?",
+    "alternate_questions": [
+      "What database checks do you perform?",
+      "How do you test data persistence?"
+    ],
+    "instant_answer": "For database testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For database testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "database testing",
+      "sql",
+      "data validation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_013",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you test accessibility?",
+    "alternate_questions": [
+      "What accessibility checks should QA perform?",
+      "How do you test keyboard and screen reader behavior?"
+    ],
+    "instant_answer": "For accessibility testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For accessibility testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "accessibility",
+      "wcag",
+      "keyboard"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_014",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you plan cross-browser testing?",
+    "alternate_questions": [
+      "Which browsers do you test?",
+      "How do you reduce browser compatibility risk?"
+    ],
+    "instant_answer": "For cross-browser testing, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cross-browser testing, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "cross browser",
+      "compatibility",
+      "web testing"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_015",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you validate rollback readiness?",
+    "alternate_questions": [
+      "How does QA test rollback plans?",
+      "What do you check before production release?"
+    ],
+    "instant_answer": "For release rollback validation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For release rollback validation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "rollback",
+      "release",
+      "validation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_016",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What QA metrics are actually useful?",
+    "alternate_questions": [
+      "How do you measure quality?",
+      "Which test metrics can be misleading?"
+    ],
+    "instant_answer": "For test metrics, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For test metrics, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "metrics",
+      "defects",
+      "quality"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_017",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "What should automation reports show?",
+    "alternate_questions": [
+      "How do you make test results useful?",
+      "How do you debug failed automation from reports?"
+    ],
+    "instant_answer": "For automation reporting, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For automation reporting, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "automation reporting",
+      "ci",
+      "logs"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_018",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you run automation in parallel safely?",
+    "alternate_questions": [
+      "What issues happen with parallel tests?",
+      "How do you avoid test data conflicts in parallel runs?"
+    ],
+    "instant_answer": "For parallel automation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For parallel automation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "parallel testing",
+      "automation",
+      "test data"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_019",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How does QA support UAT?",
+    "alternate_questions": [
+      "What is QA's role in user acceptance testing?",
+      "How do you handle UAT defects?"
+    ],
+    "instant_answer": "For uat support, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For uat support, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "uat",
+      "stakeholders",
+      "defects"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_020",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How can QA help after release?",
+    "alternate_questions": [
+      "What does QA monitor post-release?",
+      "How do you validate production after deployment?"
+    ],
+    "instant_answer": "For production monitoring, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For production monitoring, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "post release",
+      "monitoring",
+      "smoke testing"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_021",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you perform defect root cause analysis?",
+    "alternate_questions": [
+      "How do you prevent repeated defects?",
+      "What do you check after a bug escapes?"
+    ],
+    "instant_answer": "For root cause analysis, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For root cause analysis, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "root cause",
+      "escaped defect",
+      "prevention"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_022",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you find gaps in test coverage?",
+    "alternate_questions": [
+      "How do you know what tests are missing?",
+      "How do defects reveal coverage gaps?"
+    ],
+    "instant_answer": "For test coverage gaps, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For test coverage gaps, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "coverage",
+      "gap analysis",
+      "regression"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_023",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you maintain a large automation suite?",
+    "alternate_questions": [
+      "How do you keep tests from becoming outdated?",
+      "How do you handle old automation scripts?"
+    ],
+    "instant_answer": "For automation maintenance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For automation maintenance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "automation maintenance",
+      "suite",
+      "stability"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_qa_engineer_deep_024",
+    "category": "profession",
+    "topic": "QA Engineer",
+    "question": "How do you promote quality ownership across a team?",
+    "alternate_questions": [
+      "Is quality only QA's responsibility?",
+      "How do developers and QA share quality?"
+    ],
+    "instant_answer": "For quality ownership, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For quality ownership, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are quality risk, reproducibility, test coverage, automation stability, release confidence, and defect prevention, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "qa engineer",
+      "quality ownership",
+      "collaboration",
+      "team"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

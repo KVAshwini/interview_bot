@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "profession_project_manager_deep_001",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle project charter as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to project charter?",
+      "Walk me through a real scenario involving project charter.",
+      "What risks or tradeoffs do you watch for with project charter?"
+    ],
+    "instant_answer": "For project charter, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For project charter, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "project charter",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_002",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle scope baseline as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to scope baseline?",
+      "Walk me through a real scenario involving scope baseline.",
+      "What risks or tradeoffs do you watch for with scope baseline?"
+    ],
+    "instant_answer": "For scope baseline, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For scope baseline, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "scope baseline",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_003",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle schedule planning as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to schedule planning?",
+      "Walk me through a real scenario involving schedule planning.",
+      "What risks or tradeoffs do you watch for with schedule planning?"
+    ],
+    "instant_answer": "For schedule planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For schedule planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "schedule planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_004",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle critical path as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to critical path?",
+      "Walk me through a real scenario involving critical path.",
+      "What risks or tradeoffs do you watch for with critical path?"
+    ],
+    "instant_answer": "For critical path, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For critical path, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "critical path",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_005",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle risk register as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to risk register?",
+      "Walk me through a real scenario involving risk register.",
+      "What risks or tradeoffs do you watch for with risk register?"
+    ],
+    "instant_answer": "For risk register, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For risk register, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "risk register",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_006",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle issue management as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to issue management?",
+      "Walk me through a real scenario involving issue management.",
+      "What risks or tradeoffs do you watch for with issue management?"
+    ],
+    "instant_answer": "For issue management, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For issue management, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "issue management",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_007",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle dependency tracking as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to dependency tracking?",
+      "Walk me through a real scenario involving dependency tracking.",
+      "What risks or tradeoffs do you watch for with dependency tracking?"
+    ],
+    "instant_answer": "For dependency tracking, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For dependency tracking, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "dependency tracking",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_008",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle stakeholder communication as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to stakeholder communication?",
+      "Walk me through a real scenario involving stakeholder communication.",
+      "What risks or tradeoffs do you watch for with stakeholder communication?"
+    ],
+    "instant_answer": "For stakeholder communication, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For stakeholder communication, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "stakeholder communication",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_009",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle status reporting as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to status reporting?",
+      "Walk me through a real scenario involving status reporting.",
+      "What risks or tradeoffs do you watch for with status reporting?"
+    ],
+    "instant_answer": "For status reporting, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For status reporting, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "status reporting",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_010",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle budget tracking as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to budget tracking?",
+      "Walk me through a real scenario involving budget tracking.",
+      "What risks or tradeoffs do you watch for with budget tracking?"
+    ],
+    "instant_answer": "For budget tracking, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For budget tracking, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "budget tracking",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_011",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle resource planning as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to resource planning?",
+      "Walk me through a real scenario involving resource planning.",
+      "What risks or tradeoffs do you watch for with resource planning?"
+    ],
+    "instant_answer": "For resource planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For resource planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "resource planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_012",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle vendor coordination as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to vendor coordination?",
+      "Walk me through a real scenario involving vendor coordination.",
+      "What risks or tradeoffs do you watch for with vendor coordination?"
+    ],
+    "instant_answer": "For vendor coordination, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For vendor coordination, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "vendor coordination",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_013",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle change control as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to change control?",
+      "Walk me through a real scenario involving change control.",
+      "What risks or tradeoffs do you watch for with change control?"
+    ],
+    "instant_answer": "For change control, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For change control, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "change control",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_014",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle scope creep as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to scope creep?",
+      "Walk me through a real scenario involving scope creep.",
+      "What risks or tradeoffs do you watch for with scope creep?"
+    ],
+    "instant_answer": "For scope creep, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For scope creep, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "scope creep",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_015",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle delivery roadmap as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to delivery roadmap?",
+      "Walk me through a real scenario involving delivery roadmap.",
+      "What risks or tradeoffs do you watch for with delivery roadmap?"
+    ],
+    "instant_answer": "For delivery roadmap, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For delivery roadmap, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "delivery roadmap",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_016",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle milestone planning as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to milestone planning?",
+      "Walk me through a real scenario involving milestone planning.",
+      "What risks or tradeoffs do you watch for with milestone planning?"
+    ],
+    "instant_answer": "For milestone planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For milestone planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "milestone planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_017",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle go live readiness as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to go live readiness?",
+      "Walk me through a real scenario involving go live readiness.",
+      "What risks or tradeoffs do you watch for with go live readiness?"
+    ],
+    "instant_answer": "For go live readiness, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For go live readiness, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "go live readiness",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_018",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle cutover planning as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to cutover planning?",
+      "Walk me through a real scenario involving cutover planning.",
+      "What risks or tradeoffs do you watch for with cutover planning?"
+    ],
+    "instant_answer": "For cutover planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cutover planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "cutover planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_019",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle rollback planning as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to rollback planning?",
+      "Walk me through a real scenario involving rollback planning.",
+      "What risks or tradeoffs do you watch for with rollback planning?"
+    ],
+    "instant_answer": "For rollback planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For rollback planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "rollback planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_020",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle project governance as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to project governance?",
+      "Walk me through a real scenario involving project governance.",
+      "What risks or tradeoffs do you watch for with project governance?"
+    ],
+    "instant_answer": "For project governance, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For project governance, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "project governance",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_021",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle steering committee updates as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to steering committee updates?",
+      "Walk me through a real scenario involving steering committee updates.",
+      "What risks or tradeoffs do you watch for with steering committee updates?"
+    ],
+    "instant_answer": "For steering committee updates, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For steering committee updates, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "steering committee updates",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_022",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle escalation management as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to escalation management?",
+      "Walk me through a real scenario involving escalation management.",
+      "What risks or tradeoffs do you watch for with escalation management?"
+    ],
+    "instant_answer": "For escalation management, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For escalation management, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "escalation management",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_023",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle team velocity as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to team velocity?",
+      "Walk me through a real scenario involving team velocity.",
+      "What risks or tradeoffs do you watch for with team velocity?"
+    ],
+    "instant_answer": "For team velocity, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For team velocity, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "team velocity",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_024",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle Agile project delivery as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to Agile project delivery?",
+      "Walk me through a real scenario involving Agile project delivery.",
+      "What risks or tradeoffs do you watch for with Agile project delivery?"
+    ],
+    "instant_answer": "For Agile project delivery, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For Agile project delivery, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "Agile project delivery",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_025",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle Scrum ceremonies as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to Scrum ceremonies?",
+      "Walk me through a real scenario involving Scrum ceremonies.",
+      "What risks or tradeoffs do you watch for with Scrum ceremonies?"
+    ],
+    "instant_answer": "For Scrum ceremonies, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For Scrum ceremonies, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "Scrum ceremonies",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_026",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle hybrid delivery as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to hybrid delivery?",
+      "Walk me through a real scenario involving hybrid delivery.",
+      "What risks or tradeoffs do you watch for with hybrid delivery?"
+    ],
+    "instant_answer": "For hybrid delivery, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For hybrid delivery, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "hybrid delivery",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_027",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle waterfall delivery as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to waterfall delivery?",
+      "Walk me through a real scenario involving waterfall delivery.",
+      "What risks or tradeoffs do you watch for with waterfall delivery?"
+    ],
+    "instant_answer": "For waterfall delivery, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For waterfall delivery, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "waterfall delivery",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_028",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle RAID logs as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to RAID logs?",
+      "Walk me through a real scenario involving RAID logs.",
+      "What risks or tradeoffs do you watch for with RAID logs?"
+    ],
+    "instant_answer": "For RAID logs, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For RAID logs, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "RAID logs",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_029",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle quality gates as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to quality gates?",
+      "Walk me through a real scenario involving quality gates.",
+      "What risks or tradeoffs do you watch for with quality gates?"
+    ],
+    "instant_answer": "For quality gates, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For quality gates, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "quality gates",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_030",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle release coordination as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to release coordination?",
+      "Walk me through a real scenario involving release coordination.",
+      "What risks or tradeoffs do you watch for with release coordination?"
+    ],
+    "instant_answer": "For release coordination, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For release coordination, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "release coordination",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_031",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle cross functional alignment as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to cross functional alignment?",
+      "Walk me through a real scenario involving cross functional alignment.",
+      "What risks or tradeoffs do you watch for with cross functional alignment?"
+    ],
+    "instant_answer": "For cross functional alignment, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cross functional alignment, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "cross functional alignment",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_032",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle blocked work as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to blocked work?",
+      "Walk me through a real scenario involving blocked work.",
+      "What risks or tradeoffs do you watch for with blocked work?"
+    ],
+    "instant_answer": "For blocked work, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For blocked work, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "blocked work",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_033",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle timeline slippage as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to timeline slippage?",
+      "Walk me through a real scenario involving timeline slippage.",
+      "What risks or tradeoffs do you watch for with timeline slippage?"
+    ],
+    "instant_answer": "For timeline slippage, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For timeline slippage, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "timeline slippage",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_034",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle executive reporting as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to executive reporting?",
+      "Walk me through a real scenario involving executive reporting.",
+      "What risks or tradeoffs do you watch for with executive reporting?"
+    ],
+    "instant_answer": "For executive reporting, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For executive reporting, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "executive reporting",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_035",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle post implementation review as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to post implementation review?",
+      "Walk me through a real scenario involving post implementation review.",
+      "What risks or tradeoffs do you watch for with post implementation review?"
+    ],
+    "instant_answer": "For post implementation review, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For post implementation review, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "post implementation review",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_036",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle lessons learned as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to lessons learned?",
+      "Walk me through a real scenario involving lessons learned.",
+      "What risks or tradeoffs do you watch for with lessons learned?"
+    ],
+    "instant_answer": "For lessons learned, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For lessons learned, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "lessons learned",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_037",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle capacity planning as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to capacity planning?",
+      "Walk me through a real scenario involving capacity planning.",
+      "What risks or tradeoffs do you watch for with capacity planning?"
+    ],
+    "instant_answer": "For capacity planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For capacity planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "capacity planning",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_038",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle dependency delays as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to dependency delays?",
+      "Walk me through a real scenario involving dependency delays.",
+      "What risks or tradeoffs do you watch for with dependency delays?"
+    ],
+    "instant_answer": "For dependency delays, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For dependency delays, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "dependency delays",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_039",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle project recovery as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to project recovery?",
+      "Walk me through a real scenario involving project recovery.",
+      "What risks or tradeoffs do you watch for with project recovery?"
+    ],
+    "instant_answer": "For project recovery, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For project recovery, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "project recovery",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_040",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle priority conflicts as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to priority conflicts?",
+      "Walk me through a real scenario involving priority conflicts.",
+      "What risks or tradeoffs do you watch for with priority conflicts?"
+    ],
+    "instant_answer": "For priority conflicts, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For priority conflicts, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "priority conflicts",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_041",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle communication plans as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to communication plans?",
+      "Walk me through a real scenario involving communication plans.",
+      "What risks or tradeoffs do you watch for with communication plans?"
+    ],
+    "instant_answer": "For communication plans, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For communication plans, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "communication plans",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_042",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle decision tracking as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to decision tracking?",
+      "Walk me through a real scenario involving decision tracking.",
+      "What risks or tradeoffs do you watch for with decision tracking?"
+    ],
+    "instant_answer": "For decision tracking, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For decision tracking, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "decision tracking",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_043",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle compliance projects as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to compliance projects?",
+      "Walk me through a real scenario involving compliance projects.",
+      "What risks or tradeoffs do you watch for with compliance projects?"
+    ],
+    "instant_answer": "For compliance projects, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For compliance projects, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "compliance projects",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_044",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle security project delivery as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to security project delivery?",
+      "Walk me through a real scenario involving security project delivery.",
+      "What risks or tradeoffs do you watch for with security project delivery?"
+    ],
+    "instant_answer": "For security project delivery, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For security project delivery, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "security project delivery",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_045",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle data migration projects as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to data migration projects?",
+      "Walk me through a real scenario involving data migration projects.",
+      "What risks or tradeoffs do you watch for with data migration projects?"
+    ],
+    "instant_answer": "For data migration projects, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data migration projects, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "data migration projects",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_project_manager_deep_046",
+    "category": "profession",
+    "topic": "Project Manager",
+    "question": "How do you handle production incident projects as a Project Manager?",
+    "alternate_questions": [
+      "What is your approach to production incident projects?",
+      "Walk me through a real scenario involving production incident projects.",
+      "What risks or tradeoffs do you watch for with production incident projects?"
+    ],
+    "instant_answer": "For production incident projects, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around delivery risk, dependencies, scope, timeline, communication, ownership, and escalation. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For production incident projects, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are delivery risk, dependencies, scope, timeline, communication, ownership, and escalation, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "project manager",
+      "production incident projects",
+      "scenario",
+      "risk",
+      "best practices"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

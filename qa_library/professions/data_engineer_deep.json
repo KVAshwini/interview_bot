@@ -1,0 +1,923 @@
+[
+  {
+    "id": "profession_data_engineer_deep_001",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you use data contracts?",
+    "alternate_questions": [
+      "How do you prevent upstream schema changes from breaking pipelines?",
+      "What belongs in a data contract?"
+    ],
+    "instant_answer": "For data contracts, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data contracts, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "data contract",
+      "schema",
+      "pipeline"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_002",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you orchestrate data pipelines?",
+    "alternate_questions": [
+      "How do tools like Airflow help?",
+      "How do you manage pipeline dependencies?"
+    ],
+    "instant_answer": "For pipeline orchestration, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For pipeline orchestration, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "airflow",
+      "orchestration",
+      "dependencies"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_003",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you run a safe data backfill?",
+    "alternate_questions": [
+      "How do you reprocess historical data?",
+      "What can go wrong during a backfill?"
+    ],
+    "instant_answer": "For backfills, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For backfills, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "backfill",
+      "historical data",
+      "idempotency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_004",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you handle late-arriving data?",
+    "alternate_questions": [
+      "What if events arrive after the window closes?",
+      "How do pipelines handle delayed records?"
+    ],
+    "instant_answer": "For late arriving data, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For late arriving data, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "late data",
+      "watermark",
+      "events"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_005",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How does change data capture work?",
+    "alternate_questions": [
+      "When do you use CDC?",
+      "How do you process database changes in pipelines?"
+    ],
+    "instant_answer": "For cdc, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cdc, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "cdc",
+      "change data capture",
+      "replication"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_006",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "When do you choose streaming over batch?",
+    "alternate_questions": [
+      "Batch vs streaming pipelines?",
+      "What are streaming tradeoffs?"
+    ],
+    "instant_answer": "For streaming vs batch, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For streaming vs batch, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "streaming",
+      "batch",
+      "latency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_007",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you tune a slow Spark job?",
+    "alternate_questions": [
+      "Spark job is slow. What do you check?",
+      "How do partitions affect Spark performance?"
+    ],
+    "instant_answer": "For spark tuning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For spark tuning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "spark",
+      "partitions",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_008",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you handle small-file problems in data lakes?",
+    "alternate_questions": [
+      "Why are many small files bad?",
+      "How do you optimize data lake file layout?"
+    ],
+    "instant_answer": "For small files, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For small files, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "data lake",
+      "small files",
+      "compaction"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_009",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you design partitioning for data lakes?",
+    "alternate_questions": [
+      "Which columns should partition data?",
+      "What are partitioning pitfalls?"
+    ],
+    "instant_answer": "For partition strategy, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For partition strategy, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "partitioning",
+      "data lake",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_010",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you track data lineage?",
+    "alternate_questions": [
+      "How do you know where data came from?",
+      "Why is lineage important?"
+    ],
+    "instant_answer": "For data lineage, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data lineage, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "lineage",
+      "metadata",
+      "governance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_011",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you monitor data freshness?",
+    "alternate_questions": [
+      "How do you know data is late?",
+      "What freshness alerts do you create?"
+    ],
+    "instant_answer": "For freshness checks, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For freshness checks, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "freshness",
+      "monitoring",
+      "sla"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_012",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you detect abnormal data volume?",
+    "alternate_questions": [
+      "How do you catch missing or duplicate loads?",
+      "What volume checks do you add?"
+    ],
+    "instant_answer": "For volume anomalies, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For volume anomalies, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "volume checks",
+      "anomaly",
+      "data quality"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_013",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you support schema evolution?",
+    "alternate_questions": [
+      "How do you add columns safely?",
+      "How do you handle changing event schemas?"
+    ],
+    "instant_answer": "For schema evolution, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For schema evolution, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "schema evolution",
+      "compatibility",
+      "events"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_014",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you model data for a warehouse?",
+    "alternate_questions": [
+      "Fact vs dimension tables?",
+      "How do you design analytics tables?"
+    ],
+    "instant_answer": "For warehouse modeling, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For warehouse modeling, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "warehouse",
+      "fact table",
+      "dimension"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_015",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you troubleshoot slow warehouse queries?",
+    "alternate_questions": [
+      "BigQuery or Snowflake query is slow. What do you check?",
+      "How do you optimize analytical SQL?"
+    ],
+    "instant_answer": "For slow warehouse query, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For slow warehouse query, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "warehouse",
+      "query optimization",
+      "sql"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_016",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "What is a lakehouse architecture?",
+    "alternate_questions": [
+      "How does a lakehouse differ from a warehouse?",
+      "When use Delta or Iceberg?"
+    ],
+    "instant_answer": "For data lakehouse, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data lakehouse, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "lakehouse",
+      "delta",
+      "iceberg"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_017",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you deduplicate events?",
+    "alternate_questions": [
+      "How do you handle duplicate messages?",
+      "What keys do you use for deduplication?"
+    ],
+    "instant_answer": "For deduplication, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For deduplication, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "deduplication",
+      "events",
+      "idempotency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_018",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "What does exactly-once processing mean?",
+    "alternate_questions": [
+      "Is exactly-once really possible?",
+      "How do you avoid duplicate processing?"
+    ],
+    "instant_answer": "For exactly once, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For exactly once, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "exactly once",
+      "streaming",
+      "idempotency"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_019",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you reconcile source and target data?",
+    "alternate_questions": [
+      "How do you prove a pipeline loaded correctly?",
+      "What checks compare source and warehouse?"
+    ],
+    "instant_answer": "For data reconciliation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data reconciliation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "reconciliation",
+      "source target",
+      "validation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_020",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you design retries in pipelines?",
+    "alternate_questions": [
+      "When should a data job retry?",
+      "How do you avoid corrupting data on rerun?"
+    ],
+    "instant_answer": "For pipeline retries, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For pipeline retries, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "retry",
+      "idempotency",
+      "pipeline"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_021",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you manage secrets in data pipelines?",
+    "alternate_questions": [
+      "How do jobs access credentials safely?",
+      "How do you avoid hardcoded data credentials?"
+    ],
+    "instant_answer": "For secrets, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For secrets, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "secrets",
+      "credentials",
+      "security"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_022",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you handle PII in data platforms?",
+    "alternate_questions": [
+      "How do you mask sensitive data?",
+      "How do data engineers protect privacy?"
+    ],
+    "instant_answer": "For pii handling, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For pii handling, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "pii",
+      "masking",
+      "privacy"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_023",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you control data platform cost?",
+    "alternate_questions": [
+      "Data warehouse bill increased. What do you check?",
+      "How do you reduce Spark or warehouse spend?"
+    ],
+    "instant_answer": "For cost optimization, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For cost optimization, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "cost",
+      "warehouse",
+      "optimization"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_024",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you define data pipeline SLAs?",
+    "alternate_questions": [
+      "How do you set pipeline reliability targets?",
+      "What does data availability mean?"
+    ],
+    "instant_answer": "For sla, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For sla, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "sla",
+      "reliability",
+      "freshness"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_025",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "A critical data pipeline failed before business reporting. What do you do?",
+    "alternate_questions": [
+      "ETL failed before executive dashboard refresh. How do you respond?",
+      "How do you handle a data incident?"
+    ],
+    "instant_answer": "For incident response, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For incident response, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "incident",
+      "pipeline failure",
+      "reporting"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_026",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "What automated tests do you add for pipelines?",
+    "alternate_questions": [
+      "How do you test transformations?",
+      "How do dbt tests or pipeline tests help?"
+    ],
+    "instant_answer": "For data tests, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data tests, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "testing",
+      "dbt",
+      "transformations"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_027",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you troubleshoot slow data ingestion?",
+    "alternate_questions": [
+      "Ingestion lag is increasing. What do you check?",
+      "How do you improve pipeline throughput?"
+    ],
+    "instant_answer": "For slow ingestion, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For slow ingestion, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "ingestion",
+      "throughput",
+      "lag"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_028",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you handle out-of-order events?",
+    "alternate_questions": [
+      "Events arrive in wrong order. What do you do?",
+      "How do stream processors handle ordering?"
+    ],
+    "instant_answer": "For event ordering, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For event ordering, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "event ordering",
+      "streaming",
+      "watermark"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_029",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "Why use a data catalog?",
+    "alternate_questions": [
+      "How do users discover trusted datasets?",
+      "What metadata should data catalogs store?"
+    ],
+    "instant_answer": "For data catalog, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data catalog, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "data catalog",
+      "metadata",
+      "governance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_030",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you define data ownership?",
+    "alternate_questions": [
+      "Who owns a dataset?",
+      "How do you handle unclear data ownership?"
+    ],
+    "instant_answer": "For ownership, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For ownership, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "ownership",
+      "governance",
+      "data product"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_031",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you promote pipeline changes safely?",
+    "alternate_questions": [
+      "How do dev, test, and prod data environments work?",
+      "How do you release data pipeline changes?"
+    ],
+    "instant_answer": "For environment promotion, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For environment promotion, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "deployment",
+      "environments",
+      "release"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_032",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you handle unexpected nulls in pipelines?",
+    "alternate_questions": [
+      "Source sent nulls. What do you check?",
+      "How do you validate required fields?"
+    ],
+    "instant_answer": "For null handling, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For null handling, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "nulls",
+      "validation",
+      "schema"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_033",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you handle corrupt records?",
+    "alternate_questions": [
+      "What do you do with bad input files?",
+      "How do you quarantine invalid data?"
+    ],
+    "instant_answer": "For corrupt records, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For corrupt records, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "corrupt records",
+      "quarantine",
+      "data quality"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_034",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you implement data retention?",
+    "alternate_questions": [
+      "How do you expire old data?",
+      "How do retention policies affect pipelines?"
+    ],
+    "instant_answer": "For data retention, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data retention, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "retention",
+      "lifecycle",
+      "compliance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_035",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you ingest data from APIs reliably?",
+    "alternate_questions": [
+      "How do you handle API rate limits in data pipelines?",
+      "How do you backfill API data?"
+    ],
+    "instant_answer": "For api ingestion, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For api ingestion, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "api ingestion",
+      "rate limits",
+      "backfill"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_036",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you choose between Parquet, Avro, JSON, and CSV?",
+    "alternate_questions": [
+      "Which data file format do you use?",
+      "How do file formats affect performance?"
+    ],
+    "instant_answer": "For file formats, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For file formats, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "parquet",
+      "avro",
+      "json",
+      "csv"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_037",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "What is compaction in data lakes?",
+    "alternate_questions": [
+      "How do you optimize data lake files?",
+      "Why compact small files?"
+    ],
+    "instant_answer": "For compaction, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For compaction, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "compaction",
+      "data lake",
+      "performance"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_038",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "What metrics do you monitor for pipelines?",
+    "alternate_questions": [
+      "How do you monitor data jobs?",
+      "What alerts should data pipelines have?"
+    ],
+    "instant_answer": "For pipeline observability, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For pipeline observability, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "observability",
+      "metrics",
+      "alerts"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_039",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you detect data drift?",
+    "alternate_questions": [
+      "What if input distribution changes?",
+      "How do you monitor unexpected data pattern changes?"
+    ],
+    "instant_answer": "For data drift, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For data drift, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "data drift",
+      "anomaly",
+      "monitoring"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_040",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do incremental models work?",
+    "alternate_questions": [
+      "How do dbt incremental models avoid full rebuilds?",
+      "What are incremental model risks?"
+    ],
+    "instant_answer": "For incremental models, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For incremental models, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "incremental models",
+      "dbt",
+      "warehouse"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_041",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you release data model changes safely?",
+    "alternate_questions": [
+      "How do you avoid breaking dashboards?",
+      "How do you version data models?"
+    ],
+    "instant_answer": "For blue green data, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For blue green data, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "data model",
+      "release",
+      "compatibility"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_042",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you manage access to datasets?",
+    "alternate_questions": [
+      "How do you enforce least privilege in data platforms?",
+      "How do row-level permissions work?"
+    ],
+    "instant_answer": "For access control, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For access control, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "access control",
+      "permissions",
+      "security"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_043",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you build a data quality framework?",
+    "alternate_questions": [
+      "How do you standardize validation across pipelines?",
+      "What reusable checks do you create?"
+    ],
+    "instant_answer": "For quality framework, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For quality framework, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "data quality framework",
+      "validation",
+      "automation"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_044",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you investigate bad data in a dashboard?",
+    "alternate_questions": [
+      "Dashboard numbers are wrong. How do you find the cause?",
+      "How do you trace bad analytics data?"
+    ],
+    "instant_answer": "For root cause, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For root cause, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "root cause",
+      "dashboard",
+      "lineage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_045",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "How do you plan capacity for data systems?",
+    "alternate_questions": [
+      "How do you predict storage and compute growth?",
+      "How do you scale data platforms?"
+    ],
+    "instant_answer": "For capacity planning, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For capacity planning, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "capacity",
+      "scaling",
+      "storage"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_data_engineer_deep_046",
+    "category": "profession",
+    "topic": "Data Engineer",
+    "question": "What documentation should data pipelines have?",
+    "alternate_questions": [
+      "How do you document datasets?",
+      "What should a data runbook include?"
+    ],
+    "instant_answer": "For documentation, I start by clarifying scope, expected behavior, business or production impact, and the evidence available. Then I evaluate the key risks around data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact. I explain the immediate action, the validation step, and the prevention step so the answer is practical rather than theoretical.",
+    "detailed_answer": "For documentation, I would handle it with a structured approach. First I confirm the goal, users or systems affected, current state, constraints, and success criteria. Then I inspect the relevant artifacts, data, logs, workflow, configuration, dependencies, and recent changes. I separate immediate mitigation from root-cause work, because in real environments the first priority is reducing impact. After that, I validate the outcome with objective evidence and close the loop with documentation, automation, monitoring, controls, or process improvements. The main things I watch are data correctness, schema contracts, pipeline reliability, freshness, lineage, backfills, and downstream impact, because those are usually where interviewers expect depth.",
+    "keywords": [
+      "data engineer",
+      "documentation",
+      "runbook",
+      "metadata"
+    ],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

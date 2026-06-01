@@ -67,3 +67,20 @@ def test_developer_specialization_pack_counts() -> None:
     assert counts["Java Developer"] >= 50
     assert counts["SQL Developer"] >= 50
     assert counts["Full Stack Developer"] >= 50
+
+
+def test_main_profession_pack_counts() -> None:
+    counts = {}
+    for item in load_library():
+        topic = item["topic"]
+        counts[topic] = counts.get(topic, 0) + 1
+
+    assert counts["QA Engineer"] >= 50
+    assert counts["Data Engineer"] >= 50
+    assert counts["Data Analyst"] >= 50
+    assert counts["Business Analyst"] >= 50
+    assert counts["Project Manager"] >= 50
+    assert counts["Product Manager"] >= 50
+    assert counts["Cybersecurity Analyst"] >= 50
+    assert counts["Cloud Engineer"] >= 50
+    assert counts["Database Administrator"] >= 50
