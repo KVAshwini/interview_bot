@@ -8,6 +8,9 @@ const exampleSets = {
   ],
   professions: [
     "How do you debug a production API issue?",
+    "How do you optimize a slow SQL query?",
+    "How do you build a REST API in Spring Boot?",
+    "How do you manage state in a React application?",
     "How do you handle flaky automated tests?",
     "How do you gather business requirements?",
     "How do you prioritize a product backlog?",

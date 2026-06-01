@@ -1,0 +1,74 @@
+[
+  {
+    "id": "profession_developer_sql_query_optimization_001",
+    "category": "profession",
+    "topic": "SQL Developer",
+    "question": "How do you optimize a slow SQL query?",
+    "alternate_questions": ["A query is slow. What do you check?", "How do you tune SQL performance?"],
+    "instant_answer": "I inspect the execution plan, joins, filters, indexes, statistics, row counts, parameter values, and blocking. I check whether the query scans too much data, has missing indexes, uses non-sargable predicates, or returns more columns than needed. I validate improvements with realistic data and avoid risky production changes without rollback.",
+    "detailed_answer": "I start by confirming the exact query, parameters, data size, runtime pattern, and whether the slowness is new. Then I inspect the execution plan for scans, expensive joins, sorts, spills, missing indexes, inaccurate estimates, and key lookups. I also check statistics, parameter sniffing, blocking, and recent schema or data growth. Fixes can include better indexes, query rewrite, predicate changes, reducing selected columns, pagination, or splitting work. I test changes with realistic data and compare before/after metrics.",
+    "keywords": ["sql developer", "sql", "query optimization", "execution plan", "indexes", "statistics", "performance"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_sql_indexes_001",
+    "category": "profession",
+    "topic": "SQL Developer",
+    "question": "How do indexes improve performance and when can they hurt?",
+    "alternate_questions": ["Explain database indexes.", "What are the tradeoffs of indexing?"],
+    "instant_answer": "Indexes speed up lookups, joins, filtering, and ordering by reducing how much data the database scans. They can hurt writes because inserts, updates, and deletes must maintain the index. Too many or poorly chosen indexes add storage, slow writes, and may confuse query tuning.",
+    "detailed_answer": "An index is a data structure that helps the database find rows more efficiently for certain predicates, joins, and orderings. The best indexes match actual query patterns and column selectivity. But indexes are not free: they take storage, slow writes, require maintenance, and can become fragmented or stale depending on the database. I avoid indexing every column and instead review execution plans, workload frequency, and write impact before adding indexes.",
+    "keywords": ["sql developer", "sql", "indexes", "performance", "writes", "selectivity", "query plan"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_sql_joins_001",
+    "category": "profession",
+    "topic": "SQL Developer",
+    "question": "Explain inner join, left join, and full outer join.",
+    "alternate_questions": ["What are different SQL joins?", "How do joins affect result sets?"],
+    "instant_answer": "An inner join returns only matching rows from both tables. A left join returns all rows from the left table and matching rows from the right, with nulls when there is no match. A full outer join returns all rows from both sides, matching where possible and nulling the missing side.",
+    "detailed_answer": "Join type controls which rows survive the relationship. Inner join keeps only rows where the join condition matches on both sides. Left join keeps all left-side rows, even if the right side is missing. Full outer join keeps all rows from both tables, matching where possible. I also watch for duplicate multiplication when joining one-to-many tables, because it can inflate aggregates if the grain is not understood.",
+    "keywords": ["sql developer", "sql", "joins", "inner join", "left join", "outer join", "duplicates"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_sql_window_functions_001",
+    "category": "profession",
+    "topic": "SQL Developer",
+    "question": "What are SQL window functions used for?",
+    "alternate_questions": ["Explain row_number, rank, and partition by.", "When do you use window functions?"],
+    "instant_answer": "Window functions calculate values across related rows without collapsing the result like GROUP BY does. I use them for ranking, running totals, deduplication, percentiles, previous/next row comparisons, and top-N per group queries.",
+    "detailed_answer": "Window functions operate over a defined window of rows using OVER, PARTITION BY, and ORDER BY. They are useful when I need analytics while keeping row-level detail. Common examples are ROW_NUMBER for deduplication, RANK for ordering within groups, SUM over time for running totals, and LAG/LEAD for comparing current rows with previous or next rows. I still check performance because large partitions and sorts can be expensive.",
+    "keywords": ["sql developer", "sql", "window functions", "row_number", "rank", "partition by", "lag"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_sql_stored_procedure_001",
+    "category": "profession",
+    "topic": "SQL Developer",
+    "question": "How do you design a stored procedure?",
+    "alternate_questions": ["What makes a good stored procedure?", "How do you maintain stored procedures?"],
+    "instant_answer": "I keep stored procedures focused, parameterized, readable, and tested with expected and edge-case inputs. I handle transactions carefully, avoid hidden side effects, validate inputs, and log or return useful errors. I also review execution plans because stored procedures can hide expensive queries.",
+    "detailed_answer": "A good stored procedure has a clear purpose, well-defined parameters, predictable output, and controlled transaction behavior. I avoid doing too many unrelated things in one procedure. I validate inputs, handle errors consistently, avoid dynamic SQL unless necessary, and protect against injection when dynamic SQL is used. I also test performance with realistic data, review execution plans, and document dependencies because stored procedures often become critical business logic.",
+    "keywords": ["sql developer", "sql", "stored procedure", "transactions", "dynamic sql", "performance", "errors"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_sql_data_quality_001",
+    "category": "profession",
+    "topic": "SQL Developer",
+    "question": "How do you validate data quality with SQL?",
+    "alternate_questions": ["What SQL checks do you write for data validation?", "How do you find bad data?"],
+    "instant_answer": "I check nulls, duplicates, referential integrity, ranges, formats, freshness, row counts, and business rules. I compare aggregates against source systems and investigate exceptions. Good SQL validation catches both technical issues and business rule violations.",
+    "detailed_answer": "Data quality checks depend on the domain, but common SQL validations include required fields, duplicate keys, orphan records, invalid dates, out-of-range values, inconsistent statuses, stale data, volume changes, and reconciliation totals. I also check grain to avoid double counting. For pipelines, I automate these checks and alert on failures. For analysis, I document assumptions and provide exception counts so stakeholders understand data reliability.",
+    "keywords": ["sql developer", "sql", "data quality", "validation", "duplicates", "referential integrity", "reconciliation"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  }
+]

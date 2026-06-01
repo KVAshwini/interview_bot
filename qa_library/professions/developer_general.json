@@ -1,0 +1,50 @@
+[
+  {
+    "id": "profession_developer_general_requirements_001",
+    "category": "profession",
+    "topic": "Software Developer - General",
+    "question": "How do you turn requirements into working code?",
+    "alternate_questions": ["How do you approach a new feature?", "What is your development process?"],
+    "instant_answer": "I clarify the requirement, acceptance criteria, edge cases, data changes, dependencies, and risk before coding. Then I break the work into small pieces, follow existing patterns, add tests, and review behavior locally before opening a pull request. I keep communication active if the requirement is unclear or tradeoffs appear.",
+    "detailed_answer": "I start by understanding the business problem, users, acceptance criteria, edge cases, dependencies, and non-functional needs like performance or security. Then I check the existing code patterns and design the smallest maintainable change. During implementation, I add tests at the right layer, handle errors explicitly, and keep the pull request focused. Before release, I validate the feature against acceptance criteria and make sure monitoring or logs are sufficient if the change affects production behavior.",
+    "keywords": ["software developer", "requirements", "feature development", "acceptance criteria", "tests", "pull request"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_general_technical_debt_001",
+    "category": "profession",
+    "topic": "Software Developer - General",
+    "question": "How do you handle technical debt?",
+    "alternate_questions": ["When do you refactor?", "How do you balance delivery and cleanup?"],
+    "instant_answer": "I treat technical debt based on risk and impact. If debt slows delivery, causes defects, or creates production risk, I make it visible and plan focused improvements. I avoid large unrelated rewrites and prefer small refactors tied to active work, backed by tests and clear before/after behavior.",
+    "detailed_answer": "I do not treat every imperfect code path as urgent technical debt. I evaluate impact: defect risk, development slowdown, operational risk, security concerns, and frequency of change. For high-impact debt, I document the problem, propose a scoped fix, and connect it to business value. I prefer incremental refactoring with tests, because large rewrites introduce risk and often fail to deliver value. If cleanup is not part of current scope, I leave the code no worse and create a ticket with context.",
+    "keywords": ["software developer", "technical debt", "refactoring", "maintainability", "tests", "risk"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_general_error_handling_001",
+    "category": "profession",
+    "topic": "Software Developer - General",
+    "question": "How do you design error handling?",
+    "alternate_questions": ["How do you handle failures in code?", "What makes good error handling?"],
+    "instant_answer": "I handle expected errors close to where they occur, return useful messages to callers, log enough context for debugging, and avoid exposing sensitive details. For distributed systems, I think about retries, timeouts, idempotency, fallbacks, and alerts. Good error handling makes failures understandable and recoverable.",
+    "detailed_answer": "Good error handling starts by separating expected business errors from unexpected system failures. I validate inputs, use clear error types or status codes, include correlation IDs in logs, and avoid swallowing exceptions silently. For external dependencies, I use timeouts, bounded retries, circuit breakers when needed, and idempotent operations. User-facing errors should be helpful without exposing internals. Production errors should create enough telemetry for support and developers to troubleshoot quickly.",
+    "keywords": ["software developer", "error handling", "exceptions", "logging", "timeouts", "retries", "idempotency"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_general_performance_001",
+    "category": "profession",
+    "topic": "Software Developer - General",
+    "question": "How do you investigate application performance issues?",
+    "alternate_questions": ["Application is slow. What do you check?", "How do you improve performance?"],
+    "instant_answer": "I first measure where time is spent instead of guessing. I check request latency, database queries, external calls, CPU, memory, logs, traces, and recent changes. Then I fix the bottleneck with the least risky change and verify improvement with metrics or tests.",
+    "detailed_answer": "I start by defining the symptom: which endpoint, user flow, region, time period, and percentile is affected. Then I use metrics, logs, traces, and profiling to locate the bottleneck. Common causes include slow queries, missing indexes, N+1 calls, large payloads, inefficient loops, external dependency latency, lock contention, or resource limits. I make one focused change at a time, compare before and after metrics, and add monitoring or tests if the issue can return.",
+    "keywords": ["software developer", "performance", "latency", "profiling", "tracing", "database", "n+1"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

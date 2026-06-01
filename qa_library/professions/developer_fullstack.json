@@ -1,0 +1,74 @@
+[
+  {
+    "id": "profession_developer_fullstack_react_state_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you manage state in a React application?",
+    "alternate_questions": ["Local state vs global state in React?", "How do you choose state management in frontend apps?"],
+    "instant_answer": "I keep state as local as possible first. Component state works for isolated UI, context works for shared lightweight state, and a dedicated state library helps when state is complex, cross-cutting, or frequently updated. Server data should often be managed with query/cache tools rather than copied into global UI state.",
+    "detailed_answer": "I start by classifying state: local UI state, shared UI state, server/cache state, form state, and URL state. Local component state is simplest when only one component needs it. Context can work for low-frequency shared state like theme or user info. For complex global state, I consider a state library. For server data, I prefer query tools that handle caching, loading, retries, and invalidation. The key is avoiding unnecessary global state because it makes apps harder to reason about.",
+    "keywords": ["full stack developer", "full stack", "react", "state management", "context", "typescript", "frontend"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_fullstack_auth_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you implement authentication in a full-stack app?",
+    "alternate_questions": ["How do login and sessions work?", "JWT vs session cookies?"],
+    "instant_answer": "I choose the auth model based on security and application needs. For web apps, secure HTTP-only cookies are often safer than storing tokens in local storage. I validate credentials server-side, hash passwords, protect sessions, enforce authorization, handle token/session expiry, and add CSRF or same-site protections where relevant.",
+    "detailed_answer": "Authentication verifies who the user is, while authorization controls what they can do. I implement login with secure password hashing, rate limiting, audit logging, and safe error messages. For browser apps, I prefer HTTP-only secure cookies when possible to reduce token theft risk. If JWT is used, I handle expiry, refresh, rotation, and revocation carefully. I also protect sensitive routes on both frontend and backend, because frontend checks alone are not security.",
+    "keywords": ["full stack developer", "authentication", "authorization", "jwt", "cookies", "sessions", "security"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_api_contract_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you design the contract between frontend and backend?",
+    "alternate_questions": ["How do frontend and backend teams coordinate APIs?", "What makes a good API contract?"],
+    "instant_answer": "I define request and response shapes, status codes, validation rules, pagination, error format, auth requirements, and versioning. I document the API clearly and keep frontend/backend changes compatible. For critical flows, contract tests or generated types can prevent integration breaks.",
+    "detailed_answer": "A strong API contract makes integration predictable. I define endpoints, methods, request schemas, response schemas, validation errors, auth requirements, pagination, sorting, filtering, and versioning behavior. I also agree on how nulls, empty states, and partial failures are represented. For larger teams, OpenAPI, generated clients, shared types, or contract tests help catch breaking changes before deployment. I avoid silently changing response shapes because that breaks frontend behavior.",
+    "keywords": ["full stack developer", "api contract", "frontend", "backend", "openapi", "typescript", "rest"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_fullstack_frontend_performance_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you improve frontend performance?",
+    "alternate_questions": ["A page is slow. What do you check on the frontend?", "How do you optimize React performance?"],
+    "instant_answer": "I measure first using browser dev tools, performance traces, bundle analysis, and real user metrics. Then I reduce bundle size, avoid unnecessary renders, optimize images, lazy-load routes, cache data appropriately, and fix slow API calls. I focus on the bottleneck that users actually feel.",
+    "detailed_answer": "Frontend performance starts with measurement: page load time, largest contentful paint, interaction delay, network waterfall, JavaScript execution, render cost, and API latency. Fixes may include code splitting, lazy loading, image optimization, caching, memoization where useful, reducing unnecessary state updates, virtualizing large lists, and removing heavy dependencies. I also coordinate with backend teams because frontend slowness is often caused by slow APIs or oversized payloads.",
+    "keywords": ["full stack developer", "frontend performance", "react", "bundle", "lazy loading", "web vitals", "api latency"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_fullstack_form_validation_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "Where should validation happen in a full-stack application?",
+    "alternate_questions": ["Frontend validation vs backend validation?", "How do you validate forms?"],
+    "instant_answer": "Validation should happen on both sides. Frontend validation improves user experience with quick feedback, but backend validation is required for security and data integrity. I keep validation rules consistent where possible and make backend errors easy for the frontend to display.",
+    "detailed_answer": "Frontend validation catches mistakes early and improves usability, but it cannot be trusted because users can bypass the browser. Backend validation is the source of truth for required fields, formats, permissions, business rules, and security checks. I try to share schemas or generate types when practical so frontend and backend stay consistent. I also return structured validation errors so the UI can show field-level messages cleanly.",
+    "keywords": ["full stack developer", "form validation", "frontend", "backend", "security", "data integrity", "schemas"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_fullstack_debug_flow_001",
+    "category": "profession",
+    "topic": "Full Stack Developer",
+    "question": "How do you debug an issue that could be frontend or backend?",
+    "alternate_questions": ["A user flow is broken. How do you find the cause?", "How do you troubleshoot full-stack bugs?"],
+    "instant_answer": "I reproduce the issue, check browser console and network requests, inspect API status codes and payloads, then check backend logs, database changes, and recent deployments. I isolate whether the problem is UI state, request shape, backend logic, data, permissions, or infrastructure.",
+    "detailed_answer": "For full-stack debugging, I trace the user action end to end. I start in the browser with console errors, network calls, request payloads, response codes, and UI state. Then I check backend logs using correlation IDs, validate the API contract, inspect database records, and review recent frontend/backend deployments. I narrow the issue by testing the API independently and comparing expected versus actual data. Once fixed, I add regression coverage at the layer where the bug escaped.",
+    "keywords": ["full stack developer", "debugging", "frontend", "backend", "network", "api", "logs"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  }
+]

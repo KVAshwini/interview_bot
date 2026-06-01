@@ -10,7 +10,27 @@ class Profession:
 
 PROFESSIONS = [
     Profession("devops", "DevOps / SRE", ("devops", "sre", "production support", "ci/cd")),
-    Profession("developer", "Software Developer", ("developer", "software engineer", "backend", "frontend", "full stack")),
+    Profession("developer", "Software Developer - General", ("developer", "software engineer", "backend", "frontend", "full stack")),
+    Profession(
+        "developer_python",
+        "Developer - Python",
+        ("python developer", "python", "django", "flask", "fastapi", "pytest", "pandas"),
+    ),
+    Profession(
+        "developer_java",
+        "Developer - Java",
+        ("java developer", "java", "spring", "spring boot", "jvm", "maven", "gradle"),
+    ),
+    Profession(
+        "developer_sql",
+        "Developer - SQL",
+        ("sql developer", "sql", "stored procedure", "query", "database development", "etl sql"),
+    ),
+    Profession(
+        "developer_fullstack",
+        "Developer - Full Stack",
+        ("full stack developer", "full stack", "react", "typescript", "javascript", "frontend", "backend", "api"),
+    ),
     Profession(
         "qa",
         "QA Engineer / Test Automation",

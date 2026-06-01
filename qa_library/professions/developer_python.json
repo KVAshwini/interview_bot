@@ -1,0 +1,74 @@
+[
+  {
+    "id": "profession_developer_python_fastapi_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you build a production-ready FastAPI service?",
+    "alternate_questions": ["What do you include in a Python API service?", "How do you structure a FastAPI project?"],
+    "instant_answer": "I define clear routes, request/response models, validation, dependency injection, configuration, logging, error handling, tests, and health checks. For production, I also consider database sessions, migrations, authentication, timeouts, observability, containerization, and CI/CD.",
+    "detailed_answer": "For a production FastAPI service, I separate routes, schemas, service logic, database access, configuration, and tests. I use Pydantic models for validation, structured errors, dependency injection for shared resources, and proper database session handling. I add authentication, authorization, health checks, structured logging, metrics, and OpenAPI documentation. I also include migrations, environment-based config, Docker packaging, CI tests, and deployment checks so the API is reliable beyond local development.",
+    "keywords": ["python developer", "python", "fastapi", "api", "pydantic", "uvicorn", "database"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_gil_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "What is the Python GIL and when does it matter?",
+    "alternate_questions": ["Explain the Global Interpreter Lock.", "How does Python handle concurrency?"],
+    "instant_answer": "The GIL allows only one thread to execute Python bytecode at a time in standard CPython. It matters for CPU-bound threaded work because threads may not run in parallel. For IO-bound work, threads or async can still help; for CPU-heavy work, multiprocessing, native extensions, or external workers are better options.",
+    "detailed_answer": "In CPython, the Global Interpreter Lock protects interpreter internals by allowing only one thread to execute Python bytecode at once. This does not mean Python cannot handle concurrency. Threads work well for IO-bound tasks like network or file waits, and async works well for many concurrent IO operations. The GIL becomes a limitation for CPU-bound parallelism. In those cases, I consider multiprocessing, worker queues, vectorized libraries, native extensions, or moving heavy work to a service designed for it.",
+    "keywords": ["python developer", "python", "gil", "threading", "multiprocessing", "asyncio", "cpu bound"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_asyncio_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "When would you use asyncio in Python?",
+    "alternate_questions": ["Explain async and await in Python.", "How do you handle concurrent IO in Python?"],
+    "instant_answer": "I use asyncio for many concurrent IO-bound operations, such as calling APIs, handling sockets, or running async web services. It is not a magic speed boost for CPU-heavy code. The code needs non-blocking libraries, good timeout handling, and clear cancellation/error behavior.",
+    "detailed_answer": "Asyncio is useful when the application spends much of its time waiting on IO and can switch between tasks during those waits. Examples include API clients, async web servers, websocket services, and concurrent network operations. I make sure libraries are truly async, avoid blocking calls inside the event loop, set timeouts, handle cancellation, and limit concurrency so I do not overload downstream services. For CPU-heavy work, I use process pools or background workers instead.",
+    "keywords": ["python developer", "python", "asyncio", "async await", "concurrency", "io bound", "event loop"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_python_testing_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you test Python applications?",
+    "alternate_questions": ["How do you use pytest?", "What is your Python testing strategy?"],
+    "instant_answer": "I use pytest for unit, integration, and API tests. I isolate pure logic with unit tests, use fixtures for setup, mock external services carefully, and run integration tests for databases or queues. I also test error paths, validation, permissions, and regressions from real defects.",
+    "detailed_answer": "My Python testing strategy depends on risk and boundaries. Pure functions get fast unit tests. Database, queue, or API boundaries get integration tests with controlled fixtures. I use pytest fixtures for setup, parametrization for edge cases, and mocks only where real dependencies are too slow or unstable. For web APIs, I test status codes, payload validation, auth, and error behavior. I also run tests in CI with linting or type checks where useful.",
+    "keywords": ["python developer", "python", "pytest", "fixtures", "mocking", "unit tests", "integration tests"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_python_memory_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you debug high memory usage in Python?",
+    "alternate_questions": ["Python service is using too much memory. What do you check?", "How do you find memory leaks in Python?"],
+    "instant_answer": "I confirm whether memory grows continuously or spikes under load. Then I check large lists, caches, dataframe usage, unclosed resources, global state, object references, and recent changes. I use profiling tools and reduce memory by streaming data, batching, clearing references, or fixing leaks.",
+    "detailed_answer": "I first look at memory over time to distinguish normal spikes from leaks. Then I inspect code paths that load large datasets, build lists, cache objects, keep global references, or fail to close files/connections. Tools like tracemalloc, memory_profiler, object graphs, and container metrics help identify where memory is allocated. Fixes may include streaming, generators, chunking, bounded caches, releasing references, avoiding unnecessary copies, and adding load tests to prevent regressions.",
+    "keywords": ["python developer", "python", "memory", "profiling", "tracemalloc", "generator", "cache"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_python_packaging_001",
+    "category": "profession",
+    "topic": "Python Developer",
+    "question": "How do you manage Python dependencies?",
+    "alternate_questions": ["How do you keep Python environments reproducible?", "How do you handle requirements files?"],
+    "instant_answer": "I use virtual environments, pinned or locked dependencies, separate dev and runtime requirements, and CI installation checks. I avoid relying on global Python packages. For security and stability, I review dependency updates, watch for vulnerabilities, and test upgrades before deploying.",
+    "detailed_answer": "I manage dependencies with isolated environments and reproducible installs. Depending on the project, that may be requirements files, constraints, Poetry, pip-tools, or another lockfile approach. I separate production dependencies from development tools, pin versions where stability matters, and make CI build from a clean environment. I also review transitive dependencies, scan for vulnerabilities, and update intentionally rather than allowing uncontrolled version drift.",
+    "keywords": ["python developer", "python", "dependencies", "venv", "requirements", "poetry", "pip"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  }
+]

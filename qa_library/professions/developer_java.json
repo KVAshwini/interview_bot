@@ -1,0 +1,74 @@
+[
+  {
+    "id": "profession_developer_java_spring_boot_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you build a REST API in Spring Boot?",
+    "alternate_questions": ["What are the main parts of a Spring Boot API?", "How do you structure a Java backend service?"],
+    "instant_answer": "I structure the service with controllers, DTOs, validation, service logic, repositories, exception handling, configuration, tests, and security where needed. For production, I add health checks, logging, metrics, database migrations, transaction boundaries, and CI/CD deployment checks.",
+    "detailed_answer": "In Spring Boot, I keep controllers focused on HTTP concerns, DTOs focused on request and response shape, services focused on business logic, and repositories focused on persistence. I add validation annotations, centralized exception handling, transaction boundaries, and clear configuration. For production readiness, I include Actuator health checks, structured logging, metrics, security, database migrations, integration tests, and container or deployment configuration.",
+    "keywords": ["java developer", "java", "spring boot", "rest api", "controller", "service", "repository"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_java_jvm_memory_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you troubleshoot high memory usage in a Java application?",
+    "alternate_questions": ["Java app has OutOfMemoryError. What do you check?", "How do you debug JVM memory problems?"],
+    "instant_answer": "I check heap usage, garbage collection, object allocation, thread count, caches, recent changes, and whether memory grows continuously. I capture heap dumps or GC logs when safe, identify large retained objects, and fix root causes such as unbounded collections, leaks, oversized payloads, or cache misconfiguration.",
+    "detailed_answer": "I first identify whether the issue is heap, metaspace, native memory, or container limit related. Then I review JVM metrics, GC behavior, allocation rate, thread count, and recent deployments. For deeper analysis, I use heap dumps, GC logs, and profilers to find retained objects and allocation hotspots. Common causes include unbounded caches, static references, large payloads, connection leaks, excessive buffering, or bad batch sizes. I tune JVM settings only after understanding the application behavior.",
+    "keywords": ["java developer", "java", "jvm", "heap", "garbage collection", "memory leak", "oom"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_transactions_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do transactions work in Spring?",
+    "alternate_questions": ["Explain @Transactional.", "How do you handle database transactions in Java?"],
+    "instant_answer": "Spring transactions define a boundary where database operations should commit together or roll back together. With @Transactional, Spring uses proxies to manage commit and rollback around method execution. I pay attention to propagation, isolation, checked vs runtime exceptions, and self-invocation because those details affect behavior.",
+    "detailed_answer": "In Spring, @Transactional usually works through a proxy that opens or joins a transaction before a method runs and commits or rolls back afterward. I use it around service-layer operations that must be consistent. Important details are propagation, isolation level, rollback rules, transaction timeout, and whether the method is called through the Spring proxy. I avoid long transactions that hold locks too long, and I keep external network calls outside transaction boundaries when possible.",
+    "keywords": ["java developer", "java", "spring", "transactional", "transactions", "database", "rollback"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_collections_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you choose between Java collections?",
+    "alternate_questions": ["ArrayList vs LinkedList vs HashMap?", "How do you select the right collection in Java?"],
+    "instant_answer": "I choose based on access pattern, ordering, uniqueness, lookup speed, insertion/removal behavior, memory cost, and thread safety. For example, ArrayList is good for indexed reads, HashMap for key lookup, HashSet for uniqueness, and queues for ordered processing. I do not choose a collection without considering how it will be used.",
+    "detailed_answer": "Collection choice depends on operations. If I need fast indexed access and append behavior, ArrayList is usually a good default. If I need key-based lookup, HashMap fits. If uniqueness matters, HashSet or LinkedHashSet may be better. If ordering and sorting matter, TreeMap or TreeSet can help. For concurrent access, I consider concurrent collections instead of manually synchronizing everything. I also think about memory use, iteration behavior, and whether equality/hashCode are implemented correctly.",
+    "keywords": ["java developer", "java", "collections", "arraylist", "hashmap", "hashset", "concurrency"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  },
+  {
+    "id": "profession_developer_java_microservices_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you handle communication between Java microservices?",
+    "alternate_questions": ["REST vs messaging in microservices?", "How do services communicate safely?"],
+    "instant_answer": "I choose synchronous REST/gRPC when an immediate response is required and asynchronous messaging when workflows can be decoupled. I design for timeouts, retries, idempotency, versioned contracts, tracing, and failure handling. Service communication should be reliable without creating tight coupling.",
+    "detailed_answer": "For microservice communication, I first ask whether the caller really needs an immediate response. If yes, synchronous HTTP or gRPC can work, with timeouts, circuit breakers, and versioned contracts. If the workflow can be asynchronous, messaging or events can reduce coupling and improve resilience. I also include idempotency keys, correlation IDs, distributed tracing, retry policies, dead-letter handling, and contract testing so failures are understandable and recoverable.",
+    "keywords": ["java developer", "java", "microservices", "rest", "messaging", "kafka", "idempotency"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "high"
+  },
+  {
+    "id": "profession_developer_java_testing_001",
+    "category": "profession",
+    "topic": "Java Developer",
+    "question": "How do you test Java Spring applications?",
+    "alternate_questions": ["How do you use JUnit and Mockito?", "What is your Java testing strategy?"],
+    "instant_answer": "I use unit tests for business logic, Mockito for isolated dependencies, integration tests for repositories and service boundaries, and API tests for controllers. In Spring apps, I avoid loading the full application context for every small test because that slows feedback. I test validation, transactions, security, and error paths.",
+    "detailed_answer": "I balance speed and confidence. Pure logic gets fast JUnit tests. Dependencies can be mocked with Mockito when the interaction is simple. Repository and database behavior should be covered with integration tests, often using test containers or a controlled test database. Controller tests validate request/response behavior, status codes, validation, and security rules. I also include regression tests for defects and keep tests readable enough to act as documentation.",
+    "keywords": ["java developer", "java", "junit", "mockito", "spring boot", "integration tests", "testcontainers"],
+    "answer_style": "profession_interview_practical",
+    "difficulty": "medium"
+  }
+]
